@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI GUIDE</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/guide_data.js"></script>
+    <script type="text/javascript" src="./js/guide.js"></script>
+    <link type="text/css" rel="stylesheet" href="./css/reset.css" >
+    <link type="text/css" rel="stylesheet" href="./css/content.css">
+    <style>
+        html,body{line-height: 1.5;}
+        .content{margin-left:0px;padding:20px;padding-bottom:120px;width:100%;height:100%;}
+        .section{margin-top:20px;}
+        .section>h3{font-size: 24px;color:black;font-weight: bold;}
+        .section .group{margin-top:10px;padding-left:10px;}
+        .section .group>h4{font-size:20px;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+
+            <div class="section">
+                <h3>※ 프로젝트 형상관리</h3>
+                <div class="group">
+                    <ul>
+                        <li>GIT URL : https://gitlab.com/lsh1117/renaultcapital.git</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>※ 파일구조</h3>
+                <div class="group">
+                    <h4>- css</h4>
+                    <div class="group">
+                        <ul>
+                            <li>resources/css/reset.css : 기본설정</li>
+                            <li>resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css : jquery ui css</li>
+                            <li>resources/libs/swiper/swiper.min.css : swiper css</li>
+                            <li>resources/css/reset.css : 기본설정</li>
+                            <li>resources/css/common.css : 공통부분 ( header, GNB, container, footer, popup 등 )</li>
+                            <li>resources/css/component.css : 컴포넌트 ( button, input, selectBox, tab 등 )</li>
+                            <li>resources/css/template.css : 템플릿 ( table, list 등 )</li>
+                            <li>resources/css/contents.css : 전체 페이지</li>
+                            <li>resources/font/font.css : 폰트</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <h4>- js</h4>
+                    <div class="group">
+                        <ul>
+                            <li>resources/js/uicomponent.js : ui component js</li>
+                            <li>resources/libs/jquery/jquery-1.12.4.js : jquery 1.12.4 버전</li>
+                            <li>resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js : jquery ui 1.12.1 버전</li>
+                            <li>resources/libs/swiper/swiper.min.js : 슬라이드 라이브러리 swiper js</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <h4>- fonts</h4>
+                    <div class="group">
+                        <ul>
+                            <li>RenaultSamsungMotors : 르노삼성모터스 웹폰트 </li>
+                            <li>RenaultLife : 르노삼성 웹폰트 </li>
+                            <li>NotoSansKR : 노토산스 웹폰트 </li>
+                            <li>NanumGothic : 나눔고딕 웹폰트 </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <h4>- html</h4>
+                    <div class="group">
+                        <ul>
+                            <li>cc : 인증센터 </li>
+                            <li>cr : 한도조회 </li>
+                            <li>cs : 고객상담 </li>
+                            <li>cu : 고객센터 </li>
+                            <li>er : 에러화면 </li>
+                            <li>es : 상품견적 </li>
+                            <li>fq : 자주하는 질문 </li>
+                            <li>in : 앱실행 </li>
+                            <li>lo : 대출신청 </li>
+                            <li>ma : 메인 </li>
+                            <li>mo : 이달의 금융조건 </li>
+                            <li>my : MY RCI </li>
+                            <li>sl : 간편로그인 </li>
+                            <li>sp : 스플래쉬 </li>
+                            <li>st : 앱설정 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>※ 네이밍 규칙</h3>
+                <div class="group">
+                    <ul>
+                        <li>html 파일명 : 화면 ID 와 동일 하게. 단 점(.) 은 언더바(_) 로 대체</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>※ 주석 규칙</h3>
+                <div class="group">
+                    <ul>
+                        <li>html : 태그 시작 지점 &lt;-- 내용 --&gt; ,  태그 종료 지점 &lt;-- // 내용 --&gt; , </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>※ CSS 규칙</h3>
+                <div class="group">
+                    <ul>
+                        <li>css class name : 단어간 구분은 대시(-)로 구분</li>
+                        <li>
+                            css code style : component, template 을 제외한 화면 ID 를 시작으로함 예) .A_CL_MA_0010 .section-01>ul>li <br>
+                            => 화면ID는 모든 페이지의 &lt;div class="content <span style="color:red">A_CL_MA_0010</span>"&gt; 에 class로 들어감
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>※ JAVASCRIPT 규칙</h3>
+                <div class="group">
+                    <ul>
+                        <li>javascript version : ES5</li>
+                        <li>function name : 카멜 표기법, 소문자의 동사 예) getValue()</li>
+                        <li>변수 name : 소문자의 명사 예) var value;</li>
+                        <li>상수 name : 대문자의 명사 예) var CONSTANT_VALUE;</li>
+                    </ul>
+                </div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

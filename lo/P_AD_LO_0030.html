@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>아이디 찾기</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/admin.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<!-- admin-popup -->
+<div class="admin-popup P_AD_LO_0030">
+	<!-- popup-header -->
+	<div class="admin-popup-wrap">
+		<div class="admin-popup-header">
+			<h3>계정정보 찾기</h3>
+			<button type="button" class="btn-popup-close">팝업닫기</button>
+		</div>
+		<!-- // popup- header -->
+
+		<!-- popup-body -->
+		<div class="admin-popup-body">
+			<div class="radio-box">
+				<label class="form-radio">
+					<input type="radio" name="radio1" id="radio1-1" checked="">
+					<span class="text">아이디 찾기</span>
+				</label>
+				<label class="form-radio">
+					<input type="radio" name="radio1" id="radio1-2">
+					<span class="text">비밀번호 찾기</span>
+				</label>
+			</div>
+			<p class="body-text">회원가입시 입력한 이름 및 휴대폰 번호를 입력하세요.</p>
+
+			<!-- 아이디 찾기 -->
+			<div class="admin-form-box">
+				<label for="user-name" class="title-small">아이디 찾기</label>
+				<div class="input-box error"><!-- 오류시 'error' 클래스 추가 -->
+					<input type="text" placeholder="이름" id="user-name">
+					<em class="alert">이름을 입력하세요.</em>
+				</div>
+				<div class="input-box">
+					<input type="text" placeholder="휴대폰 번호(숫자만 입력)"><!--2020-10-08 문구수정-->
+					<em class="alert">휴대폰 번호를 입력하세요.</em>
+				</div>
+			</div>
+			<!-- // 아이디 찾기 -->
+
+			<!-- 아이디 찾기 결과 -->
+			<h3 class="title-small">아이디 찾기 결과</h3>
+			<ul class="result-list">
+				<li>
+					<strong>이름</strong>
+					<span>홍길동</span>
+				</li>
+				<li>
+					<strong>아이디</strong>
+					<span>jinwoo</span>
+				</li>
+				<li>
+					<strong>가입일</strong>
+					<span>2020. 01. 01</span>
+				</li>
+			</ul>
+			<!-- // 아이디 찾기 결과 -->
+		</div>
+		<!-- // popup-body -->
+
+		<!-- popup-footer -->
+		<div class="admin-popup-footer">
+			<div class="btn-area">
+				<button type="button" class="btn-black">취소</button><!-- 결과정보 출력시 버튼삭제 -->
+				<button type="button" class="btn-yellow">확인</button>
+			</div>
+		</div>
+		<!-- popup-footer -->
+	</div>
+
+	<div class="dim"></div>
+	<!-- // admin-popup -->
+</div>
+</body>
+</html>

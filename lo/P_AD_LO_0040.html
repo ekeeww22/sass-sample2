@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>비밀번호 찾기</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/admin.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<!-- admin-popup -->
+<div class="admin-popup P_AD_LO_0040">
+	<!-- popup-header -->
+	<div class="admin-popup-wrap">
+		<div class="admin-popup-header">
+			<h3>계정정보 찾기</h3>
+			<button type="button" class="btn-popup-close">팝업닫기</button>
+		</div>
+		<!-- // popup- header -->
+
+		<!-- popup-body -->
+		<div class="admin-popup-body">
+			<div class="radio-box">
+				<label class="form-radio">
+					<input type="radio" name="radio1" id="radio1-1">
+					<span class="text">아이디 찾기</span>
+				</label>
+				<label class="form-radio">
+					<input type="radio" name="radio1" id="radio1-2" checked="">
+					<span class="text">비밀번호 찾기</span>
+				</label>
+			</div>
+			<p class="body-text">회원가입시 입력한 아이디, 이름 및 부서를 입력하세요.</p>
+
+			<!-- 비밀번호 찾기 -->
+			<div class="admin-form-box">
+				<label for="user-id" class="title-small">비밀번호 찾기</label>
+				<div class="input-box">
+					<input type="text" placeholder="아이디" id="user-id">
+					<em class="alert">아이디를 입력하세요.</em>
+				</div>
+				<div class="input-box">
+					<input type="text" placeholder="이름">
+					<em class="alert">이름을 입력하세요.</em>
+				</div>
+				<div class="input-box error"><!-- 오류시 'error' 클래스 추가 -->
+					<input type="text" placeholder="부서">
+					<em class="alert">부서를 입력하세요.</em>
+				</div>
+			</div>
+			<!-- // 비밀번호 찾기 -->
+
+			<!-- 비밀번호 재설정 -->
+			<div class="admin-form-box">
+				<label for="user-pw" class="title-small">비밀번호 재설정</label>
+				<div class="input-box">
+					<input type="text" placeholder="새 비밀번호" id="user-pw">
+					<em class="alert">비밀번호를 입력하세요.</em>
+				</div>
+				<div class="input-box">
+					<input type="text" placeholder="새 비밀번호 확인">
+					<em class="alert">새 비밀번호를 입력하세요.</em>
+				</div>
+				<div class="list-bullet small">
+					<p class="body-text">비밀번호 변경 시 주의 사항</p>
+					<ul>
+						<li>영문자와 숫자, 특수문자(!@#$%^&)를 모두 환용하여 <br> 8~12자리로 입력해 주세요. </li>
+						<li>동일 문자를 3회 이상 반복입력 할 수 없습니다.</li>
+						<li>연속되는 숫자를 3자리 이상 사용 할 수 없습니다.</li>
+					</ul>
+				</div>
+			</div>
+			<!-- // 비밀번호 재설정 -->
+		</div>
+		<!-- // popup-body -->
+
+		<!-- popup-footer -->
+		<div class="admin-popup-footer">
+			<div class="btn-area">
+				<button type="button" class="btn-black">취소</button>
+				<button type="button" class="btn-yellow">확인</button><!-- 비밀번호 재설정시 '등록' -->
+			</div>
+		</div>
+		<!-- popup-footer -->
+	</div>
+
+	<div class="dim"></div>
+	<!-- // admin-popup -->
+</div>
+</body>
+</html>

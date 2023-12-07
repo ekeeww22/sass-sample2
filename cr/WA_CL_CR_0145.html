@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>샘플페이지</title>
+	<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+	<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+	<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+	<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+	<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+	<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+	<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+	<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+	<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="../resources/libs/swiper/swiper.min.js"></script>
+	<script src="../resources/js/common.js"></script>
+	<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header">
+			<!-- 2020-08-24 삭제 -->
+			<!-- <button type="button" class="btn-history-back">뒤로</button> -->
+			<h2>추가한도 결과</h2>
+			<!-- 새로고침 -->
+			<!-- <button type="button" class="btn-reload">새로고침</button>  -->
+
+			<!-- 전체메뉴 -->
+			<button type="button" class="btn-allmenu">전체메뉴</button>
+		</div>
+		<!-- // header -->
+
+		<!-- gnb -->
+		<div class="gnb">
+			<!-- gnb-aside -->
+			<div class="gnb-aside">
+				<button type="button" class="btn-close">닫기</button>
+			</div>
+			<!-- // gnb-aside -->
+
+			<!-- gnb-menu -->
+			<div class="gnb-menu">
+				<ul class="d1">
+					<li class="d1-list">
+						<button type="button" class="btn-d1">My RCI</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">My RCI</a></li>
+							<li class="d2-list"><a href="#">견적내역 조회</a></li>
+							<li class="d2-list"><a href="#">한도조회 내역</a></li>
+							<li class="d2-list"><a href="#">계약진행현황</a></li>
+							<li class="d2-list"><a href="#">계약정보조회</a></li>
+							<li class="d2-list"><a href="#">멤버쉽 조회</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">이달의 금융조건</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">이달의 금융조건</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">상품견적</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">추천 견적</a></li>
+							<li class="d2-list"><a href="#">설문 견적</a></li>
+							<li class="d2-list"><a href="#">신차 견적</a></li>
+							<li class="d2-list"><a href="#">중고차 견적</a></li>
+							<li class="d2-list"><a href="#">한도조회</a></li>
+							<li class="d2-list"><a href="#">대출신청</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">고객센터</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">뉴스/공지</a></li>
+							<li class="d2-list"><a href="#">금융소비자보호</a></li>
+							<li class="d2-list"><a href="#">이용약관</a></li>
+							<li class="d2-list"><a href="#">추가 서류 제출</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<a href="#" class="btn-d1">FAQ</a>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">고객상담</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">고객상담</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">서류제출</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">한도 증액 서류</a></li>
+							<li class="d2-list"><a href="#">대출 신청 서류</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">설정</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">설정</a></li>
+							<li class="d2-list"><a href="#">회원정보수정</a></li>
+							<li class="d2-list"><a href="#">간편 비밀번호 재설정</a></li>
+							<li class="d2-list"><a href="#">알림설정</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">인증센터</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">인증센터</a></li>
+						</ul>
+					</li>
+				</ul>
+				<button type="button" class="btn-logout">로그아웃</button>
+			</div>
+			<!-- // gnb-menu -->
+		</div>
+		<!-- // gnb -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content WA_CL_CR_0145 btn-area-fixed"><!--2020-09-06 화면ID CR_0140에서 CR_0145 으로 변경됨에 따라 UI 전체변경 -->
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<!-- .error 일경우 배경색 이미지 봐뀜 -->
+						<div class="limit-info">
+							<!-- progress-bar 지나간단계면 .end추가, 현재 단계는 .on 추가-->
+							<ul class="progress-bar step4">
+								<li class="step-1th end">1단계</li>
+								<li class="step-2th end">2단계</li>
+								<li class="step-3th on">3단계</li>
+							</ul>
+							<!-- 2020-09-03 텍스트 수정 -->
+							<div class="limit">
+								<p class="title-big">선택하신 금융조건으로<br>할부 이용 가능합니다.
+								</p>
+								<p class="title-sub">고객님의 이용 가능한 최대 한도는<br> <strong>4,000만원</strong>입니다.</p>
+								<p class="text-caption">아래의 금융조건을 확인해주세요</p>
+							</div>
+							<!-- 2020-09-03 텍스트 수정 -->
+							<div class="box-car-info">
+								<div class="img-car-product">
+									<img src="../resources/images/common/img_04_qm_6_pearl_2019.png" alt="완료">
+								</div>
+								<div class="car-info-wrap small">
+									<div class="car-name">
+										<span class="name">QM6</span>
+										<span class="state">1.7 dCi 2WD RE Signature</span>
+									</div>
+									<div class="car-price tar">
+										<span class="tit">월 납입금</span>
+										<span class="price">785,613원</span>
+									</div>
+								</div>
+								<div class="car-info-list">
+									<ul class="type-between">
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">할부상품</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">잔가보장형</p>
+											</div>
+										</li>
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">할부원금</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">22,000,000원</p>
+											</div>
+										</li>
+										<!-- 2020-08-10 마크업 추가 -->
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">전기차보조금</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">6,000,000원</p>
+											</div>
+										</li>
+										<!-- // 2020-08-10 마크업 추가 -->
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">할부기간</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">36개월</p>
+											</div>
+										</li>
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">금리</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">3.9%</p>
+											</div>
+										</li>
+										<li class="interest-rate">
+											<div class="tit-wrap">
+												<p class="tit">유예금(잔가)</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">12,600,000원 <span>(48%)</span></p>
+											</div>
+										</li>
+										<li class="">
+											<div class="tit-wrap">
+												<p class="tit">차량가격</p>
+											</div>
+											<div class="txt-wrap">
+												<p class="txt">32,600,000원</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<p class="txt-icon txt-info">유예금(잔가)는 연간마일리지 2만km 기준입니다.</p>
+								<p class="txt-icon txt-info">차량 및 할부상품 선택 후 최종한도는 변경될 수 있습니다.</p>
+								<div class="tac">
+									<span class="title-sub2">조회하신 한도조건으로 <strong>구매할 수 있는 차량입니다.</strong></span>
+									<!-- 2020-08-04 텍스트 수정 -->
+								</div>
+								<ul class="car-listbox">
+									<li>
+										<div class="car-list-info">
+											<h3 class="title-medium"><strong>SM6</strong><span>GDe PREMIERE</span></h3>
+											<p class="title-sub">월 350,000원</p>
+											<dl>
+												<dt class="list-caption">차량가격</dt>
+												<dd class="text-caption">32,000,000원</dd>
+											</dl>
+											<dl>
+												<dt class="list-caption txt">할부원금</dt>
+												<dd class="text-caption">2,800,000원</dd>
+											</dl>
+											<p class="text-caption">표준형 48개월 / 3.5%</p>
+											<!-- 2020-09-03 수정 -->
+											<!-- <span class="text">(보험상품이 포함된 금리)</span> -->
+										</div>
+										<div class="car-img">
+											<img src="../resources/images/common/img_sm_6_removebg_160_x_104.png"
+												alt="sm_6">
+										</div>
+									</li>
+									<li>
+										<div class="car-list-info">
+											<h3 class="title-medium"><strong>XM3</strong><span>TCe RE Signature</span>
+											</h3>
+											<p class="title-sub">월 250,000원</p>
+											<dl>
+												<dt class="list-caption">차량가격</dt>
+												<dd class="text-caption">28,000,000원</dd>
+											</dl>
+											<dl>
+												<dt class="list-caption txt">할부원금</dt>
+												<dd class="text-caption">2,800,000원</dd>
+											</dl>
+											<p class="text-caption">표준형 72개월 / 3.5%</p>
+											<!-- 2020-09-03 수정 -->
+											<!-- <span class="text">(보험상품이 포함된 금리)</span> -->
+										</div>
+										<div class="car-img">
+											<img src="../resources/images/common/img_xm_3_removebg_160_x_104.png"
+												alt="XM3">
+										</div>
+									</li>
+									<li>
+										<div class="car-list-info">
+											<h3 class="title-medium"><strong>CAPTUR</strong><span>TCe 260 EDITION
+													PARIS</span></h3>
+											<p class="title-sub">월 230,000원</p>
+											<dl>
+												<dt class="list-caption">차량가격</dt>
+												<dd class="text-caption">27,000,000원</dd>
+											</dl>
+											<dl>
+												<dt class="list-caption txt">할부원금</dt>
+												<dd class="text-caption">2,300,000원</dd>
+											</dl>
+											<p class="text-caption">표준형 72개월 / 3.5%</p>
+											<!-- 2020-09-03 수정 -->
+											<!-- <span class="text">(보험상품이 포함된 금리)</span> -->
+										</div>
+										<div class="car-img">
+											<img src="../resources/images/common/img_captur_removebg_160_x_104.png"
+												alt="CAPTUR">
+										</div>
+									</li>
+									<li>
+										<div class="car-list-info">
+											<h3 class="title-medium"><strong>SM3 ZE</strong><span>RE</span></h3>
+											<p class="title-sub">월 420,000원</p>
+											<dl>
+												<dt class="list-caption">차량가격</dt>
+												<dd class="text-caption">31,000,000원</dd>
+											</dl>
+											<dl>
+												<dt class="list-caption txt">할부원금</dt>
+												<dd class="text-caption">2,300,000원</dd>
+											</dl>
+											<p class="text-caption">표준형 36개월 / 3.5%</p>
+											<!-- 2020-09-03 수정 -->
+											<!-- <span class="text">(보험상품이 포함된 금리)</span> -->
+										</div>
+										<div class="car-img">
+											<img src="../resources/images/common/img_sm_3_ze_removebg_160_x_104.png"
+												alt="sm3">
+										</div>
+									</li>
+									<li>
+										<div class="car-list-info">
+											<h3 class="title-medium"><strong>TWIZY</strong><span>Intens White</span>
+											</h3>
+											<p class="title-sub">월 180,000원</p>
+											<dl>
+												<dt class="list-caption">차량가격</dt>
+												<dd class="text-caption">15,500,000원</dd>
+											</dl>
+											<dl>
+												<dt class="list-caption txt">할부원금</dt>
+												<dd class="text-caption">2,300,000원</dd>
+											</dl>
+											<p class="text-caption">표준형 36개월 / 3.5%</p>
+											<!-- 2020-09-03 수정 -->
+											<!-- <span class="text">(보험상품이 포함된 금리)</span> -->
+										</div>
+										<div class="car-img">
+											<img src="../resources/images/common/img_twizy_removebg_160_x_104.png"
+												alt="twizy">
+										</div>
+									</li>
+								</ul>
+								<p class="txt-icon txt-info mt-16">보험상품이 포함된 금리입니다.</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-black">온라인 상담신청</button>
+						<button type="button" class="btn-yellow">QR 코드 저장</button>
+					</div>
+				</div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+
+</html>

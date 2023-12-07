@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>신용(한도)조회동의요청_고객정보 입력 (ODS)</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_CR_0010 btn-area-fixed">
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<div class="form-list">
+							<!--.form-wrap에 클래스명 [error]추가시 경고문구 추가됨-->
+							<div class="form-wrap">
+								<label for="userName" class="title-small">고객 이름</label><!--2020-10-23 문구수정-->
+								<div class="form-box">
+									<span class="form-input">
+										<input type="text" id="userName" placeholder="고객 이름 입력"><!--2020-10-23 placeholder 수정-->
+									</span>
+								</div>
+								<p class="alert">이름을 입력하세요.</p>
+							</div>
+							<!--// .form-wrap에 클래스명 [error]추가시 경고문구 추가됨-->
+
+							<!--.form-wrap에 클래스명 [error]추가시 경고문구 추가됨-->
+							<div class="form-wrap error">
+								<label for="userNum" class="title-small">고객 휴대폰번호</label><!--2020-10-23 문구수정-->
+								<!-- 2020-09-02 수정 -->
+								<div class="form-box">
+									<span class="form-input">
+										<input type="text" id="phone" placeholder="10~11자리">
+									</span>
+								</div>
+								<!--// 2020-09-02 수정 -->
+								<p class="alert">휴대폰번호를 10~11자리로 입력하세요.</p>
+							</div>
+							<!--//.form-wrap에 클래스명 [error]추가시 경고문구 추가됨-->
+						</div>
+
+						<p class="txt-icon txt-info">한도조회 동의를 위한 URL을 고객의 카카오톡 알림톡으로 발송합니다.</p><!--2020-10-23 마크업 추가-->
+
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-yellow">한도조회 동의 알림톡 발송</button><!--2020-10-23 문구수정-->
+					</div>
+				</div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

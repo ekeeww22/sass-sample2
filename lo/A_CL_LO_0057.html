@@ -1,0 +1,102 @@
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	function popupClose(prop){
+		if(prop == undefined){
+			return null;
+		}
+		if(prop.type == "modal"){
+			$(".popup-modal").removeClass("on");
+			setTimeout(function(){
+				$(".popup-modal").html("");
+			},300);
+		}
+		else if(prop.type=="toast"){
+			$(".popup-toast").html("");
+			$(".popup-toast").removeClass("on");
+		}
+		$('body').removeClass("hidden");
+	}
+</script>
+<div class="dimmed"></div>
+
+<!-- popup-modal-content, popup size(full,slide,default), screen id, btn-area-fixed -->
+<div class="popup-modal-content slide A_CL_LO_0057 btn-area-fixed">
+	<!-- popup-modal-header -->
+	<div class="popup-modal-header">
+		<h3>업종선택1</h3>
+		<button type="button" class="btn-popup-modal-close" onclick="javascript:popupClose({'type':'modal'});">팝업닫기</button>
+	</div>
+	<!-- // popup-modal-header -->
+
+	<!-- popup-modal-body -->
+	<div class="popup-modal-body">
+		<section class="section-01">
+            <!-- 2020-09-04 마크업 수정 -->
+			<ul class="popup-check-list">
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-1" checked="">
+						<span class="text">농업, 임업 및 어업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-2">
+						<span class="text">광업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-3">
+						<span class="text">전기,가스,증기 및 공기 조절 공급업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-4">
+						<span class="text">수도,하수 및 폐기물 처리,원료 재생업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-5">
+						<span class="text">건설업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-6">
+						<span class="text">도매 및 소매업</span>
+					</label>
+				</li>
+				<li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-7">
+						<span class="text">운수 및 창고업</span>
+					</label>
+                </li>
+                <li>
+					<label class="form-radio">
+						<input type="radio" name="radio" id="radio2-7">
+						<span class="text">숙박 및 음식점업</span>
+					</label>
+				</li>
+			</ul>
+            <!-- // 2020-09-04 마크업 수정 -->
+        </section>
+	</div>
+	<!-- // popup-modal-body -->
+
+	<!-- popup-modal-footer -->
+	<div class="popup-modal-footer">
+        <div class="btn-area">
+            <button type="button" class="btn-yellow">확인</button>
+        </div>
+	</div>
+	<!-- // popup-modal-footer -->
+</div>
+<!-- // popup-modal-content -->
+<script>
+	var body_height = $(".popup-modal-content").height();
+	$(".popup-modal-body").height(body_height);
+</script>

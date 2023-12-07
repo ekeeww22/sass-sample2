@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>한도조회 결과 검색 (F&I - 승인거절)</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_CR_0250 btn-area-fixed">
+				<!-- content-body -->
+				<div class="content-body">
+                    <section class="section-01">
+                        <h4 class="title-small">차량 정보</h4>
+						<div class="form-list">
+							<div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">차량가격</span>
+									<span class="form-input align-right">
+										<input class=" pl-100" type="text" id=" " value="30,000,000" disabled="">
+										<span class="unit">원</span>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap error"><!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 -->
+								<div class="form-box">
+                                    <span class="tit">할부원금</span><!--2020-09-23 문구수정-->
+									<span class="form-input align-right">
+										<input class=" pl-100" type="text" id=" " value="30,000,000" >
+										<span class="unit">원</span>
+									</span>
+                                </div>
+                                <p class="alert">차량가격 이내로 입력하세요.</p>
+                            </div>
+                        
+                        
+                            <div class="form-wrap error"><!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 -->
+								<div class="form-box">
+                                    <span class="tit">할부 부대 비용</span>
+									<span class="form-input align-right">
+										<input class=" pl-100" type="text" id=" " value="30,000,000" >
+										<span class="unit">원</span>
+									</span>
+                                </div>
+                                <p class="alert">최대  33,000,000까지 입력 가능합니다.</p>
+                            </div>
+
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">제조사</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="기아자동차" disabled>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">모델</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="FORTE" disabled>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">등급</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="1.7 디젤" disabled>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">세부등급</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="스마트" disabled>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">연식</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="2019" disabled>
+									</span>
+                                </div>
+                            </div>
+                            <div class="form-wrap error"><!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 --><!--2020-09-23 마크업 전체수정-->
+								<div class="form-box">
+                                    <span class="tit">차대번호</span>
+									<span class="form-input align-right">
+										<input class=" pl-100 pr-16" type="text" id=" " value="" placeholder="차대번호 17자" >
+									</span>
+                                </div>
+                                <p class="alert">차대번호를 17자리를 모두 입력하세요.</p>
+                            </div>
+							<!--p class="txt-icon txt-info">차대번호 : 예)KMHEL 13 CPYA 000001</p--><!--2020-10-06 마크업삭제-->
+							
+							<!--2020-10-06 마크업 추가-->
+							<div class="form-wrap error"><!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 --><!--2020-09-23 마크업 전체수정-->
+								<div class="form-box">
+                                    <span class="tit">차량번호</span>
+									<span class="form-input align-right">
+										<input class=" pl-100 pr-16" type="text" id=" " value="" placeholder="차량번호 7~9자 입력">
+									</span>
+                                </div>
+                                <p class="alert">차량번호를 입력하세요.</p>
+							</div>
+							<!--//2020-10-06 마크업 추가-->
+
+							<p class="txt-icon txt-info">차대번호 : 예)KMHEL 13 CPYA 000001</p><!--2020-10-06 마크업추가-->
+							<p class="txt-icon txt-info">차량번호 : 예)12거1234 또는 123거1234</p><!--2020-10-06 문구수정-->
+							
+                        </div>
+                    </section>
+                    
+                    <section class="section-02">
+                        <h4 class="title-small">고객 정보</h4>
+                        <div class="form-list">
+                            <div class="form-wrap error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">고객 이름</span><!--2020-09-23 문구수정-->
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="장르노">
+									</span>
+                                </div>
+								<p class="alert">고객 이름을 입력하세요.</p>
+                            </div>
+                            
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">고객 생년월일</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="1955.01.01" disabled="">
+									</span>
+                                </div>
+							</div>
+                        </div>
+                    </section>
+
+                    <section class="section-03">
+                        <h4 class="title-small">할부상품 정보</h4>
+                        <div class="form-list">
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">할부상품</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="표준형할부" disabled="">
+									</span>
+                                </div>
+                            </div>
+
+                            <div class="form-wrap flx-end error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">할부기간</span>
+									<span class="form-select w-auto">
+										<select>
+											<option>60 개월</option>
+										</select>
+									</span>
+								</div>
+								<p class="alert">할부기간을 선택하세요.</p>
+							</div>
+                            
+                            <div class="form-wrap">
+								<div class="form-box">
+                                    <span class="tit">금리</span>
+									<span class="form-input align-right">
+										<input class="pr-16 fs-14" type="text" id=" " value="standard I (11.500%)" disabled="">
+									</span>
+                                </div>
+							</div>
+                        </div>
+                    </section>
+
+                    <section class="section-04">
+                        <h4 class="title-small">영업담당자 정보</h4>
+                        <div class="form-list">
+                            <div class="form-wrap error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">딜러 이름</span>
+									<span class="form-input align-right">
+										<input class=" pl-100 pr-16 fs-14" type="text" id=" " value="" placeholder="예) 홍길동">
+									</span>
+                                </div>
+								<p class="alert">딜러 이름을 입력하세요.</p>
+                            </div>
+
+                            <div class="form-wrap error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">매매상사</span>
+									<span class="form-input align-right">
+										<input class="pl-100 pr-16 fs-14" type="text" id=" " value="" placeholder="매매상사 명 입력">
+									</span>
+                                </div>
+								<p class="alert">매매상사를 입력하세요.</p>
+                            </div>
+
+                            <div class="form-wrap error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">매매단지</span>
+									<span class="form-input align-right">
+										<input class="pl-100 pr-16 fs-14" type="text" id=" " value="" placeholder="매매단지 명 입력">
+									</span>
+                                </div>
+								<p class="alert">매매단지명을 입력하세요.</p>
+                            </div>
+
+                            <div class="form-wrap error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+								<div class="form-box">
+                                    <span class="tit">매매상사 주소</span>
+									<span class="form-input align-right">
+										<input class="pl-100 pr-16 fs-14" type="text" id=" " value="" placeholder="매매상사 주소 입력">
+									</span>
+                                </div>
+								<p class="alert">매매상사 주소를 입력하세요.</p>
+                            </div>
+                            
+                        </div>
+                    </section>
+                    
+                    
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-yellow">계약정보 입력</button>
+					</div>
+				</div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

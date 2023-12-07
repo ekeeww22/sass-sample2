@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>샘플페이지</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+<script>
+    $(document).ready(function(){
+        /* 상단 탭메뉴 클릭 이벤트 */
+        $('.top-menu li>a').click(function(){
+            $('.top-menu li').removeClass("active");
+            $(this).parent().addClass("active");
+        });
+
+        /* 아코디언 메뉴 구현 스크립트 */
+        /* 상단 메뉴 클릭시 아코디언 컨텐츠 변경시 재호출 필요 */
+        $(".accordion" ).accordion({
+            heightStyle: "content",
+            collapsible: true
+        });
+    })
+</script>
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content WA_CL_FQ_0010">
+
+				<!-- content-header -->
+				<div class="content-header"></div>
+				<!-- // content-header -->
+
+				<!-- content-body -->
+				<div class="content-body">
+                    <section class="section-01">
+                        <div class="form-comp-wrap">
+                            <ul class="form-info-wrap">
+                                <li>
+                                    <div class="forms-wrap">
+                                        <span class="form-select w-100">
+                                            <input type="text" class="tal pl-16">
+                                            <button class="btn-search">검색</button>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 2020-11-05 삭제
+                        <ul class="top-menu">
+                            <li class="active"><a href="#">전체</a></li>
+                            <li><a href="#">대출</a></li>
+                            <li><a href="#">견적</a></li>
+                            <li><a href="#">한도</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                         -->
+
+                         <!--2020-11-05 가로스크롤 탭메뉴로 추가-->
+                         <div class="scroll-wrap">
+                            <ul class="top-menu-03">
+                                <li class="active"><a href="#">전체</a></li>
+                                <li><a href="#">대출</a></li>
+                                <li><a href="#">견적</a></li>
+                                <li><a href="#">한도</a></li>
+                                <li><a href="#">기타</a></li>
+                                <li><a href="#">기타2</a></li>
+                                <li><a href="#">기타3</a></li>
+                                <li><a href="#">기타4</a></li>
+                            </ul>
+                        </div>
+                         <!--// 2020-11-05 가로스크롤 탭메뉴로 추가-->
+
+
+                        <div class="accordion type-faq">
+                            <button type="button" class="btn"><span class="tit">르노캐피탈의 자동차 할부 대출은 어떤 종류</span></button>
+                            <div class="detail-box">
+                                할부 대출 금리는 차량, 상품, 선수금, 할부 개월에 따라 달라집니다. 일반적으로 선수금이 높고, 할부 개월 수가 적으면 금리는 낮아지고, 선수금이 낮고 할부 개월 수가 많으면 금리는 높아집니다.다만, 프로모션과, 상품 구성에 따라 금리는 달라질 수 있으니, 자세한 내용은 고객센터 문의를 통해 문의해 주시기 바랍니다.
+                            </div>
+                            <button type="button" class="btn"><span class="tit">르노캐피탈의 자동차 할부 대출은 어떤 종류</span></button>
+                            <div class="detail-box">
+                                할부 대출 금리는 차량, 상품, 선수금, 할부 개월에 따라 달라집니다. 일반적으로 선수금이 높고, 할부 개월 수가 적으면 금리는 낮아지고, 선수금이 낮고 할부 개월 수가 많으면 금리는 높아집니다.다만, 프로모션과, 상품 구성에 따라 금리는 달라질 수 있으니, 자세한 내용은 고객센터 문의를 통해 문의해 주시기 바랍니다.
+                            </div>
+                        </div>
+                        <div class="btn-area content">
+                            <button type="button" class="btn-more"><span>더보기</span></button>
+                        </div>
+                        <!--2020-09-18 마크업 추가-->
+                        <div class="complete-box">
+							<span class="icon">
+								<img src="../resources/images/common/icon_alert_32.png" alt="에러">
+							</span>
+							<span class="tit">검색 결과가 없습니다.</span>
+                        </div>
+                        <!--//2020-09-18 마크업 추가-->
+                    </section>
+                </div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer"></div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

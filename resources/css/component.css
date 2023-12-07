@@ -1,0 +1,256 @@
+
+
+.guide-kjb{padding:1.6rem;}
+.guide-kjb > li{margin-bottom:3rem;}
+.guide-title{margin-bottom:1.5rem;font-size:3rem;color:dodgerblue;}
+.guide-sub-title{margin-top:1.5rem;margin-bottom:0.5rem;font-size:1.5rem;color:orangered;}
+
+/* 타이틀 */
+.title-big{line-height:3.2rem;color:#222;font-size:2.2rem;font-family:"RenaultSamsungMotors";}
+.title-big strong{font-weight:700;}
+.title-big .text{display:block;margin-top:1.6rem;line-height:2.4rem;color:#888b8d;font-size:1.6rem;}
+.title-medium{line-height:3rem;color:#222;font-size:2.2rem;font-family:"RenaultSamsungMotors";}
+.title-medium strong{font-weight:700;}
+.title-medium .text{display:block;margin-top:0.4rem;line-height:1.8rem;font-size:1.6rem;}
+.title-small{position:relative;margin-bottom:0.8rem;line-height:2.4rem;color:#222;font-size:1.6rem;font-weight:700;font-family:"NotoSansKR";}
+.title-small .text{display:block;margin-top:0.8rem;line-height:2.2rem;color:#888b8d;font-size:1.4rem;font-weight:400;word-break: keep-all;}
+.title-small .sub-text{margin-top:0.4rem;line-height:1.6rem;color:#bbbcbc;font-size:1.2rem;font-weight:400;}
+.title-small .text-gray{color:#888b8d;font-size:1.4rem;font-weight:400;}
+.title-small .btn-link{position: absolute;top:50%;right:0;margin-top:-1.2rem;padding:0;width:2.4rem;height:2.4rem;text-indent:-9999px;background:url(../images/common/icon_agree_arrow_small.png) no-repeat center center;background-size:2.4rem 2.4rem;}
+.title-small .require{display:inline-block;width:0.4rem;height:0.4rem;text-indent:-9999px;vertical-align:-0.5rem;border-radius:50%;background-color:#ffcc33;}
+.title-small .year{position:relative;color:#53565a;font-size:1.4rem;font-weight:400;}
+.title-small .year:before{content:'';display:inline-block;margin:-0.2rem 0.8rem 0;width:1px;height:0.8rem;vertical-align:middle;background-color:#888b8d;}
+.title-small .tooltip-box{display:inline-block;vertical-align:middle; margin-top:-0.5rem;}
+.title-small  + *{margin-top:0.8rem !important;}
+.title-small  + .form-check{margin-top:1.6rem !important;}
+.title-small.align-center{text-align:center;}
+.title-small.link a{position:relative;display:block;color:#222;}
+.title-small.link a:after{content:'';display:block;position:absolute;top:50%;right:0;margin-top:-1.2rem;width:2.4rem;height:2.4rem;background:url(../images/common/icon_agree_arrow.png) no-repeat center center;background-size:2.4rem 2.4rem;}
+.title-gray{line-height:2.2rem;color:#888b8d;font-weight:700;}
+.title-gray + *{margin-top:0.8rem !important;}
+.text-box-border{padding:1.1rem 1.6rem;line-height:2.2rem;color:#888b8d;border:1px solid #ddd;border-radius:0.4rem;}
+
+/* 태그 */
+.tag{display:inline-block;padding:0 0.3rem;min-width:5.4rem;line-height:2rem;font-size:1.1rem;text-align:center;letter-spacing:-0.1rem;border-radius:0.3rem;box-sizing:border-box;}
+.tag.bg-black{color:#fff;background-color:#53565a;}
+.tag.bg-yellow{color:#000;background-color:#ffcc33;}
+.tag.bg-blue{color:#fff;background-color:#007396;}
+.tag.border-black{color:#53565a;border:1px solid #53565a;}
+.tag.border-gray{color:#888b8d;border:1px solid #ddd;}
+.tag.border-red{color:#d32f2f;border:1px solid #d99191;}
+
+/* 버튼 */
+.btn-black{color:#fff;background-color:#53565a;}
+.btn-yellow{color:#000;background-color:#ffcc33;}
+.btn-border{color:#000;border:1px solid #53565a;}
+.btn-border.link span{position:relative;}
+.btn-border.link span:after{content:'';display:inline-block;margin:-0.2rem 0 0 1.4rem;width:1.6rem;height:1.6rem; vertical-align: middle; background:url(../images/common/icon_arrow_right_small.png) no-repeat center/contain;}
+.btn-area{display:flex;}
+.btn-area button{display:inline-block;width:100%;line-height:5.6rem;text-align:center;font-size:1.6rem;font-family:"RenaultSamsungMotors";font-weight:700;box-sizing:border-box;}
+.btn-area button:disabled{color:#fff;border:none;background-color:#ddd;}
+.btn-area .btn-share{min-width:5.6rem;width:5.6rem;text-indent:-9999px;background-color:#53565a;}
+.btn-area.content{margin-top:2.4rem;}
+.btn-area.content button{position:relative;line-height:4.8rem;font-size:1.4rem;font-family:"NotoSansKR";font-weight:500;}
+.btn-area.content button .icon{position:absolute;top:50%;left:1.6rem;margin-top:-1.6rem;width:3.2rem;height:3.2rem;}
+.btn-area.content button .icon.type1{background:url(../images/common/icon_seonsugeum_jaeseoljeong.png) no-repeat;background-size:3.2rem 3.2rem;}
+.btn-area.content button .icon.type2{background:url(../images/common/icon_teug_injinhaeng.png) no-repeat;background-size:3.2rem 3.2rem;}
+.btn-area.content button .icon.loan{background:url(../images/common/icon_loan.png) no-repeat;background-size:3.2rem 3.2rem;}
+.btn-area.content button .icon.driver{background:url(../images/common/icon_driver.png) no-repeat;background-size:3.2rem 3.2rem;}
+.btn-area.content button .icon.product{background:url(../images/common/icon_product_estimate.png) no-repeat;background-size:3.2rem 3.2rem;}
+.btn-area.content .btn-text{position:relative;display:inline-block;margin:-0.4rem auto 0;padding:0.4rem 0;width:auto;line-height:1.8rem;font-size:1.4rem;border-bottom:1px solid #53565a;}
+.btn-area.content .btn-text.link{border:none;}
+.btn-area.content .btn-text.link span{position:relative;}
+.btn-area.content .btn-text.link span:after{content:'';display:inline-block;margin:-0.2rem 0 0 0.4rem;width:1.6rem;height:1.6rem;vertical-align:middle;background:url(../images/common/icon_arrow_right_small.png) no-repeat;background-size:1.6rem 1.6rem;}
+.btn-area.content .btn-more span{padding-right:2.2rem;background: url(../images/common/icon_arrow_down.png) no-repeat right center;background-size:1.8rem;}
+.btn-area.content > * + *{margin-left:0.8rem;}
+.btn-area.content.block{display:block;}
+.btn-area.content.block button{line-height:5.6rem;border-color:#ddd;}
+.btn-area.content.block > * + *{margin:1.2rem 0 0 0;}
+.btn-area.content.align-right{display:block;width:100%;text-align:right;}
+.btn-area.content.align-right button{width:auto;padding-left:1.6rem;padding-right:1.6rem;}
+
+.tooltip-box{position:relative;margin-left:0.3rem;line-height:100%;}
+.tooltip-box .tooltip-btn{width:1.9rem;height:1.9rem;border-radius:50%;text-indent:-9999px;background:url(../images/common/icon_hint.png) no-repeat;background-size:1.9rem 1.9rem;box-sizing:border-box;}
+.tooltip-box .tooltip-contents{display:none;position:absolute;top:0;left:2rem;padding:1rem;border-radius:1rem;border:1px solid #ddd;}
+.tooltip-box .active + .tooltip-contents{display:block;}
+
+/* 스위치 */
+.btn-switch{display:inline-block;}
+.btn-switch input[type='checkbox']{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.btn-switch input[type='checkbox'] + i{display:block;position:relative;width:4rem;height:2.4rem;background:#ddd;border-radius:2rem;}
+.btn-switch input[type='checkbox'] + i span{position:absolute;left:0.2rem;top:50%;transform:translateY(-50%);width:2rem;height:2rem;background:#fff;border-radius:50%;transition:left 0.3s;}
+.btn-switch input[type='checkbox']:checked + i{background:#ffcc33;}
+.btn-switch input[type='checkbox']:checked + i span{left:1.8rem;}
+
+/* 인풋 */
+input{font-family:"RenaultSamsungMotors";}
+input{-webkit-appearance:none;-webkit-border-radius:0;}
+input[type="password"]{font-family:"NotoSansKR";}
+input::placeholder{color:#ddd;font-size:1.4rem;}
+input:read-only,
+input:disabled{color:#bbbcbc !important;background-color:#eee !important;}
+.form-wrap{position:relative;}
+.form-wrap + .form-wrap{margin-top:2.4rem;}
+.form-wrap label{display:inline-block;margin-bottom:0;line-height:2.6rem;color:#53565a;font-size:1.4rem;}
+.form-wrap label.title-small{line-height:2.4rem;color:#222;font-size:1.6rem;}
+.form-wrap .require{color:#ffcc33;font-weight:400;}
+.form-wrap .form-box{position:relative; display:flex;margin-top:0.8rem;border:1px solid #ddd;}
+.form-wrap .form-box + .form-box{margin-top:1.6rem;}
+.form-wrap .form-box > *{display:inline-block;width:100%;}
+
+.form-wrap.flx-end .form-box{justify-content: flex-end;}
+.form-wrap.flx-end .form-box select{padding-right:4.8rem;}
+
+.form-wrap.flx-end.error .form-box{background-color:rgba(211, 47, 47, 0.1);}
+.form-wrap.flx-end.error .form-box select{background-color: transparent;}
+
+.form-wrap .form-box .tit{z-index:1; position:absolute; top:0; left:0; padding-left:1.6rem; width:auto; line-height:4.8rem; background-color:transparent; font-size:1.4rem; color:#888b8d; }
+.form-wrap .form-box .tit + .form-input.align-right input{}
+.form-wrap .form-box .tit + .form-input.align-right input.pl-80{padding-left:8rem;}
+.form-wrap .form-box .tit + .form-input.align-right input.pl-100{padding-left:10rem;}
+.form-wrap .form-box .tit + .form-input.align-right input.pl-120{padding-left:12rem;}
+.form-wrap .form-box .tit + .form-input.align-right input.pl-140{padding-left:14rem;}
+
+
+.form-wrap .form-box .form-input{position:relative;}
+.form-wrap .form-box .form-input.search input{padding-right:4.8rem}
+.form-wrap .form-box .form-input.align-right input{padding-right:3.5rem;font-size:1.8rem;font-weight:700;text-align:right;}
+.form-wrap .form-box .form-input.align-right.manwon input{padding-right:5rem;}
+.form-wrap .form-box .form-input .btn-search{position:absolute;top:0;right:0;width:4.8rem;height:4.8rem;text-indent:-9999px;background:url(../images/common/icon_search.png) no-repeat center center;background-size:2.4rem 2.4rem;}
+.form-wrap .form-box .form-input .unit{position:absolute;top:0;right:0;line-height:4.8rem;padding:0 1.6rem 0 0.4rem;color:#53565a;font-size:1.8rem;font-family:"RenaultSamsungMotors";}
+.form-wrap .form-box .form-input input:read-only + .unit,
+.form-wrap .form-box .form-input input:disabled + .unit{color:#bbbcbc;}
+.form-wrap .form-box input{padding:0 1.6rem;width:100%;height:4.8rem;color:#53565a;font-size:1.4rem;border:none;outline:none;box-sizing:border-box;}
+.form-wrap .form-box input[type="number"]{font-size:1.8rem;font-weight:700;}
+.form-wrap .form-box select{padding:0 1.6rem;width:100%;height:4.8rem;color:#888b8d;font-size:1.4rem;font-family:"NotoSansKR";font-weight:400;border:none;outline:none;background-position:calc(100% - 1.2rem) center;box-sizing:border-box;}
+.form-wrap .form-box select:disabled{background-color:#eee;}
+.form-wrap .form-box .form-btn button{padding:0 1.6rem;width:100%;height:4.8rem;color:#53565a;font-size:1.4rem;text-align:left;font-family:"NotoSansKR";font-weight:400;border:none;outline:none;background-position:calc(100% - 1.2rem) center;box-sizing:border-box;background:url(../images/common/icon_arrow_down.png) no-repeat;background-size:2.4rem 2.4rem;background-position:calc(100% - 1.2rem) center;}
+.form-wrap .form-box .hyphen{width:0.6rem;line-height:4.8rem;color:#53565a;font-size:1.6rem;background-color:#fff;}
+.form-wrap .form-box.type-phone .form-select{width:30%;border-right:1px solid #eee;}
+.form-wrap .form-box.type-phone .form-select ~ .form-input{width:70%;}
+.form-wrap .form-box.type2{border:none;}
+.form-wrap .form-box.type2 .form-input{border:1px solid #ddd;}
+.form-wrap .form-box.type2 .form-input:first-child{width:60%;}
+.form-wrap .form-box.type2 .form-input:last-child{width:40%;}
+.form-wrap .form-box.type2 .form-input + .form-input{margin-left:0.8rem;}
+.form-wrap .form-box.type2 .form-input .tit{display:inline-block;position:absolute;top:0;left:0;padding:0 0.8rem 0 1.6rem;line-height:4.8rem;color:#53565a;font-size:1.4rem;}
+.form-wrap .form-box.type2 .form-input input[type="date"]{padding:0.2rem 3.2rem 0 5rem;height:4.8rem;line-height:4.8rem;background-color:transparent;background:url(../images/common/icon_calendar.png) no-repeat;background-position:calc(100% - 0.8rem) center;background-size:2.4rem 2.4rem;}
+.form-wrap .form-box.type2 .form-input input[type="date"]::-webkit-calendar-picker-indicator{background:none;}
+.form-wrap .form-box.type2 .form-input input[type="time"]{padding:0.2rem 3.2rem 0 1.6rem;background-color:transparent;background:url(../images/common/icon_time.png) no-repeat;background-position:calc(100% - 0.8rem) center;background-size:2.4rem 2.4rem;}
+.form-wrap .form-box.type2 .form-input input[type="time"]::-webkit-calendar-picker-indicator{background:none;}
+
+.form-wrap .form-box.conform{position: relative;display: block;}
+.form-wrap .form-box.conform .btn-conform{position: absolute;top: 0.8rem;right: 0.8rem;display: block;width: 6.8rem;height: 3.2rem;line-height: 3.2rem;border-radius: 0.4rem;background-color: #53565a;color: #fff;font-weight: 500;}
+
+.form-wrap .rate{position:absolute;top:0;right:0;line-height:2.6rem;color:#007396;font-size:1.6rem;font-family:"RenaultSamsungMotors";font-weight:700;}
+.form-wrap .alert{display:none;margin-top:0.4rem;padding-left:2.1rem;line-height:2.2rem;color:#d32f2f;font-size:1.2rem;font-style:normal;background:url(../images/common/icon_alert.png) no-repeat left top;background-size:1.8rem 1.8rem;}
+.form-wrap.error .form-box{border-color:#d32f2f;}
+.form-wrap.error .form-box input{background-color: rgba(211, 47, 47, 0.07);}
+.form-wrap.error .form-box select{background-color: rgba(211, 47, 47, 0.07);}
+.form-wrap.error .form-box .hyphen{background-color: rgba(211, 47, 47, 0.07);}
+.form-wrap.error .alert{display:block;}
+.form-wrap.focus .form-box{border-color:#ffcc33;}
+.form-wrap.focus .form-box input{caret-color:#ffcc33;background-color:#fff9e5;}
+.form-wrap.focus .form-box .hyphen{background-color:#fff9e5;}
+
+/* 셀렉트 */
+select{-webkit-appearance:none;}
+.form-select{position:relative;}
+.form-select select{padding-right:3.2rem;color:#53565a;font-size:1.4rem;line-height:2.2rem;font-family:"RenaultSamsungMotors";font-weight:700;border:none;background:url(../images/common/icon_arrow_down.png) no-repeat right center;background-size:2.4rem 2.4rem;}
+
+/* 아래 보더들어간 셀렉트 .form-select.border-b */
+.form-select select.border-b {padding:1rem 3.2rem 1rem 0; font-size:2rem; color:#222; border-bottom:1px solid #222;}
+
+/* 체크박스 */
+.form-check{position:relative;display:inline-block;padding-left:2.8rem;}
+.form-check input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.form-check .text{display:block;line-height:2rem;color:#888b8d;font-size:1.2rem;}
+.form-check .text:before{content:'';position:absolute;top:0;left:0;width:2rem;height:2rem;background:url(../images/common/icon_agree_check_2_off.png) no-repeat 0.6rem center;background-size:1.7rem 1.3rem;transition:0.3s;}
+.form-check.no-check .text:before{display:none;}
+.form-check input:checked + .text:before{background:url(../images/common/icon_agree_check_2_on.png) no-repeat 0.6rem center;background-size:1.7rem 1.3rem;transition:0.3s;}
+.form-check.bg .text{line-height:2rem;color:#53565a;font-size:1.4rem;font-family:"RenaultSamsungMotors";font-weight:700;}
+.form-check.bg .text:before{top:0;width:2rem;height:2rem;border-radius:50%;border:1px solid #ddd;background:url(../images/common/icon_agree_check_1_off.png) no-repeat center center;background-size:1.2rem 0.9rem;box-sizing:border-box;}
+.form-check.bg input:checked + .text:before{border-color:#ffcc33;background:#ffcc33 url(../images/common/icon_agree_check_1_on.png) no-repeat center center;background-size:1.2rem 0.9rem;}
+
+/* 라디오 */
+.form-radio{position:relative;display:inline-block;padding-left:2.8rem;}
+.form-radio input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.form-radio .text{display:block;line-height:2.4rem;color:#53565a;font-size:1.4rem;font-family:"NotoSansKR";font-weight:700;}
+.form-radio .text:before{content:'';position:absolute;top:50%;transform:translateY(-50%);left:0;width:2rem;height:2rem;border-radius:50%;border:1px solid #ddd;box-sizing:border-box;transition:0.3s;}
+.form-radio input:checked + .text:after{content:'';position:absolute;top:50%;left:0.5rem;margin-top:-0.5rem;width:1rem;height:1rem;border-radius:50%;background-color:#ffcc33;transition:0.3s;}
+
+.form-radio-type2{position:relative;display:inline-block;padding-left:1.4rem;}
+.form-radio-type2 input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.form-radio-type2 .text{display:inline-block;line-height:2.4rem;color:#888b8d;font-size:1.2rem;font-family:"NotoSansKR";font-weight:700;}
+.form-radio-type2 .comment{display:inline-block;line-height:2.4rem;color:#bbbcbc;font-size:1.2rem;font-family:"NotoSansKR";font-weight:400;}
+.form-radio-type2 input + .text:after{content:'';position:absolute;top:50%;left:0;margin-top:-0.3rem;width:1rem;height:1rem;border-radius:50%;background-color:#ddd;transition:0.3s;}
+.form-radio-type2 input:checked + .text:after{content:'';position:absolute;top:50%;left:0;margin-top:-0.3rem;width:1rem;height:1rem;border-radius:50%;background-color:#ffcc33;transition:0.3s;}
+
+.radio-box{}
+.radio-box.flex{display:flex;}
+.radio-box .radio-tab{flex:1;}
+.radio-box .radio-tab input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.radio-box .radio-tab label{position:relative;display:block;line-height:4.8rem;color:#ddd;font-size:1.4rem;text-align:center;border:1px solid #ddd;border-width:1px 0 1px 1px;}
+.radio-box .radio-tab label:last-child{border-width:1px;}
+.radio-box .radio-tab input:checked + label{color:#222;font-weight:700;border-color:#53565a;border-width:1px;}
+
+/* 탭 */
+.top-menu{display:flex;}
+.top-menu li{flex:1;text-align:center;}
+.top-menu{margin:0 -1.6rem;padding:0 1.6rem;border-bottom:1px solid #ddd;}
+.top-menu li a{position:relative;display:block;padding:1.6rem 0 1.2rem;line-height:2.2rem;color:#222;font-size:1.6rem;font-weight:400;}
+.top-menu li.active a{font-weight:700;}
+.top-menu li.active a:after{content:'';display:block;position:absolute;left:0;bottom:-1px;width:100%;height:0.4rem;background-color:#ffcc33;}
+.content-body .top-menu{margin-top:-1.6rem;}
+
+.tabs{margin-top:1.6rem;border-radius:0;border:none !important;}
+.tabs .tab-menu{display:flex;padding:0;border-radius:0;border:none;}
+.tabs .tab-menu li{float:none;flex:1;margin:0 !important;padding:0 !important;text-align:center;border:none;background:none;}
+.tabs .tab-menu li a{float:none !important;display:block;padding:1.4rem 0 !important;width:100%;line-height:2.2rem;color:#ddd;font-size:1.4rem;border:1px solid #ddd;border-width:1px 0 1px 1px;background-color:#fff;}
+.tabs .tab-menu li:last-child a{border-width:1px;}
+.tabs .tab-menu li.ui-tabs-active a{color:#53565a;font-weight:700;border-color:#53565a;border-width:1px;}
+.tabs .tab-content{display:none;margin-top:3.2rem;padding:0;border:none;}
+.tabs .tab-content.active{display:block;}
+
+/* top-menu-02 */
+.top-menu-02{display:flex; margin:0 -1.6rem; padding:0 0.8rem; background:#faf9f8;}
+.top-menu-02 li{padding:0 0.8rem;}
+.top-menu-02 li a{position:relative;display:block; padding:1rem 0; width:100%; height:100%; font-size:1.2rem; font-weight:500; line-height:2.2rem; color:#888b8d;}
+.top-menu-02 li.active a{color:#53565a;}
+.top-menu-02 li.active a:before{position:absolute; bottom:0.8rem; left:0; right:0; content:'';display:block;width:100%;height:2px; background:#ffcc33;}
+
+/* top-menu-03 */
+.scroll-wrap{overflow:hidden; margin:0 -1.6rem; padding:0 1.6rem; width:auto; border-bottom:1px solid #ddd;}
+.scroll-wrap .top-menu-03{display:flex; flex-wrap:nowrap; overflow-x:auto; overflow-y:hidden; scrollbar-width: none; -ms-overflow-style: none;}
+.scroll-wrap .top-menu-03::-webkit-scrollbar{display:none;}
+
+.scroll-wrap .top-menu-03 li{text-align:center;}
+.scroll-wrap .top-menu-03 li a{position:relative;display:block;padding:1.6rem 1.8rem;line-height:2.2rem;color:#222;font-size:1.6rem;font-weight:400; white-space:nowrap;}
+.scroll-wrap .top-menu-03 li.active a{font-weight:700;}
+.scroll-wrap .top-menu-03 li.active a:after{content:'';display:block;position:absolute;left:0;bottom:-1px;width:100%;height:0.4rem;background-color:#ffcc33;}
+
+
+/* 아코디언 */
+.accordion{font-family:"NotoSansKR";}
+.accordion .btn{position:relative;display:flex;justify-content:space-between;flex-wrap:nowrap;margin-top:-1px;padding:0 4rem 0 1.6rem;width:100%;line-height:4.8rem;font-family:"NotoSansKR";border:1px solid #ddd;border-radius:0;background-color:#fff;box-sizing:border-box;}
+.accordion .btn:after{content:'';display:block;position:absolute;top:50%;right:0.8rem;margin-top:-1.2rem;width:2.4rem;height:2.4rem;background:url(../images/common/icon_arrow_down_small.png) no-repeat right center;background-size:2.4rem 2.4rem;transition:0.5s;}
+.accordion .btn.ui-state-active:after{transform:rotate(-180deg);}
+.accordion .btn .ui-accordion-header-icon{display:none;}
+.accordion .btn .tit{color:#888b8d;font-size:1.4rem;font-weight:400;}
+.accordion .btn .txt{color:#53565a;font-size:1.4rem;font-family:"RenaultSamsungMotors";font-weight:700;}
+.accordion .detail-box{display:none;padding:1.6rem 2rem;border:1px solid #ddd;border-top:none;border-radius:0;background-color:#faf9f8;}
+
+.accordion.type-faq{}
+.accordion.type-faq .btn{position:relative; padding-left:0rem; border:0; border-bottom:1px solid #ddd;}
+.accordion.type-faq .btn:before{/* position:absolute; top:0; left:0; content:'Q'; display:block; font-size:1.6rem; color:#53565a;font-family:"RenaultSamsungMotors"; font-weight:700; */}
+.accordion.type-faq .btn .tit{color:#53565a; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.accordion.type-faq .detail-box{line-height:2.2rem; border:0; color:#888b8d; font-weight:400; }
+
+/* 아코디언 type-02 */
+.accordion.type-02 .btn {margin-top:0; padding:0; border-top: 0;border-left: 0;border-right: 0; border-bottom: 1px solid #ddd;}
+.accordion.type-02 .btn:after{right:0;}
+.accordion.type-02 .detail-box {padding:1.6rem 0; border:0; background-color: transparent;}
+.accordion.type-02 .detail-box ul li {margin-bottom: 2rem;}
+.accordion.type-02 .detail-box ul li:last-child {margin: 0;}
+.accordion.type-02 .btn .tit { font-weight: 500; color: #53565a;}
+.accordion.type-02 .form-radio .text { font-weight: 400; font-family: 'NotoSansKR';}

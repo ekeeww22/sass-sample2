@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>샘플페이지</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_CE_0010">
+
+				<!-- content-header -->
+				<div class="content-header"></div>
+				<!-- // content-header -->
+
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<div class="form-comp-wrap">
+							<ul class="form-info-wrap">
+								<li>
+									<div class="forms-wrap">
+										<span class="form-select w-100">
+											<input type="text" class="tal pl-16" placeholder="검색어를 검색하세요.">
+											<button class="btn-search">주소검색</button>
+										</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<!-- 검색결과 없을경우 -->
+						<div class="complete-box error">
+							<span class="icon">
+								<img src="../resources/images/common/icon_alert_32.png" alt="에러">
+							</span>
+							<span class="tit">검색 결과가 없습니다.</span>
+						</div>
+						<!-- // 검색결과 없을경우 -->
+                    </section>
+                    <!--검색결과의 유무에 section-02 show/hide 시킴 -->
+					<section class="section-02">
+						<h3 class="title-small">
+							<strong>총 <span>55</span>건의 </strong>게시물
+						</h3>
+						<ul class="top-menu-02">
+                            <!--li에 클래스 [active] 추가시 선택표시됨 -->
+							<li class="active"><a href="">전체</a></li>
+							<li class=""><a href="">처리중</a></li>
+                            <li class=""><a href="">처리완료</a></li>
+                            <!--// li에 클래스 [active] 추가시 선택표시됨 -->
+						</ul>
+						<div class="link-status-list">
+							<ul>
+								<li>
+									<a href="">
+										<div class="txt-wrap">
+											<p class="name">
+                                                <span class="font-700">[자동차보험]</span>
+                                                <span class="font-700">박진우</span>
+											</p>
+											<p class="info">
+												<span class="">010-1234-1234</span>
+												<!-- 2020-08-18 삭제
+												<span class="">제주특별자치도 북제주군</span>
+												2020-08-18 삭제 -->
+											</p>
+											<p class="time"><span class="">2020.05.04</span><span class="">15:00</span></p>
+										</div>
+										<!--.state에 클래스명 [처리중:tag.bg-yellow, 처리완료:tag.bg-blue] 추가시 색 변경 -->
+										<span class="tag bg-yellow">처리중</span>
+										<!--//.state에 클래스명 [처리중:tag.bg-yellow, 처리완료:tag.bg-blue] 추가시 색 변경 -->
+									</a>
+                                </li>
+                                <li>
+									<a href="">
+										<div class="txt-wrap">
+											<p class="name">
+                                                <span class="font-700">[자동차보험]</span>
+                                                <span class="font-700">박진우</span>
+											</p>
+											<p class="info">
+												<span class="">010-1234-1234</span>
+												<!-- 2020-08-18 삭제
+												<span class="">제주특별자치도 북제주군</span>
+												2020-08-18 삭제 -->
+                                            </p>
+                                            <p class="info">
+												<span class="">hong99@naver.com</span>
+												<!-- 2020-08-18 삭제
+												<span class="">제주특별자치도 북제주군</span>
+												2020-08-18 삭제 -->
+											</p>
+											<p class="time"><span class="">2020.05.04</span><span class="">15:00</span></p>
+										</div>
+										<!--.state에 클래스명 [처리중:tag.bg-yellow, 처리완료:tag.bg-blue] 추가시 색 변경 -->
+										<span class="tag bg-blue">처리완료</span>
+										<!--//.state에 클래스명 [처리중:tag.bg-yellow, 처리완료:tag.bg-blue] 추가시 색 변경 -->
+									</a>
+								</li>
+							</ul>
+							<div class="btn-area content">
+								<button type="button" class="btn-more"><span>더보기</span></button>
+							</div>
+						</div>
+					</section>
+                    <!--// 검색결과의 유무에 section-02 show/hide 시킴 -->
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer"></div>
+				<!-- // content-footer -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

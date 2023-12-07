@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>특별승인 대상 서류 업로드_서류 등록 완료</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_AG_0010">
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<div class="form-list">
+							<div class="form-wrap">
+								<label for="userNum" class="title-small">고객 주민등록번호 <span class="require">*</span></label>
+								<div class="form-box">
+									<span class="form-input">
+										<input type="number" id="userNum" placeholder="앞 6자리">
+									</span>
+									<span class="hyphen">-</span>
+									<span class="form-input">
+										<input type="password" placeholder="뒤 7자리">
+									</span>
+								</div>
+								<p class="alert">주민번호를 확인해주세요.</p>
+							</div>
+						</div>
+						<div class="btn-area content">
+							<button type="button" class="btn-yellow" disabled>검색</button>
+						</div>
+
+						<p class="txt-icon txt-info">한도조회 등의 유효 기간은 동의일로부터 30일 입니다.</p><!--2020-10-23 마크업추가-->
+
+						<!-- 검색결과가 없을 경우 -->
+						<div class="complete-box error">
+							<span class="icon">
+								<img src="../resources/images/common/icon_alert_32.png" alt="에러">
+							</span>
+							<span class="tit">검색 결과가 없습니다.</span>
+						</div>
+						<!-- // 검색결과가 없을 경우 -->
+					</section>
+
+					<section class="section-02">
+						<h3 class="title-small">고객정보</h3>
+						<ul class="type-between">
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">고객명</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">장르노</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">동의여부</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">
+										<span class="tag bg-yellow">동의</span>
+										<span class="tag border-gray">만료</span>
+									</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">동의일시</p>
+								</div>
+								<div class="txt-wrap">
+									<!-- 2020-08-18 수정 -->
+									<p class="txt datetime">
+                                        <span>2020.05.04</span>
+                                        <span>15:1</span>
+									</p>
+									<!-- //2020-08-18 수정 -->
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">만료일시</p>
+								</div>
+								<div class="txt-wrap">
+									<!-- 2020-08-18 수정 -->
+									<p class="txt datetime">
+                                        <span>2020.05.04</span>
+                                        <span>15:1</span>
+									</p>
+									<!-- //2020-08-18 수정 -->
+								</div>
+							</li>
+						</ul>
+						<div class="btn-area content block"><!--2020-09-25 클래스명 'block'추가-->
+							<!--2020-09-25 마크업 추가-->
+							<button type="button" class="btn-border"><span>상품견적</span></button>
+
+							<!--2020-10-20 마크업 삭제
+							<button type="button" class="btn-border"><span>한도조회</span></button>
+							-->
+							
+							<button type="button" class="btn-border"><span>한도조회 동의 재요청</span></button>
+							<!--//2020-09-25 마크업 추가-->
+						</div>
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					
+				</div>
+				<!-- // content-body -->
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

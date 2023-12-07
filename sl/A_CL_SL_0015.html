@@ -1,0 +1,77 @@
+<!--2020-07-23 수정사항 - 레이아웃을 페이지에서 팝업으로 바꿈 -->
+
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	function popupClose(prop){
+		if(prop == undefined){
+			return null;
+		}
+		if(prop.type == "modal"){
+			$(".popup-modal").html("");
+			$(".popup-modal").removeClass("on");
+		}
+		else if(prop.type=="toast"){
+			$(".popup-toast").html("");
+			$(".popup-toast").removeClass("on");
+		}
+		$('body').removeClass("hidden");
+	}
+</script>
+<div class="dimmed"></div>
+
+<!-- popup-modal-content, popup size(full,slide,default), screen id, btn-area-fixed -->
+<div class="popup-modal-content full A_CL_SL_0015 btn-area-fixed">
+	<!-- popup-modal-header -->
+	<div class="popup-modal-header">
+		<h3>안내 및 유의사항동의</h3>
+		<button type="button" class="btn-popup-modal-close" onclick="javascript:popupClose({'type':'modal'});">팝업닫기</button>
+	</div>
+	<!-- // popup-modal-header -->
+
+	<!-- popup-modal-body -->
+	<div class="popup-modal-body">
+		<section class="section-01">
+            <h3 class="title-small ">고유식별정보 필수 수집 이용 동의</h3>
+            <div class="list-bullet">
+                <ul>
+                    <li><!--2020-11-02 문구수정-->
+                        르노파이낸스 앱은 이용자의 모바일인증 정보를 저장하거나 보관하지 않으며, 이용자의 휴대폰에 저장된 모바일 인증 정보를 이용하여 모바일 인증 서비스를 제공하고 있습니다.
+                    </li>
+                    <li>
+                        이용자의 휴대폰에 등록된 모바일인증 정보는 반드시 이용자 본인의 것이어야 하며, 휴대폰에 등록된 모바일 인증 정보의 관리 및 사용에 대한 책임은 이용자 본인에게 있으므로, 본인의 모바일인증 정보가 유출되지 않도록 각별히 주의하시기 바랍니다.
+                    </li>
+                    <li>
+                        만약 저장된 모바일인증 정보가 타인에게 유출되었다고 판단 시, 즉시 휴대폰에 등록된 모바일인증 정보를 삭제하시고 모바일인증 서비스를 해지하여 합니다.
+                    </li>
+                    <li>
+                        모바일인증을 통한 전자서명은 공인인증서를 제출한 것과 동일한 효력을 발생합니다.
+                    </li>
+                    <li>
+                        모바일인증 정보를 누적 5회 입력한 경우, 모바일인증 서비스이용이 불가능하며, 모바일인증 서비스를 재등록 후 이용하여 주시기 바랍니다.
+                    </li>
+                </ul>
+            </div>
+            <div class="round-box">
+                <p class="txt">다음의 번호가 포함될 경우 설정이 불가능합니다.</p>
+                <div class="list-bullet">
+                    <ul>
+                        <li>주민등록번호 13자리 중 연속 6자리</li>
+                        <li>연속/동일한 숫자 6자리</li>
+                        <li>휴대폰번호 11자리 중 연속 6자리</li>
+                    </ul>
+                </div>
+            </div>
+
+		</section>
+	</div>
+	<!-- // popup-modal-body -->
+
+	<!-- popup-modal-footer -->
+	<div class="popup-modal-footer">
+        <div class="btn-area">
+			<button type="button" class="btn-yellow">확인 및 동의</button>
+		</div>
+	</div>
+	<!-- // popup-modal-footer -->
+</div>
+<!-- // popup-modal-content -->

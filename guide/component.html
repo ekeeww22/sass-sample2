@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI GUIDE</title>
+    <script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/guide.js"></script>
+    <link type="text/css" rel="stylesheet" href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/reset.css" >
+    <link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/contents.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/component.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/template.css">
+    <link type="text/css" rel="stylesheet" href="../resources/font/font.css">
+    <style>
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".tabs").tabs();
+            $(".accordion" ).accordion({
+                heightStyle: "content",
+                collapsible: true
+            });
+        })
+    </script>
+</head>
+<body>
+    <ul class="guide-kjb">
+        <li>
+            <h2 class="guide-title">title</h2>
+            <h2 class="title-big">
+                선호하는 <strong>차량</strong>은 무엇인가요?
+                <span class="text">선호하는 차종에 따라 <br>선호하는 차종에 추천합니다.</span>
+            </h2>
+            <h3 class="title-medium">
+                QM6 <strong>QM6</strong>
+                <span class="text">2.0 dCi 4WD PREMIERE</span>
+            </h3>
+            <h3 class="title-small">
+                title-small
+                <div class="tooltip-box">
+                    <button type="button" class="tooltip-btn">툴팁</button>
+                    <div class="tooltip-contents">
+                        툴팁영역툴팁영역툴팁영역툴팁영역툴팁영역툴팁영역
+                    </div>
+                </div>
+                <span class="text">원리금 균등 상환 방식 <br>(할부기간 동안 매월 동일한 할부금을 상환)</span>
+            </h3>
+        </li>
+
+        <li>
+            <h2 class="guide-title">tag</h2>
+            <span class="tag bg-black">접수</span>
+            <span class="tag bg-yellow">승인</span>
+            <span class="tag bg-blue">상담완료</span>
+            <span class="tag border-black">심사보류중</span>
+            <span class="tag border-gray">만료</span>
+            <span class="tag border-red">취소</span>
+        </li>
+
+        <li>
+            <h2 class="guide-title">button</h2>
+            <div class="btn-area content">
+                <button type="button" class="btn-border"><span>btn-border</span></button>
+                <button type="button" class="btn-border link"><span>btn-border link</span></button>
+            </div>
+            <div class="btn-area content">
+                <button type="button" class="btn-text"><span>btn-text</span></button>
+                <button type="button" class="btn-text link"><span>btn-text link</span></button>
+            </div>
+            <div class="btn-area content">
+                <button type="button" class="btn-more"><span>btn-more</span></button>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn-yellow" disabled>disabled</button>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn-yellow">btn-yellow</button>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn-black">btn-black</button>
+                <button type="button" class="btn-yellow">btn-yellow</button>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn-share">공유하기</button>
+                <button type="button" class="btn-yellow">btn-yellow</button>
+            </div>
+        </li>
+
+        <li>
+            <h2 class="guide-title">input</h2>
+            <div class="form-list">
+                <div class="form-wrap">
+                    <label for="test1" class="title-small">기본 <span class="require">*</span></label>
+                    <div class="form-box">
+                        <span class="form-input">
+                            <input type="text" id="test1" placeholder="test">
+                        </span>
+                    </div>
+                    <p class="alert">에러에러에러</p>
+                </div>
+
+                <div class="form-wrap focus">
+                    <label for="test2" class="title-small">포커스</label>
+                    <div class="form-box">
+                        <span class="form-input">
+                            <input type="text" id="test2">
+                        </span>
+                    </div>
+                    <p class="alert">에러에러에러</p>
+                </div>
+
+                <div class="form-wrap error">
+                    <label for="test3" class="title-small">에러</label>
+                    <div class="form-box">
+                        <span class="form-input">
+                            <input type="number" id="test3" placeholder="test">
+                        </span>
+                        <span class="hyphen">-</span>
+                        <span class="form-input">
+                            <input type="password" id="test3" placeholder="test">
+                        </span>
+                    </div>
+                    <p class="alert">에러에러에러</p>
+                </div>
+
+                <div class="form-wrap">
+                    <label for="test4" class="title-small">금액</label>
+                    <div class="form-box">
+                        <span class="form-input align-right">
+                            <input type="number" id="test4" value="100000">
+                            <span class="unit">원</span>
+                        </span>
+                    </div>
+                    <p class="alert">에러에러에러</p>
+                </div>
+
+                <div class="form-wrap">
+                    <label for="test5" class="title-small">검색</label>
+                    <div class="form-box">
+                        <span class="form-input">
+                            <input type="text" id="test5" placeholder="test">
+                            <button type="button" class="btn-search">검색</button>
+                        </span>
+                    </div>
+                    <p class="alert">에러에러에러</p>
+                </div>
+
+                <div class="form-wrap">
+                    <p class="title-small">세부모델</p>
+                    <div class="form-box">
+                        <span class="form-select">
+                            <select>
+                                <option>세부모델 선택</option>
+                            </select>
+                        </span>
+                    </div>
+                    <p class="alert">세부모델을 선택하세요.</p>
+                </div>
+
+                <div class="form-wrap">
+                    <label for="input-2">선수율</label>
+                    <div class="form-box b-none">
+                        <div class="form-range">
+                            <div class="value-box">
+                                <span class="value" style="left:15%"><em>15</em>%</span>
+                            </div>
+                            <div class="gauge-box">
+                                <input type="range" min="0" max="100" value="15"/>
+                                <div class="gauge" style="width:15%"></div>
+                            </div>
+                            <span class="min">0</span>
+                            <span class="max">100</span>
+                        </div>
+                    </div>
+                    <p class="alert">최대 선수율은 00% (00,000,000원) 입니다.</p>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <h2 class="guide-title">select</h2>
+            <span class="form-select">
+                <select>
+                    <option>선택</option>
+                    <option>111</option>
+                    <option>222</option>
+                </select>
+            </span>
+            <span class="form-select">
+                <select class="border-b">
+                    <option>만 19 ~ 34세</option>
+                    <option>만 35 ~ 54세</option>
+                    <option>만 55세 이상</option>
+                </select>
+            </span>
+        </li>
+
+        <li>
+            <h2 class="guide-title">checkbox</h2>
+            <label class="form-check bg">
+                <input type="checkbox">
+                <span class="text">체크박스</span>
+            </label>
+            <label class="form-check">
+                <input type="checkbox">
+                <span class="text">체크박스</span>
+            </label>
+            <br/>
+            <label class="btn-switch">
+                <input type="checkbox">
+                <i><span></span></i>
+            </label>
+        </li>
+
+        <li>
+            <h2 class="guide-title">radio</h2>
+            <label class="form-radio">
+                <input type="radio" name="radio" id="radio1-1" checked>
+                <span class="text">라디오1</span>
+            </label>
+            <label class="form-radio">
+                <input type="radio" name="radio" id="radio1-2">
+                <span class="text">라디오2</span>
+            </label>
+
+            <div class="radio-box flex">
+                <span class="radio-tab">
+                    <input type="radio" name="radiotab" id="radio2-1" checked>
+                    <label for="radio2-1">라디오탭1</label>
+                </span>
+                <span class="radio-tab">
+                    <input type="radio" name="radiotab" id="radio2-2">
+                    <label for="radio2-2">라디오탭2</label>
+                </span>
+                <span class="radio-tab">
+                    <input type="radio" name="radiotab" id="radio2-3">
+                    <label for="radio2-3">라디오탭3</label>
+                </span>
+            </div>
+        </li>
+
+        <li>
+            <h2 class="guide-title">tab</h2>
+            <ul class="top-menu">
+                <li class="active"><a href="#">중고차 검색</a></li>
+                <li><a href="#">차량번호 검색</a></li>
+                <li><a href="#">중고차(신용)</a></li>
+            </ul>
+
+            <ul class="top-menu-02">
+                <li class="active"><a href="">전체</a></li>
+                <li class=""><a href="">진행중</a></li>
+                <li class=""><a href="">심사보류중</a></li>
+                <li class=""><a href="">계약완료</a></li>
+            </ul>
+            
+            <div class="tabs">
+                <ul class="tab-menu">
+                    <li><a href="#tabs-1">국산차</a></li>
+                    <li><a href="#tabs-2">수입차</a></li>
+                </ul>
+                <div id="tabs-1" class="tab-content">
+                    content1
+                </div>
+                <div id="tabs-2" class="tab-content">
+                    content2
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <h2 class="guide-title">accordion</h2>
+            <div class="accordion">
+                <button type="button" class="btn"><span class="tit">제조사</span><span class="txt">현대</span></button>
+                <div class="detail-box">
+                    내용
+                </div>
+                <button type="button" class="btn"><span class="tit">모델</span><span class="txt">그랜저</span></button>
+                <div class="detail-box">
+                    내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용
+                </div>
+                <button type="button" class="btn"><span class="tit">세부모델</span><span class="txt">그랜저 IG 16~19년</span></button>
+                <div class="detail-box">
+                    내용내용 내용내용내용내용 내용내용내용내용 내용내용
+                </div>
+                <button type="button" class="btn"><span class="tit">연식</span><span class="txt">2016</span></button>
+                <div class="detail-box">
+                    내용내용내용
+                </div>
+            </div>
+            <h2 class="guide-title">accordion.type-02</h2>
+            <div class="accordion type-02 ui-accordion ui-widget ui-helper-reset" role="tablist">
+                <button type="button" class="btn ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons" role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span><span class="tit">공무원</span></button>
+                <div class="detail-box ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active" style="display: none;" id="ui-id-4" aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="false">
+                    <ul>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-1" checked="">
+								<span class="text">대학교</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-2" >
+								<span class="text">초, 중, 고등학교</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-3" >
+								<span class="text">관인유치원</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-4" >
+								<span class="text">기타</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-5" >
+								<span class="text">학교법인, 사무직</span>
+							</label>
+						</li>
+					</ul>
+                </div>
+                <button type="button" class="btn ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><span class="tit">교육</span></button>
+                <div class="detail-box ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" style="display: none;" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true">
+                    <ul>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-1" checked="">
+								<span class="text">대학교</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-2" >
+								<span class="text">초, 중, 고등학교</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-3" >
+								<span class="text">관인유치원</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-4" >
+								<span class="text">기타</span>
+							</label>
+						</li>
+						<li>
+							<label class="form-radio">
+								<input type="radio" name="radio" id="radio1-5" >
+								<span class="text">학교법인, 사무직</span>
+							</label>
+						</li>
+					</ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

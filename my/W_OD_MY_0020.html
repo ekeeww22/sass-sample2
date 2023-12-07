@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>샘플페이지</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_MY_0020 btn-area-fixed">
+
+				<!-- content-header -->
+				<div class="content-header"></div>
+				<!-- // content-header -->
+
+				<!-- content-body -->
+				<div class="content-body">
+
+                    <!--2020-09-25 마크업 추가-->
+                    <section class="section-00">
+                        <h3 class="title-small">휴대폰 번호</h3>
+                        <div class="form-comp-wrap">
+                            <ul class="form-info-wrap">
+                                <li class="">
+                                    <div class="info-wrap">
+                                        <span class="form-select w-100">
+                                            <input type="text" class="tal pl-16" value="010-1111-2222" disabled>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!--2020-09-25 마크업 추가-->
+
+                    <!-- 2020-11-03 마크업삭제
+					<section class="section-01">
+                        <h3 class="title-small">기존 비밀번호 <span class="text-gray">(영문+숫자+특수문자 8~16자리)</span></h3>
+                        <div class="form-comp-wrap">
+                            <ul class="form-info-wrap">
+                                <li class="alert">
+                                    <div class="info-wrap">
+                                        <span class="form-select w-100">
+                                            <input type="password" class="tal pl-16">
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="txt-icon txt-alert">기존 비밀번호를 입력하세요.</p>
+                        </div>
+                    </section>
+                    -->
+                    
+                    <section class="section-02">
+                        <h3 class="title-small">신규 비밀번호 <span class="text-gray">(영문+숫자+특수문자 8~16자리)</span></h3> <!-- 2020-09-22 수정 -->
+                        <div class="form-comp-wrap">
+                            <ul class="form-info-wrap">
+                                <!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+                                <li class="alert">
+                                    <div class="info-wrap">
+                                        <span class="form-select w-100">
+                                            <input type="password" class="tal pl-16"> <!-- 2020-09-02 수정 -->
+                                        </span>
+                                    </div>
+                                </li>
+                                <!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+                            </ul>
+                            <!--디폴트로 숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                            <!-- 2020-08-18 수정 -->
+                            <p class="txt-icon txt-alert">영문+숫자+특수문자 8~16자리로 입력하세요.</p>
+                            <!-- // 2020-08-18 수정 -->
+                            <!-- //숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                        </div>
+                    </section>
+                    <section class="section-03">
+                        <h3 class="title-small">신규 비밀번호 재입력</h3><!--2020-09-23 문구수정-->
+                        <div class="form-comp-wrap">
+                            <ul class="form-info-wrap">
+                                <!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+                                <li class="">
+                                    <div class="info-wrap">
+                                        <span class="form-select w-100">
+                                            <input type="password" class="tal pl-16"> <!-- 2020-09-02 수정 -->
+                                        </span>
+                                    </div>
+                                </li>
+                                <!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+                            </ul>
+                            <!--디폴트로 숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                            <p class="txt-icon txt-alert">비밀번호를 재입력하세요.</p>
+                            <!-- //숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                        </div>
+                    </section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+                    <div class="btn-area">
+                        <button type="button" class="btn-black">취소</button>
+                        <button type="button" class="btn-yellow">확인</button>
+                    </div>
+                </div>
+				<!-- // content-footer -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

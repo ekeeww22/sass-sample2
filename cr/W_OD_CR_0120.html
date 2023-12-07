@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>한도조회 결과 검색 (F&I - 승인취소)</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_CR_0120">
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<div class="form-list">
+							<div class="form-wrap">
+								<label for="userNum" class="title-small">고객 주민등록번호 <span class="require">*</span></label>
+								<div class="form-box">
+									<span class="form-input">
+										<input type="number" id="userNum" placeholder="앞 6자리">
+									</span>
+									<span class="hyphen">-</span>
+									<span class="form-input">
+										<input type="password" placeholder="뒤 7자리">
+									</span>
+								</div>
+								<p class="alert">주민번호를 확인해주세요.</p>
+							</div>
+						</div>
+						<div class="btn-area content">
+							<button type="button" class="btn-yellow" disabled>검색</button>
+						</div>
+						<!-- <p class="txt-icon txt-info">직접 조회한 내역과 고객이 사번을 입력하여 조회한 내역만 노출됩니다.</p> --><!-- 2020-08-20 마크업 삭제 -->
+
+						<!-- 검색결과가 없을 경우 -->
+						<div class="complete-box error">
+							<span class="icon">
+								<img src="../resources/images/common/icon_alert_32.png" alt="에러">
+							</span>
+							<span class="tit">검색 결과가 없습니다.</span>
+						</div>
+						<!-- // 검색결과가 없을 경우 -->
+					</section>
+
+					<section class="section-02">
+						<h3 class="title-small">한도정보</h3>
+						<ul class="type-between">
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">
+										한도결과 <!--2020-09-25 마크업 삭제  span>2020.07.02 16:00</span-->
+										<span class="date date-1st">2020-09-02</span><!--2020-09-25 마크업 추가-->
+										<span class="date date-2st">16:00</span><!--2020-09-25 마크업 추가-->
+									</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">
+										<span class="tag border-red">취소</span>
+									</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">요청한도 <!--2020-09-25 마크업삭제 span>2020.07.01 16:00</span--></p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">20,000,000원</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">승인한도</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">-</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">CSS 등급</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">1등급</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">근저당설정율</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">120%</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">심사조건</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">심사조건 노출</p>
+								</div>
+							</li>
+						</ul>
+
+						<h3 class="title-small">고객정보</h3>
+						<ul class="type-between">
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">고객 이름</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">장르노</p>
+								</div>
+							</li>
+						</ul>
+
+						<h3 class="title-small">차량정보</h3>
+						<ul class="type-between">
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">차종</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">QM6</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">모델명</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">2.0 dCi 4WD PREMIERE</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">차량가격</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">32,600,000원</p>
+								</div>
+							</li>
+						</ul>
+
+						<h3 class="title-small">할부정보</h3>
+						<ul class="type-between">
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">할부상품</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">표준형</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">할부기간</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">36개월</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">금리</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">1.9%</p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">선수금</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">8,000,000원 <span>(15%)</span></p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">유예금 (잔가)</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">12,600,000원 <span>(45%)</span></p>
+								</div>
+							</li>
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">할부원금</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">22,600,000원</p>
+								</div>
+							</li>
+							<!--2020-10-30 마크업삭제
+							<li class="">
+								<div class="tit-wrap">
+									<p class="tit">월 납입금</p>
+								</div>
+								<div class="txt-wrap">
+									<p class="txt">785,613원</p>
+								</div>
+							</li>
+							-->
+						</ul>
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					
+				</div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

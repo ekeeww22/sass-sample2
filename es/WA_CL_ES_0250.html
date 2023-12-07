@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>차량선택</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content WA_CL_ES_0250 btn-area-fixed">
+				<!-- content-body -->
+				<div class="content-body">
+					<ul class="top-menu">
+						<li><a href="#">중고차 검색</a></li>
+						<li class="active"><a href="#">차량번호 검색</a></li>
+					</ul>
+					<section class="section-01">
+						<div class="form-comp-wrap">
+							<h3 class="title-small">차량번호검색</h3>
+							<ul class="form-info-wrap">
+								<!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+								<li>
+									<div class="info-wrap">
+										<span class="form-select w-100">
+											<input type="text" class="tal pl-16" placeholder="소유자명 입력">
+										</span>
+									</div>
+								</li>
+								<li class="alert">
+									<div class="info-wrap">
+										<span class="form-select w-100">
+											<input type="text" class="tal pl-16" placeholder="차량번호 입력">
+										</span>
+									</div>
+								</li>
+							</ul>
+							<!--디폴트로 숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+							<p class="txt-icon txt-alert">소유자명을 확인 후 다시 입력 해 주세요</p>
+							<!-- //숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+						</div>
+						<p class="txt-icon txt-info">소유자명 과 차량번호 입력후 검색시 차량정보가 검색 됩니다.</p>
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-yellow" disabled>검색</button>
+					</div>
+				</div>
+				<!-- // content-body -->
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

@@ -1,0 +1,55 @@
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	function popupClose(prop){
+		if(prop == undefined){
+			return null;
+		}
+		if(prop.type == "modal"){
+			$(".popup-modal").removeClass("on");
+			setTimeout(function(){
+				$(".popup-modal").html("");
+			},300);
+		}
+		else if(prop.type=="toast"){
+			$(".popup-toast").html("");
+			$(".popup-toast").removeClass("on");
+		}
+		$('body').removeClass("hidden");
+	}
+</script>
+<div class="dimmed"></div>
+
+<!-- popup-modal-content, popup size(full,slide,default), screen id, btn-area-fixed -->
+<div class="popup-modal-content full A_CL_LO_1070 btn-area-fixed"><!--2020-09-24 클래스명 [btn-area-fixed] 추가-->
+	<!-- popup-modal-header -->
+	<div class="popup-modal-header">
+		<h3>선수할부 추가약정</h3>
+		<button type="button" class="btn-popup-modal-close" onclick="javascript:popupClose({'type':'modal'});">팝업닫기</button>
+	</div>
+	<!-- // popup-modal-header -->
+
+	<!-- popup-modal-body -->
+	<div class="popup-modal-body">
+		<section class="section-01">
+			<!-- 약관 영역 -->
+			<div class="terms-box">
+				
+			</div>
+			<!-- // 약관 영역 -->
+		</section>
+	</div>
+	<!-- // popup-modal-body -->
+
+	<!-- popup-modal-footer -->
+	<div class="popup-modal-footer">
+		<div class="btn-area"><!--2020-09-24 마크업 추가-->
+			<button type="button" class="btn-yellow">확인</button>
+		</div>
+	</div>
+	<!-- // popup-modal-footer -->
+</div>
+<!-- // popup-modal-content -->
+<script>
+	var body_height = $(".popup-modal-content").height();
+	$(".popup-modal-body").height(body_height);
+</script>

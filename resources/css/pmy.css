@@ -1,0 +1,746 @@
+@charset "utf-8";
+
+/* 추후 통합할 공통 */
+
+/* border-top-light-gray */
+.border-top-light-gray{border-top:1px solid #eee;}
+
+/* WA_CL_ES_0010 */
+.WA_CL_ES_0010 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0010 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0010 .content-body{padding:0;}
+.WA_CL_ES_0010 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0010 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0010 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0010 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0010 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+
+/* WA_CL_ES_0015 */
+.WA_CL_ES_0015 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0015 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0015 .content-body{padding:0;}
+.WA_CL_ES_0015 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0015 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0015 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0015 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+
+.WA_CL_ES_0015 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0015 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+
+/* WA_CL_ES_0020 */
+.WA_CL_ES_0020{}
+.WA_CL_ES_0020 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0020 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0020 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+
+/* WA_CL_ES_0050 */
+.WA_CL_ES_0050{}
+.WA_CL_ES_0050 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0050 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0050 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0050 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0050 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0050 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0060 */
+.WA_CL_ES_0060{}
+.WA_CL_ES_0060 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0060 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0060 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0060 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0060 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0060 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+/* WA_CL_ES_0070 */
+.WA_CL_ES_0070{}
+.WA_CL_ES_0070 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0070 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0070 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0070 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0070 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0070 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+/* WA_CL_ES_0080 */
+.WA_CL_ES_0080 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0080 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0080 .content-body{padding:0;}
+.WA_CL_ES_0080 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0080 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0080 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0080 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0080 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0080 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+.WA_CL_ES_0080 .btn-area.content.align-right{padding-bottom:2.4rem;}
+.WA_CL_ES_0080 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0080 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0080 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0090 */
+.WA_CL_ES_0090 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0090 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0090 .content-body{padding:0;}
+.WA_CL_ES_0090 .swiper-slide{padding:0 1.6rem; padding-top:2.4rem;}
+.WA_CL_ES_0090 .swiper-pagination{top:5.5rem; right:1.3rem;}
+.WA_CL_ES_0090 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0090 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0090 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0090 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+.WA_CL_ES_0090 .btn-area.content.align-right{padding-bottom:2.4rem;}
+.WA_CL_ES_0090 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0090 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0090 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0100 */
+.WA_CL_ES_0100 .title-small{margin-top:2.4rem;}
+.WA_CL_ES_0100 .txt-14{font-size:1.4rem; line-height:2.2rem; color:#53565a; }
+.WA_CL_ES_0100 .tit-txt-wrap{padding-top:1.6rem;}
+.WA_CL_ES_0100 .list-bullet{padding-top:0.8rem;}
+.WA_CL_ES_0100 .list-bullet ul li{font-size:1.2rem;}
+.WA_CL_ES_0100 .section-01 .txt-info{margin-top:1.6rem; letter-spacing:-0.3px; background-color:#eee; padding:0.6rem 0.8rem 0.6rem 3.2rem;}
+.WA_CL_ES_0100 .section-01 .txt-icon:before{top:0.6rem;left:0.8rem;}
+
+/* form-info-wrap */
+.form-comp-wrap{position:relative; }
+
+.form-comp-wrap.form-disabled ul.form-info-wrap li .btn-wrap .btn-between:disabled{padding:1.4rem 1.6rem; background-color:#faf9f8;} 
+.form-comp-wrap.form-disabled ul.form-info-wrap li .btn-wrap .btn-between:disabled:after{display:none;}
+.form-comp-wrap.form-disabled ul.form-info-wrap li .btn-wrap .btn-between .txt{color:#bbbcbc;}
+
+.form-comp-wrap ul.form-info-wrap{position:relative; border-radius:0.2rem; }
+.form-comp-wrap ul.form-info-wrap li{width:100%; height:4.8rem; font-size:1.4rem; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.form-comp-wrap ul.form-info-wrap li:first-child{border-top:1px solid #ddd;}
+.form-comp-wrap ul.form-info-wrap li:last-child{border-bottom:1px solid #ddd;}
+.form-comp-wrap ul.form-info-wrap li input{background-color:transparent; font-weight:700;}
+.form-comp-wrap ul.form-info-wrap li input::placeholder{font-weight:400;}
+
+.form-comp-wrap ul.form-info-wrap li input[type="date"]{padding-right:1rem !important; background:url(../images/common/icon_arrow_down.png) no-repeat; background-position:calc(100% - 0.8rem) center; background-size:2rem;}
+.form-comp-wrap ul.form-info-wrap li input[type="date"]::-webkit-inner-spin-button {display: block;}
+.form-comp-wrap ul.form-info-wrap li input[type="date"]::-webkit-calendar-picker-indicator {opacity: 0;}
+
+.form-comp-wrap ul.form-info-wrap li.disabled{background-color:#eee !important;}
+.form-comp-wrap ul.form-info-wrap li.alert{border:1px solid #d32f2f; border-bottom-left-radius:0.2rem; border-bottom-right-radius:0.2rem; background-color:rgba(211, 47, 47, 0.1);}
+.form-comp-wrap ul.form-info-wrap li.alert input::placeholder{color:#53565a;}
+
+.form-comp-wrap ul.form-info-wrap li + li{border-top:1px solid #ddd;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap{display:flex; justify-content:space-between; align-items:center; width:100%; height:100%;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap .tit{padding-left:1.6rem; min-width:7rem; line-height:2.2rem; font-size:1.4rem; color:#888b8d; }
+.form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit{display:block;margin-right:0.8rem;width:6.8rem;height:3.2rem;line-height:3.2rem;border-radius:0.4rem;background-color:#53565a;color: #fff;font-weight:500;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit:disabled{background-color:#ddd;}
+
+.form-comp-wrap ul.form-info-wrap li dl.type-between{height:100%; }
+.form-comp-wrap ul.form-info-wrap li dl.type-between.bg-gray{background:#ddd;}
+.form-comp-wrap ul.form-info-wrap li dl.type-between > *{line-height:4.8rem; padding:0 1.6rem;}
+
+.form-comp-wrap ul.form-info-wrap li .radio-box .radio-tab label{border:0; line-height:4.6rem; border-radius:0.2rem; }
+.form-comp-wrap ul.form-info-wrap li .radio-box .radio-tab input:checked + label{border:1px solid #222;}
+.form-comp-wrap ul.form-info-wrap li .radio-box .radio-tab + .radio-tab label{border-left:1px solid #ddd;}
+
+.form-comp-wrap ul.form-info-wrap li .btn-wrap{width:100%; height:100%;}
+.form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between{position:relative; display:flex; justify-content:space-between; align-items:center; padding:1.4rem 1.6rem; padding-right:4rem; text-align:left; color:#888b8d; font-family:"NotoSansKR";font-size:1.4rem; width:100%; height:100%; }
+.form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between:disabled{background-color:#faf9f8;}
+.form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between .tit{}
+.form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between .txt{color:#53565a; font-family:"RenaultSamsungMotors"; font-weight:700; font-size:1.4rem;}
+.form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between:after{position:absolute; top:50%; margin-top:-1.2rem; right:0.8rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_arrow_pack.png) no-repeat 0 -1.8rem; background-size:2rem; }
+
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap{display:flex; justify-content:space-between; align-items:center; width:100%; height:100%;}
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap .tit{padding-left:1.6rem; line-height:2.2rem; font-size:1.4rem; color:#888b8d; }
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap .form-select{display:inline-block; width:auto; height:100%;}
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap .form-select select{direction:rtl; padding-right:3.6rem; height:100%; background-position:calc(100% - 0.8rem) center; background-size:2rem;}
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap .form-select.vertical{display:flex;align-items:center; padding-right:1.6rem;}
+.form-comp-wrap ul.form-info-wrap li .info-select-wrap .form-select.vertical label{margin-left:1.6rem; padding-left:2.4rem;}
+.form-comp-wrap ul.form-info-wrap li.block{height:8.4rem;}
+.form-comp-wrap ul.form-info-wrap li.block .info-select-wrap{display:block;}
+.form-comp-wrap ul.form-info-wrap li.block .info-select-wrap .tit{display:block;padding:1.4rem 1.6rem;}
+.form-comp-wrap ul.form-info-wrap li.block .info-select-wrap .form-select.vertical{display:block;}
+
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select{display:inline-block; width:calc(100% - 9rem); height:100%;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input{width:100%; height:100%; border:0; text-align:right; padding-right:1.6rem; background-color:transparent;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select select{padding-right:3.6rem; line-height:normal; height:100%; background-position:3rem center; }
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.won{display:flex;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.won input{padding-right:0;}
+.form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.won .unit{padding-right:1.6rem;line-height:4.6rem;color:#53565a;}
+
+.form-comp-wrap ul.form-info-wrap li .forms-wrap{display:flex; justify-content: space-between; align-items: center; width:100%; height:100%;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select{position:relative; min-width:8.4rem; width:30%; height:100%; overflow:hidden;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select.type-bar{border-right:1px solid #ddd;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select + .form-select{width:calc(100% - 9rem);}
+
+.form-comp-wrap ul.form-info-wrap li .forms-wrap.w-reverse .form-select{width:calc(100% - 9rem);}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap.w-reverse .form-select + .form-select{width:30%;}
+
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select input{padding:0 1.6rem; width:100%; height:100%; border:0; text-align:right;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select input.pr-80{padding-right:8rem;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .txt{padding-left:1.6rem; line-height:4.6rem; font-weight:400; font-size:1.4rem; color:#888b8d; }
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .btn-search{position:absolute; top:1.1rem; right:0.8rem; display:block; width:2.4rem; height:2.4rem; overflow:hidden; text-indent:-9999px; font-size:0; background:url(../images/common/icon_search.png) no-repeat center; background-size:100%;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .btn-submit{position:absolute; top:0.8rem; right:0.8rem; display:block; width:6.8rem; height:3.2rem; line-height:3.2rem; border-radius:0.4rem; background-color:#53565a; color:#fff; font-weight:500; }
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .btn-submit:disabled{background-color:#ddd;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select select{display:inline-block; width:100%; height:100%; padding-left:1.6rem; background-position:calc(100% - 1rem) center; background-size:2rem;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .time{position:absolute; top:50%; right:9rem; margin-top:-1.1rem; font-size:1.2rem; color:#d32f2f; line-height:2.2rem;}
+
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select input.show-selected{padding-right:10rem;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select .selected-txt{display:none;position:absolute; top:50%; right:1.6rem; margin-top:-1.3rem; line-height:2.2rem; font-size:1.4rem; color:#53565a;}
+.form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select input.show-selected + .selected-txt{display:block;}
+
+.form-comp-wrap ul.form-info-wrap li .only-select-wrap {height:100%;}
+.form-comp-wrap ul.form-info-wrap li .only-select-wrap .form-select{display:flex; width:100%; height:100%; }
+.form-comp-wrap ul.form-info-wrap li .only-select-wrap .form-select select{padding:0 1.6rem; width:100%; background-position:calc(100% - 0.8rem) center; background-size:2rem; font-family:"NotoSansKR"; color:#888b8d; font-weight:400; }
+.form-comp-wrap ul.form-info-wrap li .only-select-wrap .form-select select:disabled{background-color:#eee ;}
+
+.form-comp-wrap ul.form-info-wrap li.bg-gray input:disabled,
+.form-comp-wrap ul.form-info-wrap li.bg-gray select:disabled,
+.form-comp-wrap ul.form-info-wrap li.bg-gray button:disabled{background-color:#faf9f8 !important; }
+
+.form-comp-wrap p.txt-icon{margin-top:0.8rem;}
+
+/* WA_CL_CR_0020 */
+.WA_CL_CR_0020 .txt-icon{margin-top:0.8rem;}
+/* WA_CL_CR_0030 */
+.WA_CL_CR_0030.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0030 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+/* WA_CL_CR_0040 */
+.WA_CL_CR_0040.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0040 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+/* WA_CL_CR_0050 */
+.WA_CL_CR_0050.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0050 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+.WA_CL_CR_0050 .list-bullet ul{margin-top:0.4rem;}
+.WA_CL_CR_0050 .list-bullet ul li{margin-top:0.4rem;}
+/* WA_CL_CR_0055 */
+.WA_CL_CR_0055.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+/* WA_CL_CR_0057 */
+.WA_CL_CR_0057 .tit-txt-wrap{margin-top:1.6rem;}
+.WA_CL_CR_0057 .tit-txt-wrap h4{color:#53565a;}
+.WA_CL_CR_0057 .tit-txt-wrap p{color:#53565a;}
+
+/* WA_CL_CR_0210 */
+.WA_CL_CR_0210 .box-gray-full > *{line-height:2.2rem; font-size:1.4rem; color:#888b8d; }
+.WA_CL_CR_0210 .box-gray-full > p{margin-top:0.8rem;}
+.WA_CL_CR_0210 .comp-wrap{padding:1.6rem 0;}
+.WA_CL_CR_0210 .comp-wrap h4.title-small{line-height:2.6rem; color:#53565a; font-weight:700;}
+.WA_CL_CR_0210 .comp-wrap h5.tit{margin-top:1.6rem; line-height:2.2rem; color:#888b8d; font-weight:700;}
+.WA_CL_CR_0210 .comp-wrap .txt{margin-top:0.8rem; line-height:2.2rem; color:#888b8d;}
+.WA_CL_CR_0210 .comp-wrap .list-bullet{margin-top:0.8rem;}
+.WA_CL_CR_0210 .comp-wrap .list-bullet ul li{line-height:2.2rem;}
+.WA_CL_CR_0210 .comp-wrap .last-txt{margin-top:1.6rem; font-weight:700;}
+
+
+
+/* WA_CL_CR_0110 */
+.WA_CL_CR_0010 .box-car-info{margin-top:8.8rem;}
+.WA_CL_CR_0010 .title-medium{margin-top:1rem; text-align:center;}
+.WA_CL_CR_0010 .car-info-wrap{padding:2.4rem; padding-top:4.6rem; border-top-left-radius:1.6rem; border-top-right-radius:1.6rem; background-color:#faf9f8;}
+.WA_CL_CR_0010 .txt-icon{margin-top:1.6rem;}
+
+/* WA_CL_CR_0180 */
+.WA_CL_CR_0180 .box-car-info{margin-top:8.8rem;}
+.WA_CL_CR_0180 .title-medium{margin-top:1rem; text-align:center;}
+.WA_CL_CR_0180 .car-info-wrap{padding:2.4rem; padding-top:4.6rem; border-top-left-radius:1.6rem; border-top-right-radius:1.6rem; background-color:#faf9f8;}
+.WA_CL_CR_0180 .txt-icon{margin-top:1.6rem;}
+
+/*  ============== 대출신청 ==================== */
+/* A_CL_LO_0050 */
+.A_CL_LO_0050{}
+.A_CL_LO_0050 .content-body > section{margin-top:2.4rem;}
+.A_CL_LO_0050 .radio-wrap{margin-top:1.6rem !important;}
+.A_CL_LO_0050 .form-radio + .form-radio{margin-left:2rem;}
+.A_CL_LO_0050 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0050 .section-01 .form-comp-wrap{margin-top:-1px;}
+.A_CL_LO_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit{width:auto;min-width:6.2rem;}
+.A_CL_LO_0050 .section-03 .dark-gray{margin-top:1.6rem;font-weight:700;}
+.A_CL_LO_0050 .section-03 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0050 .section-03 .list-bullet{margin-top:0.8rem;}
+.A_CL_LO_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select{width:calc(100% - 12rem)}
+.A_CL_LO_0050 .section-03-2 h4{margin-top:1.6rem;}
+
+.A_CL_LO_0050 .section-05 input:read-only{background-color:#fff !important;}
+.A_CL_LO_0050 .section-05 input::placeholder{color:#888b8d !important;}
+.A_CL_LO_0050 .section-06 input:read-only{background-color:#fff !important;}
+.A_CL_LO_0050 .section-06 input::placeholder{color:#888b8d !important;}
+
+/* A_CL_LO_0052 */
+.A_CL_LO_0052 .section-02 .agree-list{border-top:1px solid #eee; padding-top:1rem; margin-top:1.6rem;}
+.A_CL_LO_0052 .section-02 .agree-list p.txt{padding:2rem 0; text-align:center; color:#bbbcbc; font-size:1.4rem; }
+
+/* A_CL_LO_0053 */
+.A_CL_LO_0053 .section-01 .form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit{width:auto;min-width:6.2rem;}
+.A_CL_LO_0053 .section-01 .dark-gray{margin-top:1.6rem;font-weight:700;}
+.A_CL_LO_0053 .section-01 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0053 .section-01 .list-bullet{margin-top:0.8rem;}
+
+/* A_CL_LO_0055 */
+.A_CL_LO_0055 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0055 .radio-wrap .form-radio + .form-radio{margin-left:1.6rem;}
+.A_CL_LO_0055 .form-comp-wrap{margin-top:1.6rem;}
+.A_CL_LO_0055 .hr-gray{margin-top:1.6rem !important;}
+.A_CL_LO_0055 .hr-gray.mt-24{margin-top:2.4rem !important;}
+.A_CL_LO_0055 .btn-area.content{margin-top:1.6rem;}
+.A_CL_LO_0055 .btn-area.content .btn-more span{padding-right:2rem; background-size:1.6rem; }
+.A_CL_LO_0055 .type-between.radio{margin-top:0.8rem;padding:1.6rem 0;}
+.A_CL_LO_0055 .type-between.radio li{position:relative;display:block;padding-bottom:4rem;}
+.A_CL_LO_0055 .type-between.radio li:after{content:'';clear:both;display:block;}
+.A_CL_LO_0055 .type-between.radio li .radio-wrap{margin:0 0 1.6rem 0;padding-bottom:1.6rem;border-bottom:1px solid #eee;}
+.A_CL_LO_0055 .type-between.radio li .tit-wrap{padding-right:5rem;}
+.A_CL_LO_0055 .type-between.radio li .txt-wrap{position:absolute;top:5.8rem;right:0;}
+
+.A_CL_LO_0055 .section-02 .type-btn{position:relative; }
+.A_CL_LO_0055 .section-02 .type-btn:before{content:'';display:block; width:calc(100% - 3.2rem); height:1px; background:#ddd; position:absolute; top:0; left:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-btn:after{content:'';display:block; width:calc(100% - 3.2rem); height:1px; background:#ddd; position:absolute; bottom:0; left:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-between.type-btn > li > button.btn-between{padding:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-btn .tit-wrap .tit{color:#53565a !important; font-weight:700;}
+
+.A_CL_LO_0055 .section-03 .fixed-address{font-size:1.4rem; color:#53565a; font-family:"RenaultSamsungMotors"; font-weight:700;}
+
+.A_CL_LO_0055 .section-04 .txt-wrap .txt{font-size:1.4rem;}
+
+
+/* A_CL_LO_0056 A_CL_LO_0056 팝업체크리스트 페이지*/
+/* popup-check-list */
+.popup-check-list{}
+.popup-check-list li{width:100%; line-height:5.6rem; border-bottom:1px solid #eee; }
+.popup-check-list li label{}
+.popup-check-list li label .text{font-family:"NotoSansKR"; font-weight:400;}
+
+/* A_CL_LO_1061 */
+.A_CL_LO_1061 .txt-icon{margin-top:0.8rem;}
+
+
+/* 인증센터 시작 */
+
+/* .A_CL_MY_0090 */
+.A_CL_MY_0090 {}
+.A_CL_MY_0090 .section-02 .title-small{margin:0 -1.6rem; padding:0 1.6rem 1.6rem 1.6rem; font-size:1.4rem;border-bottom:1px solid #eee; color:#53565a; font-weight:500;}
+.A_CL_MY_0090 .section-02 .title-small span{font-weight:700;}
+
+/* A_CL_MY_0090 */
+.A_CL_MY_0090 .link-status-list{margin-top:0 !important;}
+.A_CL_MY_0090 .link-status-list ul li a .txt-wrap p + p{margin-top:0.2rem;}
+.A_CL_MY_0090 .link-status-list ul li a .txt-wrap p.name span{font-weight:700;}
+
+/* A_CL_MY_0100 */
+.A_CL_MY_0100{}
+.A_CL_MY_0100 .section-01{}
+.A_CL_MY_0100 .section-01 .type-between {margin-top:1.6rem !important;}
+.A_CL_MY_0100 .section-01 .type-between li{padding-bottom:0.8rem;}
+
+/* WA_CL_CS_0030 */
+.WA_CL_CS_0030{}
+.WA_CL_CS_0030 .section-01 {margin-top:0.8rem;}
+.WA_CL_CS_0030 .section-02 .radio-wrap{margin-top:1.6rem !important;}
+.WA_CL_CS_0030 .section-02 .form-radio + .form-radio{margin-left:1.6rem; }
+.WA_CL_CS_0030 .section-02 .form-comp-wrap {margin-top:1.6rem;}
+.WA_CL_CS_0030 .section-02 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input{}
+.WA_CL_CS_0030 .section-03 .board-wrap .txt-wrap{height:21.6rem;}
+
+/* WA_CL_CS_0050 */
+.WA_CL_CS_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input:disabled{background-color:#fff !important;}
+.WA_CL_CS_0050 .section-04 .board-wrap .txt-wrap{height:21.6rem;}
+
+/* 고객센터 */
+.WA_CL_CU_0020 .list-bullet ul li{margin-top:0.4rem;}
+
+/* WA_CL_CU_0070 */
+.WA_CL_CU_0070 .tit-txt-wrap h4{font-size:1.6rem !important; color:#53565a;}
+.WA_CL_CU_0070 .link-status-list{margin-top:1.6rem !important;}
+.WA_CL_CU_0070 .link-status-list ul li:last-child{border-bottom:0;}
+.WA_CL_CU_0070 .link-status-list ul li a{padding-right:7rem;}
+
+/* WA_CL_CU_0120 */
+.WA_CL_CU_0120 .tit-txt-wrap h4{font-size:1.6rem !important; }
+.WA_CL_CU_0120 .link-status-list{margin-top:1.6rem !important;}
+.WA_CL_CU_0120 .link-status-list ul li:last-child{border-bottom:0;}
+.WA_CL_CU_0120 .link-status-list ul li a{padding-right:7rem;}
+
+/* WA_CL_CU_0130 */
+/* bg_beige */
+.tos-wrap{margin:0 -1.6rem; margin-top:-1.6rem; margin-bottom:-1.6rem; padding:0 1.6rem; background-color:#faf9f8;}
+.tos-wrap .tit-wrap{padding:2.4rem 0 1.6rem 0; border-bottom:1px solid #ddd;}
+.tos-wrap .tit-wrap .tit{line-height:2.4rem; font-size:1.6rem; font-weight:700; color:#222;}
+.tos-wrap .txt-wrap{padding:0 0 1.6rem 0;}
+.tos-wrap .txt-wrap .tit{margin-top:1.6rem; font-size:1.2rem; font-weight:700; color:#888b8d; }
+.tos-wrap .txt-wrap .txt {margin-top:0.8rem; line-height:2rem; font-size:1.2rem; font-weight:400; color:#888b8d;}
+.tos-wrap .txt-wrap .list-bullet{}
+.tos-wrap .txt-wrap .list-bullet.small ul li{line-height:2rem;}
+.tos-wrap .txt-wrap .list-bullet.small ul li:before{top:1.1rem;}
+.tos-wrap .txt-wrap p.hyphen{position:relative; margin-top:0.5rem; padding-left:1.2rem; line-height:1.8rem; font-size:1.2rem; color:#888b8d;}
+.tos-wrap .txt-wrap p.hyphen:before{position:absolute; top:9px; left:3px; content:'';display:block;  width:0.5rem;height:1px; background-color: #888b8d;}
+.tos-wrap .txt-wrap .tos-num-list{margin-top:0.5rem; }
+.tos-wrap .txt-wrap .tos-num-list p{position:relative; margin:0.2rem 0; padding-left:2.5rem; line-height:1.6rem; font-size:1.2rem; color:#888b8d;}
+.tos-wrap .txt-wrap .tos-num-list p .num{position:absolute; top:2px; left:10px; display:inline-block; width:1rem; line-height:1rem; text-align:center; text-indent:-0.5px; border-radius:50%; border:1px solid #888b8d; font-size:8px; }
+
+.tos-wrap .tos-link-wrap{padding-left:0.6rem;}
+.tos-wrap .tos-link-wrap .tit-link{margin-top: 1.6rem;font-size: 1.2rem;font-weight: 400;color: #888b8d;}
+.tos-wrap .tos-link-wrap .link-wrap{margin-top:0.3rem;}
+.tos-wrap .tos-link-wrap .link-wrap a{font-size: 1.2rem;font-weight: 400;color: #888b8d; text-decoration: underline;}
+
+.tos-wrap .hr-gray{border-bottom:1px solid #ddd;}
+
+.tos-wrap .txt-pre{margin-top:-1rem; line-height:2rem; font-size:1.2rem; font-weight:400; color:#888b8d; white-space:pre-line}
+
+.tos-wrap .tos-table{margin-top:2rem; width:100%; overflow-x:auto; }
+.tos-wrap .tos-table table{min-width:76rem; width:100%; height:100%;  border-collapse: collapse; }
+.tos-wrap .tos-table table th,.tos-wrap .tos-table table td{padding:0.5rem; border:1px solid #ddd; font-size:1.2rem; color:#888b8d;}
+.tos-wrap .tos-table table th{font-weight:700;}
+.tos-wrap .tos-table table th:first-child{border-left:0;}
+.tos-wrap .tos-table table th:last-child{border-left:0;}
+.tos-wrap .tos-table table td{font-weight:400;}
+.tos-wrap .tos-table table td:first-child{border-left:0;}
+.tos-wrap .tos-table table td:last-child{border-left:0;}
+.tos-wrap .tos-table table thead th{text-align:center !important; background-color:#eee;}
+.tos-wrap .tos-table table tbody tr:first-child > td:first-child{text-align:center;}
+
+/* WA_CL_CU_0250 */
+.WA_CL_CU_0250{}
+.WA_CL_CU_0250 .tos-wrap .tos-table{margin-top:0rem; width:100%; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table{min-width:auto; width:100%; height:100%;  border-collapse: collapse; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table th,.tos-wrap .tos-table table td{padding:0.5rem 0.2rem; border:1px solid #ddd; font-size:1.2rem; color:#888b8d;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th{font-weight:700;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th:first-child{border-left:0; min-width:6rem; text-align:center;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th:last-child{border-right:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table td{padding:0.5rem; font-weight:400; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table td:first-child{border-left:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table td:last-child{border-right:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table thead th{text-align:center !important;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table tbody tr:first-child > td:first-child{text-align:center;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table tbody tr th{font-weight:400;}
+
+
+/* WA_CL_FQ_0010 */
+.WA_CL_FQ_0010{}
+.WA_CL_FQ_0010 .section-01 {}
+.WA_CL_FQ_0010 .section-01 .top-menu{padding:0 1.6rem;margin-top:1.6rem;}
+.WA_CL_FQ_0010 .section-01 .top-menu li{}
+.WA_CL_FQ_0010 .section-01 .top-menu li a{display:block;}
+.WA_CL_FQ_0010 .section-01 .form-comp-wrap {}
+.WA_CL_FQ_0010 .section-01 .accordion{margin-top:1.6rem;}
+.WA_CL_FQ_0010 .section-01 .btn-area.content{margin-top:1rem;}
+.WA_CL_FQ_0010 .complete-box{padding:12rem 0 5rem;}
+.WA_CL_FQ_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.WA_CL_FQ_0010 .complete-box .icon img{width:100%;}
+.WA_CL_FQ_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+
+/* WA_CL_MO_0010 */
+.financial-condition-main {position:relative; margin:-1.6rem -1.6rem 0 -1.6rem; padding-top:2.4rem; padding-bottom:10rem; text-align:center; background-color:#ffcc33; font-family:"RenaultSamsungMotors";}
+.financial-condition-main .date{display:inline-block; margin:0 auto; padding:0.6rem 1.6rem; text-align:center; border-bottom-left-radius:1.4rem; border-bottom-right-radius:1.4rem; background:#333; color:#fff; font-size:1.4rem; font-family:"RenaultSamsungMotors"; font-weight:400; }
+.financial-condition-main .tit {margin-top:2rem; line-height:3.8rem; font-size:2.2rem; font-weight:700; color:#222;}
+.financial-condition-main .txt {line-height:2.4rem; font-size:1.6rem; color:#222;}
+.financial-condition-main .img-wrap {position:absolute; bottom:-10rem; left:50%; margin-left:-18rem; width:36rem; height:auto;}
+.financial-condition-main .img-wrap img{width:100%;}
+.financial-condition-sub {margin:0 -1.6rem; padding-top:8rem;}
+.financial-condition-sub .car-condition-list{display:flex; justify-content:space-between; flex-wrap:wrap;}
+.financial-condition-sub .car-condition-list li{padding-top:1.6rem; width:50%; text-align:center;}
+.financial-condition-sub .car-condition-list li .img-wrap{margin-bottom:-1.6rem; width:18rem; height:auto;}
+.financial-condition-sub .car-condition-list li .img-wrap img{width:100%;}
+.financial-condition-sub .car-condition-list li h4{font-size:1.6rem; line-height:2.2rem; color:#222; font-family:"RenaultSamsungMotors"; font-weight:700;}
+.financial-condition-sub .car-condition-list li p{font-size:1.4rem; line-height:1.8rem; color:#999;}
+.financial-condition-sub .car-condition-list li .tag{margin-top:0.4rem;padding:0 1rem;}
+.financial-condition-sub .car-condition-list li .tag.border-gray{border-color:#888b8d;}
+
+.WA_CL_MO_0010 .txt-icon{margin-top:2.4rem;}
+.WA_CL_MO_0010 .section-02 .tos-wrap{padding:1.6rem 1.6rem 4rem 1.6rem;}
+
+/* .WA_CL_MA_0010 */
+.WA_CL_MA_0010 .content-body{padding:0;}
+
+.WA_CL_MA_0010 .swiper-pagination{position:absolute; top:2.2rem; right:2.4rem; }
+.WA_CL_MA_0010 .swiper-pagination .swiper-pagination-bullet{margin-left:0.8rem; width:0.8rem; height:0.8rem; border-radius:50%; background-color:#fff; opacity:1;}
+.WA_CL_MA_0010 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+
+.WA_CL_MA_0010 .main-banner{position:relative; width:100%;}
+
+/*
+.WA_CL_MA_0010 .main-banner .car-data-list{position:absolute; top:2.4rem; left:2.4rem;}
+.WA_CL_MA_0010 .main-banner .car-data-list li{color:#000;}
+.WA_CL_MA_0010 .main-banner .car-data-list.color-white li{color:#fff;}
+.WA_CL_MA_0010 .main-banner .car-data-list.color-white li.installment span + span:before{background-color:#fff;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.slogan{font-family:"RenaultSamsungMotors"; font-size:1.4rem; line-height:1.5rem;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.name{line-height:5rem; font-size:5rem; font-weight:700;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.installment{padding-top:1.2rem; font-size:1.4rem; line-height:2rem; }
+.WA_CL_MA_0010 .main-banner .car-data-list li.installment .tit{padding-right:1rem; font-weight:400;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.installment .txt{padding:0 1rem; font-weight:500;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.installment span{position:relative;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.installment span + span:before{content:'';display:block; width:1px; height:0.8rem; background:#000; position:absolute; top:50%; margin-top:-0.4rem; left:0;}
+.WA_CL_MA_0010 .main-banner .car-data-list li.price{padding-top:0.6rem; font-size:2.2rem; font-weight:700; line-height:2.5rem; font-family:"RenaultSamsungMotors";}
+*/
+
+.WA_CL_MA_0010 .main-banner .txt-img-wrap{position:absolute; top:2.4rem; left:2.4rem;  height:5rem; }
+.WA_CL_MA_0010 .main-banner .txt-img-wrap img{height:100%;}
+
+.WA_CL_MA_0010 .main-banner .main-img-wrap{width:100%;}
+.WA_CL_MA_0010 .main-banner .main-img-wrap img{width:100%;}
+
+.WA_CL_MA_0010 .main-banner .main-btn-wrap{position:absolute; top:10rem; left:2.4rem; min-width:16rem; height:4rem;  }
+.WA_CL_MA_0010 .main-banner .main-btn-wrap button{position:relative; display:block; padding-left:1.6rem; padding-right:3rem; text-align:left; width:100%; height:100%; background-color:#ffcc33; border-radius:0.3rem; font-size:1.4rem; font-weight:500;}
+.WA_CL_MA_0010 .main-banner .main-btn-wrap button:after{position:absolute; top:50%; margin-top:-0.8rem; right:1.6rem; content:'';display:block; width:1.6rem; height:1.6rem; background: url(../images/common/icon_arrow_right_small.png) no-repeat center/contain;}
+
+.WA_CL_MA_0010 .main-comp{position:relative;padding:4rem 0 0rem 0; box-shadow:0rem -3rem 9rem -6rem rgba(0,0,0,0.2) inset;}
+.WA_CL_MA_0010 .main-comp .installment-wrap{z-index:100; position:absolute; top:-4rem; left:0; right:0; display:flex; margin:0 auto; padding:1.2rem 0.8rem; width:33rem; border-radius:1rem; overflow:hidden; background-color:#fff;box-shadow:0rem 1rem 3rem rgba(0,0,0,0.2);}
+.WA_CL_MA_0010 .main-comp .installment-wrap li{position:relative; width:50%; line-height:4rem;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li + li:after{position:absolute; top:50%; left:0; margin-top:-1.2rem; content:'';display:block; width:1px; height:2.4rem; background-color:#ddd; }
+.WA_CL_MA_0010 .main-comp .installment-wrap li:before{position:absolute; top:50%; margin-top:-1.6rem; left:3rem; content:'';display:block; width:3.2rem; height:3.2rem; background:url(../images/common/main/icon_newcar_installment.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li.list-2:before{background:url(../images/common/main/icon_usedcar_installment.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li a{display:block; padding-left:7rem; width:100%; height:100%; font-size:1.6rem; font-weight:700; color:#000;  }
+
+.WA_CL_MA_0010 .main-comp .recommand-wrap{position:relative; padding:1.6rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li{ padding:0.6rem 0; background:url(../images/common/main/img_main_benefit.png) no-repeat right center/15rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li.list-2{background:url(../images/common/main/img_main_recommend.png) no-repeat right center/15rem;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li + li{border-top:1px solid #ddd;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a{display:block; padding:1.4rem 0.8rem; width:100%; height:8rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a .tit{color:#555; font-size:1.8rem; line-height:2.6rem; font-weight:700;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a .txt{color:#555; font-size:1.8rem; line-height:2.6rem; }
+
+.WA_CL_MA_0010 .down-app-wrap{padding:1.2rem 1.6rem;  background-color: #bbbcbc; text-align:center;}
+.WA_CL_MA_0010 .down-app-wrap .tit{position:relative; display:inline-block; padding:0.8rem 0; padding-left:2rem;  width:auto; font-size:1.4rem; line-height:1.6rem; color:#222; font-family:"RenaultSamsungMotors";}
+.WA_CL_MA_0010 .down-app-wrap .tit:before{position:absolute; top:50%; margin-top:-2.2rem; left:-3rem; content:'';display:block; width:4.4rem; height:4.4rem; background:url(../images/common/main/app_icon.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .down-app-wrap .tit a{font-size:1.4rem; line-height:1.6rem; color:#222; font-family:"RenaultSamsungMotors"; font-weight:700;}
+
+.WA_CL_MA_0010 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.WA_CL_MA_0010 .main-footer-wrap *{color:#888b8d;}
+
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+/* A_CL_MA_0021 */
+.A_CL_MA_0021 .text-center{margin-top:3.2rem;color:#53565a;text-align:center;}
+.A_CL_MA_0021 .txt-icon{margin-top:1.6rem;}
+.A_CL_MA_0021 .btn-area.content{margin-top:4rem;}
+.A_CL_MA_0021 .form-check{margin-top:1.6rem;}
+
+/* A_CL_MA_0030 */
+.A_CL_MA_0030 .title-small{padding-top:2.4rem; padding-bottom:5rem; text-align:center;}
+
+/* A_CL_MA_1020 */
+.A_CL_MA_1020 .type-between{margin-top:2rem;}
+.A_CL_MA_1020 .txt-icon{margin-top:2rem;}
+.A_CL_MA_1020 .txt-icon + .txt-icon{margin-top:0.8rem;}
+
+/* A_CL_MA_1030 */
+.A_CL_MA_1030 .txt-icon{margin-top:2rem;}
+.A_CL_MA_1030 .txt-icon + .txt-icon{margin-top:0.8rem;}
+
+/* W_OD_MA_0010 */
+.W_OD_MA_0010 .content-body{padding:0; background-color:#ffcc33;}
+.W_OD_MA_0010 .main-comp-wrap{padding-top:4rem; padding-left:2.4rem;}
+.W_OD_MA_0010 .main-comp-wrap img{width:7rem; height:auto;}
+.W_OD_MA_0010 .main-comp-wrap .user-txt{margin-top:1.6rem; line-height:2.4rem; font-family:"RenaultSamsungMotors"; font-size:1.8rem; color:#000; }
+.W_OD_MA_0010 .main-comp-wrap .service-tit{margin-top:6.4rem; line-height:4rem; font-size:3rem; font-family:"RenaultSamsungMotors"; color:#000;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap{margin-top:2.4rem; margin-bottom:4.5rem; width:100%;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li{width:100%; line-height:6.4rem; background:#fff; overflow:hidden; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; }
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li + li{margin-top:1.2rem;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a{position:relative; display:block; width:100%; height:100%; padding-left:5.6rem; font-size:1.6rem; font-weight:700; color:#000;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a:before{position:absolute; top:50%; margin-top:-1.2rem; left:2.4rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/main/icon_limit.png) no-repeat center/contain; }
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-2 a:before{background:url(../images/common/main/icon_education.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-3 a:before{background:url(../images/common/main/icon_sales.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a:after{position:absolute; top:50%; margin-top:-1.2rem; right:1.6rem; content:'';display:block;width:2.4rem;height:2.4rem; background:url(../images/common/common_icon_arrowright_small.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.W_OD_MA_0010 .main-footer-wrap *{color:#888b8d;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+/* W_OD_MA_0020 */
+.W_OD_MA_0020 .content-body{padding:0; background-color:#ffcc33;}
+.W_OD_MA_0020 .main-comp-wrap{padding-top:4rem; padding-left:2.4rem;}
+.W_OD_MA_0020 .main-comp-wrap img{width:7rem; height:auto;}
+.W_OD_MA_0020 .main-comp-wrap .user-txt{margin-top:1.6rem; line-height:2.4rem; font-family:"RenaultSamsungMotors"; font-size:1.8rem; color:#000; }
+.W_OD_MA_0020 .main-comp-wrap .service-tit{margin-top:6.4rem; line-height:4rem; font-size:3rem; font-family:"RenaultSamsungMotors"; color:#000;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap{margin-top:2.4rem; margin-bottom:4.5rem; width:100%;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li{width:100%; line-height:6.4rem; background:#fff; overflow:hidden; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; }
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li + li{margin-top:1.2rem;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a{position:relative; display:block; width:100%; height:100%; padding-left:5.6rem; font-size:1.6rem; font-weight:700; color:#000;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a:before{position:absolute; top:50%; margin-top:-1.2rem; left:2.4rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/main/icon_usedcar_estimate.png) no-repeat center/contain; }
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-2 a:before{background:url(../images/common/main/icon_limit_agree.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-3 a:before{background:url(../images/common/main/icon_noticelist.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a:after{position:absolute; top:50%; margin-top:-1.2rem; right:1.6rem; content:'';display:block;width:2.4rem;height:2.4rem; background:url(../images/common/common_icon_arrowright_small.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.W_OD_MA_0020 .main-footer-wrap *{color:#888b8d;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+
+
+/* A_CL_IN_0030 */
+.A_CL_IN_0030 .title-big{font-size:3rem; line-height:3.8rem; font-family:"RenaultSamsungMotors"; color:#222; }
+.A_CL_IN_0030 .slide-comp .img-wrap{margin:3.2rem 0 0 0;}
+.A_CL_IN_0030 .swiper-pagination{bottom:0rem; left:0; right:0; }
+.A_CL_IN_0030 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.A_CL_IN_0030 .swiper-pagination .swiper-pagination-bullet-active{width:1.8rem; border-radius:1rem; background-color:#ffcc33; opacity:1;}
+
+/* A_CL_IN_0070 */
+.A_CL_IN_0070{}
+.A_CL_IN_0070 .complete-box{padding-bottom:0;}
+.A_CL_IN_0070 .text{padding:1.6rem; border:1px solid #ddd; font-size:1.4rem; font-weight:700; text-align:left; word-break:keep-all;  }
+.A_CL_IN_0070 .txt-info{margin-top:1rem; text-align:left;}
+.A_CL_IN_0070 .bg-gray{margin:0 -1.6rem; margin-top:2.4rem; margin-bottom:-1.6rem; padding:1.6rem;}
+.A_CL_IN_0070 .bg-gray .title-small{text-align:left; font-size:1.4rem; color:#53565a; }
+.A_CL_IN_0070 .bg-gray .text-caption{text-align:left;}
+
+/* =================== ODS START ==================== */
+
+/* W_OD_LO_0010 */
+.W_OD_LO_0010_A{position: fixed;width: 100%;max-width: 768px;top: 0;z-index: 1001;}
+/* login-wrap */
+.login-dimmed .login-box{width:100%; height:100%; min-height:56rem;margin-top:19.3rem;}
+.login-dimmed .login-wrap{text-align:center; width:100%; }
+.login-dimmed .login-wrap .title-login{color:#222; font-size:3.4rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:700; }
+.login-dimmed .login-wrap .txt-login{color:#bbbcbc; font-size:1.4rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:400;}
+.login-dimmed .login-wrap .subtitle-login{color:#888b8d; font-size:2.2rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:400;}
+.login-dimmed .login-wrap .img-wrap{margin:0 auto; margin-top:3.2rem; width:100%;}
+.login-dimmed .login-wrap .img-wrap img{width:100%;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap{margin-top:3.2rem;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap input{text-align:left !important;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap input::placeholder{font-family:"RenaultSamsungMotors"; font-weight:400;}
+
+.login-dimmed .login-wrap .check-wrap{margin-top:1.6rem; text-align:left;}
+.login-dimmed .login-wrap .check-wrap .text{font-family:"NotoSansKR"; font-weight:400; font-size:1.4rem;}
+.login-dimmed .login-wrap .btn-area{margin-top:4rem;}
+.login-dimmed .login-wrap .btn-area button{border-radius:0.2rem;}
+.login-dimmed .login-wrap .user-information{margin-top:2.4rem;display:flex; justify-content:center; flex-wrap:nowrap;}
+.login-dimmed .login-wrap .user-information li{position:relative;}
+.login-dimmed .login-wrap .user-information li + li:before{position:absolute; top:50%; left:0; margin-top:-0.6rem; content:'';display:block;width:1px; height:1.2rem; background:#ddd; }
+.login-dimmed .login-wrap .user-information li a{display:block; padding:0 0.8rem;  width:100%; height:100%; color:#999; font-size:1.4rem; line-height:1.8rem; font-weight:400;}
+
+.W_OD_LO_0010_A .login-bg{position: absolute;top:0;left:0;width:100%;z-index: -1;}
+.W_OD_LO_0010_A .login-bg > div{width:100%;}
+.W_OD_LO_0010_A .login-bg > div img{width:100%;}
+.W_OD_LO_0010_A .login-bg .bg-round{position:absolute;top:19.3rem;left:1.6rem;width:calc(100% - 3.2rem);height:19.6rem;background-color:#fff;border-top-left-radius:1.6rem;border-top-right-radius:1.6rem;z-index: 2;box-shadow: 0px 0px 24px rgba(0,0,0,0.2);}
+.W_OD_LO_0010_A .login-bg .banner{position: relative;}
+.W_OD_LO_0010_A .login-bg .banner .shadow1{position: absolute;bottom:0;width:100%;}
+.W_OD_LO_0010_A .login-bg .shadow2{position: absolute;top:25.6rem;z-index: 3;}
+.W_OD_LO_0010_A .title-wrap{height:19.6rem;display:flex;align-items: center;}
+.W_OD_LO_0010_A .title-wrap > div{margin:0 auto;}
+.W_OD_LO_0010_A .title-wrap > div > *{text-align: center;}
+.W_OD_LO_0010_A .form-comp-wrap{margin-top:-5rem;}
+.W_OD_LO_0010_A .login-dimmed .login-wrap .img-wrap{display: none;}
+
+.W_OD_LO_0010_B{position: absolute; width: 100%;max-width: 768px;top:-4.8rem;z-index: 1001;}
+.W_OD_LO_0010_B .login-bg{display: none;}
+.W_OD_LO_0010_B .login-dimmed .login-box{margin-top:3rem;}
+.W_OD_LO_0010_B .login-dimmed .login-wrap .img-wrap{width:calc(100% + 3.2rem);margin-left:-1.6rem;}
+
+@media screen and (min-width: 768px){
+    .W_OD_LO_0010_A{position: relative;width: 100%;margin-top:-4.8rem;}
+    .W_OD_LO_0010_A .login-bg .bg-round{top:35.3rem;}
+    .W_OD_LO_0010_A .login-dimmed .login-box{margin-top:35.3rem;}
+
+    .W_OD_LO_0010_B{position: relative;width: 100%;}
+}
+
+/* .W_OD_LO_0015 */
+.W_OD_LO_0015 .section-01 .text{margin:1.6rem 0; text-align:center; font-size:1.6rem; line-height:2.4rem; color:#53565a; }
+
+/* .W_OD_LO_0017 */
+.W_OD_LO_0017 .section-01 .text{margin:1.6rem 0; text-align:center; font-size:1.6rem; line-height:2.4rem; color:#53565a; }
+
+
+/* W_OD_CO_0010 */
+.W_OD_CO_0010 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CO_0010 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CO_0010 .title-small strong{font-weight:700;}
+.W_OD_CO_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CO_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CO_0010 .complete-box .icon img{width:3.2rem;}
+
+/* W_OD_CO_0020 */
+.W_OD_CO_0020 section{position:relative; margin-top:2.4rem !important; padding-bottom:1.6rem; border-bottom:1px solid #ddd;}
+.W_OD_CO_0020 section:last-child{border-bottom:0;}
+.W_OD_CO_0020 .title-small{margin-bottom:2.4rem !important;}
+.W_OD_CO_0020 .type-between li{padding-bottom:0.8rem;}
+
+/* W_OD_CE_0010 */
+.W_OD_CE_0010 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CE_0010 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CE_0010 .title-small strong{font-weight:700;}
+.W_OD_CE_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CE_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CE_0010 .complete-box .icon img{width:3.2rem;}
+
+/* W_OD_CE_0020 */
+.W_OD_CE_0020 .board-wrap .txt-wrap{height:14rem;}
+.W_OD_CE_0020 .section-02 dl.type-between{margin-top:0.8rem;}
+.W_OD_CE_0020 .section-01 .type-between li{padding-bottom:1.2rem;}
+
+/* W_OD_CE_0030 */
+.W_OD_CE_0030 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CE_0030 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CE_0030 .title-small strong{font-weight:700;}
+.W_OD_CE_0030 .complete-box.error .icon img{width:3.2rem;}
+
+/* W_OD_CE_0040 */
+.W_OD_CE_0040 .board-wrap .txt-wrap{height:14rem;}
+.W_OD_CE_0040 .section-02 dl.type-between{margin-top:0.8rem;}
+.W_OD_CE_0040 .section-01 .type-between li{padding-bottom:1.2rem;}
+
+/* W_OD_MY_0010 */
+.W_OD_MY_0010 section{position:relative; margin-top:2.4rem !important; padding-bottom:1.6rem; border-bottom:1px solid #ddd;}
+.W_OD_MY_0010 section:last-child{border-bottom:0;}
+.W_OD_MY_0010 .title-small{margin-bottom:2.4rem !important;}
+.W_OD_MY_0010 .type-between li{padding-bottom:0.8rem;}
+
+/* W_OD_MY_0020 */
+.W_OD_MY_0020 .section-01 input:disabled{background-color:transparent !important;}
+
+/* W_OD_MY_0025 */
+.W_OD_MY_0025 .form-wrap.error .form-box input::placeholder {color: #53565a; font-weight: 700; font-size: 1.4rem; }
+.W_OD_MY_0025 .mt-32 {margin-top: 3.2rem;}
+.W_OD_MY_0025 .form-wrap + .form-wrap {margin-top: 2.4rem;}
+.W_OD_MY_0025 .txt-icon.txt-info{margin-top:1.6rem;}
+
+
+

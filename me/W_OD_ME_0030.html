@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>샘플페이지</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header"></div>
+		<!-- // header -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content W_OD_ME_0030 btn-area-fixed">
+
+				<!-- content-header -->
+				<div class="content-header"></div>
+				<!-- // content-header -->
+
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+						<h3 class="title-small">가입방법 선택</h3><!--2020-10-28 문구수정-->
+						<ul class="radio-list">
+							<li>
+								<label class="form-radio">
+									<input type="radio" name="radio" id="radio1-1" checked="">
+									<span class="text">휴대폰 본인인증 <em>(즉시 가입)</em></span>
+								</label>
+							</li>
+							<li>
+								<label class="form-radio">
+									<input type="radio" name="radio" id="radio1-2">
+									<span class="text">인증 없이 가입 <em>(관리자 승인 필요)</em></span>
+								</label>
+							</li>
+						</ul>
+					</section>
+
+					<section class="section-02">
+						<h3 class="title-small">온라인서비스 및 회원약관</h3>
+						<div class="agree-list type2">
+							<!-- 2020-09-02 수정 -->
+							<ul>
+								<li>
+									<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+										<input type="checkbox">
+										<span class="text">개인(신용)정보 필수적 제3자 수집이용 동의</span><!--2020-10-28 문구수정-->
+									</label>
+									
+									<button type="button" class="btn-downup accordion-button">보기</button>
+									<ul class="accordion-content">
+										<li>
+											<label class="form-check">
+												<input type="checkbox">
+												<span class="text">개인(신용)정보 필수적 수집•이용</span><!--2020-10-28 문구수정-->
+											</label>
+											<a href="#" class="btn-link">약관보기</a>
+										</li>
+										<li>
+											<label class="form-check">
+												<input type="checkbox">
+												<span class="text">개인(신용)정보 필수적 제3자 제공</span><!--2020-10-28 문구수정-->
+											</label>
+											<a href="#" class="btn-link">약관보기</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+										<input type="checkbox">
+										<span class="text">준법 및 보안 관리</span>
+									</label>
+									<a href="#" class="btn-link">약관보기</a>
+								</li>
+								<li>
+									<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+										<input type="checkbox">
+										<span class="text">고객 신용정보 보안관리 동의</span>
+									</label>
+									<a href="#" class="btn-link">약관보기</a>
+								</li>
+							</ul>
+							<script>
+								new UIComponent.accordion({'button':$('.accordion-button'),'content':$('.accordion-content')});
+							</script>
+							<!-- // 2020-09-02 수정 -->
+
+							<p class="txt-icon txt-info">나이스평가정보에서 인증 받은 휴대폰 번호를 사용하고 있습니다.</p><!--2020-11-04 마크업추가-->
+						</div>
+					</section>
+				</div>
+				<!-- // content-body -->
+
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-yellow">다음</button>
+					</div>
+				</div>
+				<!-- // content-body -->
+
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

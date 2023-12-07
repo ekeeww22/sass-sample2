@@ -1,0 +1,285 @@
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	function popupClose(prop){
+		if(prop == undefined){
+			return null;
+		}
+		if(prop.type == "modal"){
+			$(".popup-modal").removeClass("on");
+			setTimeout(function(){
+				$(".popup-modal").html("");
+			},300);
+		}
+		else if(prop.type=="toast"){
+			$(".popup-toast").html("");
+			$(".popup-toast").removeClass("on");
+		}
+		$('body').removeClass("hidden");
+	}
+</script>
+<div class="dimmed"></div>
+
+<!-- popup-modal-content, popup size(full,slide,default), screen id, btn-area-fixed -->
+<div class="popup-modal-content slide A_CL_LO_0054 btn-area-fixed">
+	<!-- popup-modal-header -->
+	<div class="popup-modal-header">
+		<h3>은행선택</h3>
+		<button type="button" class="btn-popup-modal-close" onclick="javascript:popupClose({'type':'modal'});">팝업닫기</button>
+	</div>
+	<!-- // popup-modal-header -->
+
+	<!-- popup-modal-body -->
+	<div class="popup-modal-body">
+		<section class="section-01">
+            <!-- 2020-07-23 마크업 수정-->
+            <ul class="bank-list">
+                <li>
+                    <input type="radio" name="bank-radio" id="bank01" checked="">
+                    <label for="bank01">
+                        <span class="icon"><img src="../resources/images/common/bank/img_kdb.png" alt="KDB산업"></span>
+                        <span class="tit">KDB산업</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank02">
+                    <label for="bank02">
+                        <span class="icon"><img src="../resources/images/common/bank/img_ibk.png" alt="IBK기업"></span>
+                        <span class="tit">IBK기업</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank03">
+                    <label for="bank03">
+                        <span class="icon"><img src="../resources/images/common/bank/img_kbbank.png" alt="KB국민"></span>
+                        <span class="tit">KB국민</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank04">
+                    <label for="bank04">
+                        <span class="icon"><img src="../resources/images/common/bank/img_hana.png" alt="외환"></span>
+                        <span class="tit">외환</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank05">
+                    <label for="bank05">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shbank.png" alt="수협"></span>
+                        <span class="tit">수협</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank06">
+                    <label for="bank06">
+                        <span class="icon"><img src="../resources/images/common/bank/img_nhbank.png" alt="농협"></span>
+                        <span class="tit">농협중앙</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank07">
+                    <label for="bank07">
+                        <span class="icon"><img src="../resources/images/common/bank/img_nhbank.png" alt="농협"></span>
+                        <span class="tit">지역농협</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank08">
+                    <label for="bank08">
+                        <span class="icon"><img src="../resources/images/common/bank/img_woori.png" alt="우리"></span>
+                        <span class="tit">우리</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank09">
+                    <label for="bank09">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png" alt="(구)조흥"></span>
+                        <span class="tit">(구)조흥</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank10">
+                    <label for="bank10">
+                        <span class="icon"><img src="../resources/images/common/bank/img_scbank.png" alt="SC제일"></span>
+                        <span class="tit">SC제일</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank11">
+                    <label for="bank11">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png" alt="신한"></span>
+                        <span class="tit">(구)신한</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank12">
+                    <label for="bank12">
+                        <span class="icon"><img src="../resources/images/common/bank/img_citibk.png" alt="씨티"></span>
+                        <span class="tit">씨티</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank13">
+                    <label for="bank13">
+                        <span class="icon"><img src="../resources/images/common/bank/img_dgb.png" alt="대구"></span>
+                        <span class="tit">대구</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank14">
+                    <label for="bank14">
+                        <span class="icon"><img src="../resources/images/common/bank/img_bnkbank.png" alt="부산"></span>
+                        <span class="tit">부산</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank15">
+                    <label for="bank15">
+                        <span class="icon"><img src="../resources/images/common/bank/img_jbbank.png" alt="광주"></span>
+                        <span class="tit">광주</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank16">
+                    <label for="bank16">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png" alt="제주"></span>
+                        <span class="tit">제주</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank17">
+                    <label for="bank17">
+                        <span class="icon"><img src="../resources/images/common/bank/img_jbbank.png" alt="전북"></span>
+                        <span class="tit">전북</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank18">
+                    <label for="bank18">
+                        <span class="icon"><img src="../resources/images/common/bank/img_bnkbank.png" alt="경남"></span>
+                        <span class="tit">경남</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank19">
+                    <label for="bank19">
+                        <span class="icon"><img src="../resources/images/common/bank/img_mgbank.png" alt="MG새마을금고"></span>
+                        <span class="tit">MG새마을금고</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank20">
+                    <label for="bank20">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shinhyup.png" alt="신협"></span>
+                        <span class="tit">신협</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank21">
+                    <label for="bank21">
+                        <span class="icon"><img src="../resources/images/common/bank/img_sbbank.png" alt="저축은행중앙회"></span>
+                        <span class="tit">저축은행중앙회</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank22">
+                    <label for="bank22">
+                        <span class="icon"><img src="../resources/images/common/bank/img_hsbc.png" alt="HSBC"></span>
+                        <span class="tit">HSBC</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank23">
+                    <label for="bank23">
+                        <span class="icon"><img src="../resources/images/common/bank/img_deutsch.png" alt="도이치"></span>
+                        <span class="tit">도이치</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank24">
+                    <label for="bank24">
+                        <span class="icon"><img src="../resources/images/common/bank/img_jpmogarn.png" alt="JP모건체이스"></span>
+                        <span class="tit">JP모건체이스</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank25">
+                    <label for="bank25">
+                        <span class="icon"><img src="../resources/images/common/bank/img_boabank.png" alt="BOA"></span>
+                        <span class="tit">BOA</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank26">
+                    <label for="bank26">
+                        <span class="icon"><img src="../resources/images/common/bank/img_chinabk.png" alt="중국공상"></span>
+                        <span class="tit">중국공상</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank27">
+                    <label for="bank27">
+                        <span class="icon"><img src="../resources/images/common/bank/img_sjbank.png" alt="산립조합중앙회"></span>
+                        <span class="tit">산립조합중앙회</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank28">
+                    <label for="bank28">
+                        <span class="icon"><img src="../resources/images/common/bank/img_postbank.png" alt="우체국"></span>
+                        <span class="tit">우체국</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank29">
+                    <label for="bank29">
+                        <span class="icon"><img src="../resources/images/common/bank/img_hana.png" alt="KEB하나"></span>
+                        <span class="tit">KEB하나</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank30">
+                    <label for="bank30">
+                        <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png" alt="신한"></span>
+                        <span class="tit">신한</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank31">
+                    <label for="bank31">
+                        <span class="icon"><img src="../resources/images/common/bank/img_kbank.png" alt="케이뱅크"></span>
+                        <span class="tit">케이뱅크</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank32">
+                    <label for="bank32">
+                        <span class="icon"><img src="../resources/images/common/bank/img_kakaobk.png" alt="카카오뱅크"></span>
+                        <span class="tit">카카오뱅크</span>
+                    </label>
+                </li>
+                <li>
+                    <input type="radio" name="bank-radio" id="bank33">
+                    <label for="bank33">
+                        <span class="icon"><img src="../resources/images/common/bank/img_ktfc.png" alt="금융결제원"></span>
+                        <span class="tit">금융결제원</span>
+                    </label>
+                </li>
+            </ul>
+            <!--// 2020-07-23 마크업 수정-->
+        </section>
+	</div>
+	<!-- // popup-modal-body -->
+
+	<!-- popup-modal-footer -->
+	<div class="popup-modal-footer">
+        <div class="btn-area">
+            <button type="button" class="btn-yellow" disabled>확인</button>
+        </div>
+	</div>
+	<!-- // popup-modal-footer -->
+</div>
+<!-- // popup-modal-content -->
+<script>
+	var body_height = $(".popup-modal-content").height();
+	$(".popup-modal-body").height(body_height);
+</script>

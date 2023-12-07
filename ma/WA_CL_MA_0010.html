@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>샘플페이지</title>
+    <link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+    <link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+    <link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+    <link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+    <link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+    <script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="../resources/libs/swiper/swiper.min.js"></script>
+    <script src="../resources/js/common.js"></script>
+    <script src="../resources/js/uicomponent.js"></script>
+    <script>
+        $(document).ready(function () {
+            /* 컨텐츠 영역 swiper 실행문 */
+            var swiper = new Swiper('.swiper-container', {
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                loop:'true',
+                //autoplay:{
+                //    delay:5000,
+                //},
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+        <!-- header -->
+        <div class="header">
+            <h2 class="main-title-font-life">Renault Finance</h2> <!--2020-10-15 클래스명[.main-title-font]=폰트명:RenaultSamsungMotors,[.main-title-font-life]=폰트명: RenaultLife  -->
+        </div>
+        <!-- // header -->
+
+        <!-- container -->
+        <div class="container">
+            <!-- content -->
+            <div class="content WA_CL_MA_0010 btn-area-fixed"><!--2020-10-14 클래스명추가 - app일 때 클래스명 [btn-area-fixed] 추가되어야함 -->
+
+                <!-- content-header -->
+                <div class="content-header"></div>
+                <!-- // content-header -->
+
+                <!-- content-body -->
+                <div class="content-body">
+                    <section class="section-01">
+                        <!--swiper-container-->
+                        <div class="swiper-container">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <div class="main-banner">
+
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="txt-img-wrap">
+                                            <img src="../resources/images/common/main/qm_6.png" alt="qm6">
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="main-btn-wrap">
+                                            <button class="btn-main btn">신차견적</button>
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+
+                                        <div class="main-img-wrap">
+                                            <img src="../resources/images/common/main/img_main_banner_2.png" alt="QM6">
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="main-banner">
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="txt-img-wrap">
+                                            <img src="../resources/images/common/main/xm_3.png" alt="xm3">
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+                                        
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="main-btn-wrap">
+                                            <button class="btn-main btn">이달의 금융조건</button>
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+
+                                        <div class="main-img-wrap">
+                                            <img src="../resources/images/common/main/img_main_banner_1.png" alt="xm3">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="main-banner">
+
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="txt-img-wrap">
+                                            <img src="../resources/images/common/main/sm_6.png" alt="sm6">
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+
+                                        <!--2020-09-25 마크업 추가-->
+                                        <div class="main-btn-wrap">
+                                            <button class="btn-main btn">내게맞는상품찾기</button>
+                                        </div>
+                                        <!--//2020-09-25 마크업 추가-->
+
+                                        <div class="main-img-wrap">
+                                            <img src="../resources/images/common/main/img_main_banner_3.png" alt="SM6">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//swiper-container-->
+                        <div class="swiper-pagination"></div>
+
+                        <div class="main-comp">
+                            <ul class="installment-wrap">
+                                <li class="list-1">
+                                    <a href="">신차할부</a>
+                                </li>
+                                <li class="list-2">
+                                    <a href="">중고차할부</a>
+                                </li>
+                            </ul>
+                            <ul class="recommand-wrap">
+                                <li class="list-1">
+                                    <a href="#">
+                                        <p class="tit">이달의 금리혜택</p>
+                                        <span class="txt">알아보기</span>
+                                    </a>
+                                </li>
+                                <li class="list-2">
+                                    <a href="#">
+                                        <p class="tit">내게 맞는 상품찾기</p><!--23020-10-07 문구수정-->
+                                        <span class="txt">바로가기</span><!--2020-10-08 문구수정-->
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main-footer">
+                            <div class="down-app-wrap">
+                                <p class="tit">
+                                    <span class="txt">더 빠르고 편리한 금융,</span>
+                                    <a href="#">르노파이낸스 App 다운로드</a><!--2020-11-02 문구수정-->
+                                </p>
+                            </div>
+                            <div class="main-footer-wrap">
+                                <div class="logo-comp-wrap">
+                                    <h2 class="logo-footer"><a href="#">Renault Capital</a></h2>
+                                    <p class="txt">르노캐피탈은 알씨아이파이낸셜서비스코리아㈜의 브랜드명입니다.</p><!--2020-10-22 문구수정-->
+                                </div>
+                                <div class="footer-link--wrap">
+                                    <ul class="footer-link-list">
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">이용약관</a></li>
+                                        <li><a href="#">고객권리안내</a></li>
+                                        <li><a href="#">신용정보활용체제</a></li>
+                                        <li><a href="#">제휴 및 업무위탁현황</a></li>
+                                    </ul>
+                                    <ul class="footer-info-list">
+                                        <li>알씨아이파이낸셜서비스코리아㈜</li>
+                                        <li>서울시 금천구 가산동 327-29 RSM 타워9층</li>
+                                        <li>대표이사 프랑크 말로셰</li>
+                                        <li>사업자등록번호 104-81-79808</li><!--2020-10-22 문구수정-->
+                                    </ul>
+                                    <p class="copyright">Copyright © RCI Financial Services Korea 2017. All rights
+                                        Reserved.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+                </div>
+                <!-- // content-body -->
+
+                <!-- content-footer -->
+                <div class="content-footer">
+                    <!--2020-10-14 마크업추가 -->
+                    <div class="footer-app-bar">
+                        <ul>
+                            <!--li > a 에 클래스명 [on] 추가시 활성화 -->
+                            <li class="list-1"><a class="on" href="">간편견적</a></li>
+                            <li class="list-2"><a class="" href="">대출신청</a></li>
+                            <li class="list-3"><a class="" href="">온라인상담</a></li>
+                            <li class="list-4"><a class="" href="">MY RCI</a></li>
+                        </ul>
+                    </div>
+                    <!--// 2020-10-14 마크업추가 -->
+                </div>
+                <!-- // content-body -->
+
+            </div>
+        </div>
+        <!-- // container -->
+
+        <!-- footer -->
+        <div class="footer"></div>
+        <!-- // footer -->
+    </div>
+    <!-- // wrap -->
+</body>
+
+</html>

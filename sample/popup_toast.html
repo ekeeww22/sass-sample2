@@ -1,0 +1,23 @@
+<div class="dimmed"></div>
+
+<!-- popup-toast-content, screen id-->
+<div class="popup-toast-content A_CL_ES_0100">
+	<!-- popup-toast-body -->
+	<div class="popup-toast-body">
+		<section class="section-01">
+			<p>로그아웃 되었습니다.</p>
+		</section>
+	</div>
+	<!-- // popup-toast-body -->
+</div>
+<!-- // popup-toast-content -->
+
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	setTimeout(function(){
+		$(".popup-toast").html("");
+		$(".popup-toast").removeClass("on");
+	},3000);
+	$('.body').removeClass("hidden");
+	
+</script>

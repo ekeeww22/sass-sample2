@@ -1,0 +1,94 @@
+<script>
+	/* 본 스크립트는 퍼블용 예시이며 개발쪽에서 별도 구현 */
+	function popupClose(prop){
+		if(prop == undefined){
+			return null;
+		}
+		if(prop.type == "modal"){
+			$(".popup-modal").removeClass("on");
+			setTimeout(function(){
+				$(".popup-modal").html("");
+			},300);
+		}
+		else if(prop.type=="toast"){
+			$(".popup-toast").html("");
+			$(".popup-toast").removeClass("on");
+		}
+		$('body').removeClass("hidden");
+	}
+</script>
+<div class="dimmed"></div>
+
+<!-- popup-modal-content, popup size(full,slide,default), screen id, btn-area-fixed -->
+<div class="popup-modal-content slide WA_CL_ES_0201"><!--클래스명 수정 [WA_CL_ES_201 > WA_CL_ES_0201]-->
+	<!-- popup-modal-header -->
+	<div class="popup-modal-header">
+		<h3>모델</h3>
+		<button type="button" class="btn-popup-modal-close" onclick="javascript:popupClose({'type':'modal'});">팝업닫기</button>
+	</div>
+	<!-- // popup-modal-header -->
+
+	<!-- popup-modal-body -->
+	<div class="popup-modal-body">
+		<section class="section-01">
+			<ul>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">그랜저</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">쏘나타</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">아반떼</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">싼타페</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">스타렉스</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">제네시스</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span><img src="../resources/images/common/img_car_grandeur_40.png"></span>
+						<span class="text-brand">투싼</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</div>
+	<!-- // popup-modal-body -->
+
+	<!-- popup-modal-footer -->
+	<div class="popup-modal-footer">
+		<div class="btn-area">
+			<button type="button" class="btn-yellow">btn-yellow</button>
+		</div>
+	</div>
+	<!-- // popup-modal-footer -->
+</div>
+<!-- // popup-modal-content -->
+<script>
+	var body_height = $(".popup-modal-content").height();
+	$(".popup-modal-body").height(body_height);
+</script>

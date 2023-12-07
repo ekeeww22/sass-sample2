@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI GUIDE</title>
+    <script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/guide.js"></script>
+    <link type="text/css" rel="stylesheet" href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/reset.css">
+    <link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/contents.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/component.css">
+    <link type="text/css" rel="stylesheet" href="../resources/css/template.css">
+    <link type="text/css" rel="stylesheet" href="../resources/font/font.css">
+    <style>
+
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <ul class="template-myp-wrap">
+            <li>
+                <div class="file-upload-wrap">
+                    <div class="data-wrap">
+                        <dl>
+                            <dt class="tit">파일:</dt>
+                            <dd class="txt"><span class="data">00</span>개</dd>
+                        </dl>
+                        <dl>
+                            <dt class="tit">파일 사이즈:</dt>
+                            <dd class="txt"><span class="data">00</span>MB</dd>
+                        </dl>
+                    </div>
+                    <div class="file-wrap">
+                        <input type="file" id="file-type-01" class="inp-file">
+                        <label for="file-type-01" class="btn-file">파일선택</label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="scroll-wrap">
+                    <ul class="top-menu-03">
+                        <li class="active"><a href="#">전체</a></li>
+                        <li><a href="#">대출</a></li>
+                        <li><a href="#">견적</a></li>
+                        <li><a href="#">한도한도한도한도한도한도</a></li>
+                        <li><a href="#">기타기타기타기타기타기타기타기타기타기타기타</a></li>
+                        <li><a href="#">기타기타기타기타기타기타기타기타기타기타기타</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="form-comp-wrap">
+                    <ul class="form-info-wrap">
+                        <li>
+                            <div class="info-select-wrap">
+                                <span class="tit">진행상태</span>
+                                <span class="form-select vertical">
+                                    <label class="form-radio">
+                                        <input type="radio" name="radio" id="radio1-1" checked>
+                                        <span class="text">처리중</span>
+                                    </label>
+                                    <label class="form-radio">
+                                        <input type="radio" name="radio" id="radio1-2">
+                                        <span class="text">처리완료</span>
+                                    </label>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <dl class="type-between bg-gray">
+                                <dt>처리일시</dt>
+                                <dd>2020.07.01 15:15</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <div class="info-wrap">
+                                <span class="tit">달력</span>
+                                <span class="form-select w-auto">
+                                    <input type="date" class="font-rn-motors dark-gray font-700 tar" value="yyyy-mm-dd">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-select-wrap">
+                                <span class="tit">결제일</span>
+                                <span class="form-select">
+                                    <select>
+                                        <option>5일</option>
+                                        <option>10일</option>
+                                        <option>15일</option>
+                                        <option>21일</option>
+                                        <option>25일</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio-box flex">
+                                <span class="radio-tab">
+                                    <input type="radio" name="radiotab" id="radio2-1" checked>
+                                    <label for="radio2-1">전계좌 조회</label>
+                                </span>
+                                <span class="radio-tab">
+                                    <input type="radio" name="radiotab" id="radio2-2">
+                                    <label for="radio2-2">직접계좌인증</label>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn-wrap">
+                                <button class="btn-between">
+                                    <span class="tit">은행선택</span>
+                                    <span class="txt"></span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn-wrap">
+                                <button class="btn-between">
+                                    <span class="tit">제조사</span>
+                                    <span class="txt">현대</span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-wrap">
+                                <span class="tit">계좌번호</span>
+                                <span class="form-select">
+                                    <input type="text" placeholder="- 없이 입력">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap">
+                                <span class="form-select type-bar">
+                                    <select>
+                                        <option>자택</option>
+                                        <option>직장</option>
+                                    </select>
+                                </span>
+                                <span class="form-select">
+                                    <span class="txt">주소입력</span>
+                                    <button class="btn-search">주소검색</button>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-wrap">
+                                <span class="form-select w-100">
+                                    <input type="text" class="tal pl-16" placeholder="상세주소">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap">
+                                <span class="form-select type-bar">
+                                    <select>
+                                        <option>02</option>
+                                        <option>010</option>
+                                    </select>
+                                </span>
+                                <span class="form-select">
+                                    <input type="text" placeholder="전화번호(숫자만 입력 가능)" class="tal">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap w-reverse">
+                                <span class="form-select type-bar">
+                                    <input class="tal" type="text" placeholder="이메일 입력">
+                                </span>
+                                <span class="form-select">
+                                    <select>
+                                        <option>직접입력</option>
+                                        <option>naver</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap">
+                                <span class="form-select type-bar">
+                                    <select>
+                                        <option>통신사</option>
+                                        <option>SKT</option>
+                                        <option>KT</option>
+                                        <option>LG</option>
+                                    </select>
+                                </span>
+                                <span class="form-select">
+                                    <input class="tal pr-80" type="text" placeholder="휴대폰 번호 입력(숫자만 입력)">
+                                    <!--버튼 .btn-submit 에 disabled 속성 여부에 따라 버튼배경색 변경됨-->
+                                    <button class="btn-submit" disabled>인증번호</button>
+                                    <!--버튼 .btn-submit 에 disabled 속성 여부에 따라 버튼배경색 변경됨-->
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-wrap">
+                                <span class="tit">이메일</span>
+                                <span class="form-select">
+                                    <input type="text" placeholder="sample@email.com">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap w-reverse">
+                                <span class="form-select type-bar">
+                                    <!--input에 클래스명[show-selected] 추가시 [selected-txt]가 보여짐-->
+                                    <input type="text" class="tal show-selected" placeholder="이메일 입력">
+                                    <span class="selected-txt">@google.com</span>
+                                    <!--//input에 클래스명[show-selected] 추가시 [selected-txt]가 보여짐-->
+                                </span>
+                                <span class="form-select">
+                                    <select>
+                                        <option>직접입력</option>
+                                        <option>다음</option>
+                                        <option>네이버</option>
+                                        <option>네이트</option>
+                                        <option>지메일</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-select-wrap">
+                                <span class="tit">청구서수령방식</span>
+                                <span class="form-select">
+                                    <select>
+                                        <option>미수령</option>
+                                        <option>수령</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="only-select-wrap">
+                                <span class="form-select">
+                                    <select>
+                                        <option>직업선택</option>
+                                        <option>직업1</option>
+                                        <option>직업2</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info-wrap">
+                                <span class="tit">인수날짜</span>
+                                <span class="form-select w-auto">
+                                    <input type="date" class="font-rn-motors dark-gray font-700 tar" value="yyyy-mm-dd">
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="forms-wrap">
+                                <span class="form-select w-100">
+                                    <input type="text" class="tal pl-16" placeholder="도로명, 건물명, 지번검색">
+                                    <button class="btn-search">주소검색</button>
+                                </span>
+                            </div>
+                        </li>
+                        <!-- li에 .alert 추가시 경고색상으로 변경되고 p.txt-alert가 노출되야됨 -->
+                        <li class="alert">
+                            <div class="info-wrap">
+                                <span class="form-select w-100">
+                                    <input type="text" class="tal pl-16" placeholder="이름">
+                                </span>
+                            </div>
+                        </li>
+                        <li class="alert">
+                            <div class="forms-wrap">
+                                <span class="form-select w-100">
+                                    <input class="tal pr-80" type="text" placeholder="SMS 문자 6자리 입력" maxlength="6">
+                                    <span class="time">02:59</span>
+                                    <!--버튼 .btn-submit 에 disabled 속성 여부에 따라 버튼배경색 변경됨-->
+                                    <button class="btn-submit">확인</button>
+                                    <!--버튼 .btn-submit 에 disabled 속성 여부에 따라 버튼배경색 변경됨-->
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--디폴트로 숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                    <p class="txt-icon txt-alert">주민번호를 입력하세요</p>
+                    <!-- //숨겨져 있다가 ul.form-info-wrap > li에 alert 클래스 추가되면 보여져야됨 -->
+                </div>
+            </li>
+            <li>
+                <ul class="type-between">
+                    <li class="">
+                        <div class="tit-wrap">
+                            <p class="tit">모델명</p>
+                            <p class="tit-sub">(트레일블레이저)</p>
+                        </div>
+                        <div class="txt-wrap">
+                            <p class="txt">12,600,000원</p>
+                            <p class="txt-sub">(연간 마일리지 3만km 기준)</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="tit-wrap">
+                            <p class="tit">모델명</p>
+                        </div>
+                        <div class="txt-wrap">
+                            <p class="txt">12,600,000원(15%)</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4 class="title-small">차량 정보</h4>
+                <div class="form-list">
+                    <div class="form-wrap">
+                        <div class="form-box">
+                            <span class="tit">차량가격</span>
+                            <span class="form-input align-right">
+                                <input class=" pl-100" type="text" id=" " value="30,000,000" disabled="">
+                                <span class="unit">원</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-wrap error">
+                        <!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 -->
+                        <div class="form-box">
+                            <span class="tit">차량가격</span>
+                            <span class="form-input align-right">
+                                <input class=" pl-100" type="text" id=" " value="30,000,000">
+                                <span class="unit">원</span>
+                            </span>
+                        </div>
+                        <p class="alert">차량가격 이내로 입력하세요.</p>
+                    </div>
+
+
+                    <div class="form-wrap error">
+                        <!--.form-wrap에 클래스명[error] 추가시 alert문구 노출 -->
+                        <div class="form-box">
+                            <span class="tit">할부 부대 비용</span>
+                            <span class="form-input align-right">
+                                <input class=" pl-100" type="text" id=" " value="30,000,000">
+                                <span class="unit">원</span>
+                            </span>
+                        </div>
+                        <p class="alert">최대 33,000,000까지 입력 가능합니다.</p>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="form-box">
+                            <span class="tit">제조사</span>
+                            <span class="form-input align-right">
+                                <input class="pr-16 fs-14" type="text" id=" " value="기아자동차" disabled>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-wrap flx-end error"><!-- 잘못입력할 경우 "error"클래스 추가 -->
+                        <div class="form-box">
+                            <span class="tit">할부기간</span>
+                            <span class="form-select w-auto">
+                                <select>
+                                    <option>60 개월</option>
+                                </select>
+                            </span>
+                        </div>
+                        <p class="alert">할부기간을 선택하세요.</p>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <h3>버튼 안에 텍스트 양옆정렬</h3>
+                <ul class="type-between type-btn">
+                    <li class="">
+                        <button class="btn-between">
+                            <div class="tit-wrap">
+                                <p class="tit">Smart</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">29,370,000원</p>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="">
+                        <button class="btn-between">
+                            <div class="tit-wrap">
+                                <p class="tit">2.0 dCi 4WD PREMIERE</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">37,870,000원</p>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="">
+                        <button class="btn-between">
+                            <div class="tit-wrap">
+                                <p class="tit">2.0 dCi 4WD RE</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">31,880,000원</p>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="board-wrap">
+                    <div class="tit-wrap">
+                        <strong>분류</strong>
+                        <span>[신차] 상품견적</span>
+                    </div>
+                    <div class="txt-wrap">
+                        <textarea class="bs-textarea" name=""
+                            id="">안녕하세요. 상품견적 상담 문의드립니다. 안녕하세요. 상품견적 상담 문의드립니다. 안녕하세요. 상품견적 상담 문의드립니다. 안녕하세요. 상품견적 상담 문의드립니다. 안녕하세요. 상품견적 상담 문의드립니다. 안녕하세요. 상품견적 상담 문의드립니다.</textarea>
+                    </div>
+                    <p class="txt-length"><span>1</span>/1000</p>
+                </div>
+            </li>
+            <li>
+                <div class="progress-img-wrap">
+                    <!--li태그에 클래스 [on] 추가시 완료이미지로 바뀜 -->
+                    <ul class="top">
+                        <li class="on">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/progress_img/icon_success_coin_off.png" alt=""
+                                    class="off">
+                                <img src="../resources/images/common/progress_img/icon_success_coin_on.png" alt=""
+                                    class="on">
+                            </div>
+                            <p class="txt">한도완료</p>
+                        </li>
+                        <li class="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/progress_img/icon_timing_off.png" alt=""
+                                    class="off">
+                                <img src="../resources/images/common/progress_img/icon_timing_on.png" alt="" class="on">
+                            </div>
+                            <p class="txt">정밀 심사 중</p>
+                        </li>
+                        <li class="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/progress_img/icon_coinstart_off.png" alt=""
+                                    class="off">
+                                <img src="../resources/images/common/progress_img/icon_coinstart_on.png" alt=""
+                                    class="on">
+                            </div>
+                            <p class="txt">신청완료</p>
+                        </li>
+                    </ul>
+                    <ul class="bottom">
+                        <li class="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/progress_img/icon_docutime_off.png" alt=""
+                                    class="off">
+                                <img src="../resources/images/common/progress_img/icon_docutime_on.png" alt=""
+                                    class="on">
+                            </div>
+                            <p class="txt">보완서류<br>검토 중</p>
+                        </li>
+                        <li class="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/progress_img/icon_coinstart_off.png" alt=""
+                                    class="off">
+                                <img src="../resources/images/common/progress_img/icon_coinstart_on.png" alt=""
+                                    class="on">
+                            </div>
+                            <p class="txt">대출실행</p>
+                        </li>
+                    </ul>
+                    <!--li태그에 클래스 [on] 추가시 완료이미지로 바뀜 -->
+                </div>
+            </li>
+            <li>
+                <div class="progress-status-wrap">
+                    <h3 class="tit">계약진행상태</h3>
+                    <ul class="progress-step-wrap">
+                        <!--li에 클래스 .on 추가시 이미지 변환 -->
+                        <li><span>대출신청</span></li>
+                        <li class="on"><span>본 심사 중</span></li>
+                        <li><span>대출 확정</span></li>
+                        <li><span>대출 실행</span></li>
+                        <li><span>근저당 설정</span></li>
+                        <li><span>대출 완료</span></li>
+                        <!--//li에 클래스 .on 추가시 이미지 변환 -->
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <p class="txt-icon txt-info">한도조회 내역은 2日간 유지되며, 일정 초과 시 자동 삭제됩니다.</p>
+                <p class="txt-icon txt-alert">인증번호를 다시 입력해 주세요</p>
+            </li>
+            <li>
+                <ul class="card-lookup">
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <div class="tit-box">
+                                <h5>QM6</h5>
+                                <span>1.7 dCi 2WD RE Signature</span>
+                            </div>
+                            <p class="card-date">2020.05.20</p>
+                        </div>
+                        <div class="card-txt">
+
+                        </div>
+                    </li>
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <div class="tit-box">
+                                <h5>QM6</h5>
+                                <span>1.7 dCi 2WD RE Signature</span>
+                            </div>
+                            <p class="card-date">2020.05.20</p>
+                        </div>
+                        <div class="card-txt">
+                            <ul class="type-between">
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">모델명</p>
+                                        <p class="tit-sub">(트레일블레이저)</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">12,600,000원</p>
+                                        <p class="txt-sub">(연간 마일리지 3만km 기준)</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">모델명</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">12,600,000원</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">모델명</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">12,600,000원</p>
+                                        <p class="txt-sub">(연간 마일리지 3만km 기준)</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">모델명</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">12,600,000원</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">모델명</p>
+                                        <p class="tit-sub">(트레일블레이저)</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">12,600,000원</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <div class="tit-box">
+                                <h5>QM6</h5>
+                                <span>1.7 dCi 2WD RE Signature</span>
+                            </div>
+                            <p class="card-date">2020.05.20</p>
+                        </div>
+                        <div class="card-txt">
+                            <div class="progress-status-wrap">
+                                <h3 class="tit">계약진행상태</h3>
+                                <ul class="progress-step-wrap">
+                                    <!--li에 클래스 .on 추가시 이미지 변환 -->
+                                    <li><span>대출신청</span></li>
+                                    <li class="on"><span>본 심사 중</span></li>
+                                    <li><span>대출 확정</span></li>
+                                    <li><span>대출 실행</span></li>
+                                    <li><span>근저당 설정</span></li>
+                                    <li><span>대출 완료</span></li>
+                                    <!--//li에 클래스 .on 추가시 이미지 변환 -->
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="card-lookup">
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <h4 class="tit">개인(신용)정보 동의 및 필수고지 사항 안내</h4>
+                            <div class="link-wrap">
+                                <a href="#">자세히보기</a>
+                            </div>
+                        </div>
+                        <div class="card-txt">
+                            <ul class="text-list">
+                                <li>필수고지사항 안내</li>
+                                <li>개인(신용)정보 필수적 동의서</li>
+                                <li>개인(신용)정보 선택적 동의</li>
+                                <li>업무위탁 처리를 위한 개인(신용)정보 제공 현황</li>
+                                <li>신용정보 제공 활용에 대한 고객 권리 안내문</li>
+                                <li>금융취약계층 권익에 대한 고객확인의무 안내</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <h4 class="tit">멤버쉽 가입</h4>
+                            <div class="link-wrap">
+                                <a href="#">자세히보기</a>
+                            </div>
+                        </div>
+                        <div class="card-txt">
+                            <ul class="text-list">
+                                <li>RCI 가입멤버십가입 동의 안내</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="card-lookup-list">
+                        <div class="card-tit">
+                            <h4 class="tit">약정서 및 신청서 전체 확인</h4>
+                            <div class="link-wrap">
+                                <a href="#">자세히보기</a>
+                            </div>
+                        </div>
+                        <div class="card-txt">
+                            <ul class="text-list">
+                                <li>자동차 할부금융 약정</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="card-lookup">
+                    <li class="card-lookup-list">
+                        <div class="card-tit bg-beige">
+                            <div class="tit-box">
+                                <h5>QM6</h5>
+                                <span>1.7 dCi 2WD RE Signature</span>
+                            </div>
+                            <p class="card-date">2020.05.20</p>
+                        </div>
+                        <div class="card-txt">
+                            <ul class="type-between">
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">신청일자</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">2020.04.22</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">대출금액</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">10,000,000원</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">대출기간</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">36개월</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">상환방식</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">표준형</p>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="tit-wrap">
+                                        <p class="tit">적용금리</p>
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="txt">1.9%</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="card-state">
+                            <div class="progress-status-wrap">
+                                <h3 class="tit">계약진행상태</h3>
+                                <ul class="progress-step-wrap type-02">
+                                    <!--li에 클래스 .on 추가시 이미지 변환 -->
+                                    <li><span>견적결과</span></li>
+                                    <li class="on"><span>한도결과</span></li>
+                                    <li><span>심사중<br>(한도추가)</span></li>
+                                    <li><span>서류 심사중</span></li>
+                                    <li><span>대출신청 완료</span></li>
+                                    <li><span>대출실행</span></li>
+                                    <!--//li에 클래스 .on 추가시 이미지 변환 -->
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="card-link">
+                    <li class="card-link-list">
+                        <div class="card-link-explain">
+                            <div class="card-img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="white qm6">
+                            </div>
+                            <div class="img-txt-wrap">
+                                <div class="price-wrap">
+                                    <strong class="price">455,343원</strong>
+                                    <span class="">2회차</span>
+                                </div>
+                                <div class="car-info">
+                                    <span class="">QM6(321라4569)</span>
+                                    <span class="">표준형</span>
+                                </div>
+                                <p class="date">2020.04.30</p>
+                            </div>
+                        </div>
+                        <div class="btn-area content mt-16">
+                            <button class="btn-border bdr-4">회차별 상환 내역</button>
+                        </div>
+                    </li>
+                    <li class="card-link-list">
+                        <div class="card-link-explain">
+                            <div class="card-img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="white qm6">
+                            </div>
+                            <div class="img-txt-wrap">
+                                <div class="price-wrap">
+                                    <strong class="price">455,343원</strong>
+                                    <span class="">2회차</span>
+                                </div>
+                                <div class="car-info">
+                                    <span class="">QM6(321라4569)</span>
+                                    <span class="">표준형</span>
+                                </div>
+                                <p class="date">2020.04.30</p>
+                            </div>
+                        </div>
+                        <div class="btn-area content mt-16">
+                            <button class="btn-border bdr-4">회차별 상환 내역</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="card-link no-image">
+                    <li class="card-link-list">
+                        <div class="card-link-explain">
+                            <div class="img-txt-wrap">
+                                <div class="price-wrap">
+                                    <strong class="price">455,343원</strong>
+                                    <span class="">2회차</span>
+                                </div>
+                                <div class="car-info">
+                                    <span class="">QM6</span>
+                                    <span class="">표준형</span>
+                                    <span>321라4569</span>
+                                </div>
+                                <p class="date"><span>결제일 : </span>2020.04.30</p>
+                            </div>
+                        </div>
+                        <div class="btn-area mt-16">
+                            <button class="btn-border">회차별 상환 내역</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="car-contract-wrap">
+                    <li>
+                        <a href="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="QM6">
+                            </div>
+                            <div class="txt-wrap">
+                                <div class="car-info">
+                                    <strong>QM6</strong>
+                                    <span>12마 1234</span>
+                                </div>
+                                <div class="car-account">
+                                    <span class="num">1회차</span>
+                                    <span class="date">2020-07-21</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="QM6">
+                            </div>
+                            <div class="txt-wrap">
+                                <div class="car-info">
+                                    <strong>QM6</strong>
+                                    <span>354로 1234</span>
+                                </div>
+                                <div class="car-account">
+                                    <span class="num">12회차</span>
+                                    <span class="date">2020-07-21</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="car-list2-wrap">
+                    <li>
+                        <div class="top-box">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="white qm6">
+                            </div>
+                            <div class="txt-wrap">
+                                <div class="name-wrap">
+                                    <strong>QM3</strong>
+                                    <span>2.0 dCi 4WD PREMIERE</span>
+                                </div>
+                                <span class="num">123라4569</span>
+                            </div>
+                        </div>
+                        <div class="btn-area">
+                            <button class="btn">할부 상환 스케줄</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top-box">
+                            <div class="img-wrap">
+                                <img src="../resources/images/common/list_img_qm_6_white.png" alt="white qm6">
+                            </div>
+                            <div class="txt-wrap">
+                                <div class="name-wrap">
+                                    <strong>QM3</strong>
+                                    <span>2.0 dCi 4WD PREMIERE</span>
+                                </div>
+                                <span class="num">123라4569</span>
+                            </div>
+                        </div>
+                        <div class="btn-area">
+                            <button class="btn">할부 상환 스케줄</button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="top-bottom-box">
+                    위아래 보더,마진,패딩 1.6rem
+                </div>
+            </li>
+            <li>
+                <!--.slide-comp-->
+                <div class="slide-comp">
+                    <p class="txt-explain">
+                        부담 없는 금리와 <br>
+                        넉넉한 할부기간으로 내 차 사기
+                    </p>
+                    <div class="img-wrap">
+                        <img src="../resources/images/common/slide-qm6-premiere.jpg" alt="qm6 premiere">
+                    </div>
+                    <div class="car-info-wrap">
+                        <div class="car-name">
+                            <span class="name">QN6</span>
+                            <span class="state">PREMIERE</span>
+                        </div>
+                        <div class="car-price tar">
+                            <span class="tit">월 납입금</span>
+                            <span class="price">785,613원</span>
+                        </div>
+                    </div>
+                    <div class="top-bottom-box">
+                        <ul class="type-between">
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">모델명</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">2.0 dCi 4WD</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">할부상품</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">표준형 할부</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">할부기간</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">36개월</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">금리</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">1.9%</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">선수율(15%)</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">8,000,000원</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">할부원금</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">22,600,000원</p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="tit-wrap">
+                                    <p class="tit">차량가격</p>
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="txt">32,600,000원</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="txt-icon txt-info">차량 및 할부상품 선택 후 최종한도는 변경될 수 있습니다.</p>
+                    <div class="insurance-wrap">
+                        <h4 class="tit">추천 보험 상품</h4>
+                        <ul class="insurance-comp">
+                            <li><button class="">AXA 다이렉트 자동차 보험</button></li>
+                            <li><button class="">카디프 손해 보험</button></li>
+                            <li><button class="">대출금 상환 보장 프로그램</button></li>
+                        </ul>
+                    </div>
+                    <!-- .document-comp -->
+                    <!-- 완료되었으면 button에 disabled 추가된후 배경색,글자색,화살표색 봐뀜 -->
+                    <ul class="document-comp">
+                        <li>
+                            <button class="btn-between">
+                                <span class="tit-wrap">
+                                    운전면허증
+                                </span>
+                                <span class="txt-wrap">
+                                    촬영
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-between" disabled>
+                                <span class="tit-wrap">
+                                    복지카드
+                                </span>
+                                <span class="txt-wrap">
+                                    첨부완료
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-between">
+                                <span class="tit-wrap">
+                                    공무원증
+                                </span>
+                                <span class="txt-wrap">
+                                    촬영
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn-between">
+                                <span class="tit-wrap">
+                                    국가유공자증
+                                </span>
+                                <span class="txt-wrap">
+                                    촬영
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                    <!-- // .document-comp -->
+                    <div class="btn-area">
+                        <button type="button" class="btn-black">한도조회</button>
+                        <button type="button" class="btn-yellow">온라인 상담신청</button>
+                    </div>
+                </div>
+                <!--// .slide-comp-->
+            </li>
+            <li>
+                <!-- progress-bar 지나간단계면 .end추가, 현재 단계는 .on 추가-->
+                <ul class="progress-bar step4">
+                    <li class="step-1th end">1단계</li>
+                    <li class="step-2th on">2단계</li>
+                    <li class="step-3th">3단계</li>
+                    <li class="step-4th">4단계</li>
+                </ul>
+                <!--// progress-bar 지나간단계면 .end추가, 현재 단계는 .on 추가-->
+            </li>
+            <li>
+                <span class="form-select">
+                    <select class="border-b">
+                        <option>만 19 ~ 34세</option>
+                        <option>만 35 ~ 54세</option>
+                        <option>만 55세 이상</option>
+                    </select>
+                </span>
+            </li>
+            <li>
+                <p class="bg-gray-txt">
+                    업무용, 영업용으로 차량 구매 시 해당 보험 가입이 불가합니다.
+                </p>
+            </li>
+            <li>
+                <h3 class="title-small">약관동의</h3>
+                <div class="agree-list">
+                    <label class="form-check bg all">
+                        <input type="checkbox">
+                        <span class="text">개인(신용)정보 동의서[필수]</span>
+                    </label>
+                    <div class="form-check-link-wrap">
+                        <label class="form-check bg all">
+                            <input type="checkbox">
+                            <span class="text">개인(신용)정보 동의서[필수]</span>
+                        </label>
+                        <a href="#" class="btn-link">약관보기</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <label class="form-check">
+                                <input type="checkbox">
+                                <span class="text">개인(신용)정보 필수 수집 이용 동의</span>
+                                <span class="sub-text">자동차 할부금융 약관(여신거래기본약관 부속약관)</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                        <li>
+                            <label class="form-check">
+                                <input type="checkbox">
+                                <span class="text">개인(신용)정보 필수 조회 동의</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                        <li>
+                            <label class="form-check">
+                                <input type="checkbox">
+                                <span class="text">개인(신용)정보 필수 제공 동의</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                        <li>
+                            <label class="form-check no-check">
+                                <input type="checkbox" disabled>
+                                <span class="text">전자금융거래 표준약관</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <h3 class="title-small">약관동의</h3>
+                <div class="agree-list type2">
+                    <ul>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">[필수] 개인 정보 수집·이용에 대한 동의</span>
+                                <span class="sub-text">고유식별정보 필수 수집 이용 동의</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">국민건강보험 (재직 및 가입여부)</span>
+                            </label>
+                            <a href="#" class="btn-link">약관보기</a>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">민원24 (주민등록 등/초본)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">정부24 (재산세/지방세)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">국세청 홈택스 (사업자/부가세)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">자동차민원대국민포털 (자동차등록원부)</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form-check bg">
+                                <input type="checkbox">
+                                <span class="text">인터넷등기소/국토교통부 (등기부등본)</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="tit-txt-wrap">
+                    <h4 class="gray">상품안내</h4>
+                    <p class="gray">
+                        예기치 못한 사고로 대출금 상환이 걱정되시나요? 잔여 할부금을
+                        상환해 드리며, 전손 사고 시 신차가 액을 보장해 드리는 보험상품을
+                        만나보세요! 갑작스러운 교통상해사고로 사망 또는 50% 이상
+                        후유 장해 시, 남아있는 대출금을 상환해 드리며, 대출금 상환 후 남은
+                        보험금이 있는 경우 고객님께 돌려드립니다. 또한 전손 사고 발생 시
+                        자동차보험 전손 사고 보험금 지급금과 신차 구매 금액 간의 차액을
+                        보장해 드리며, 100만 원을 추가로 정액 지급해 드립니다.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="number-list-wrap">
+                    <ul>
+                        <li><span class="num">1</span> 대출 실행 후 6개월 이상 경과한 경우</li>
+                        <li><span class="num">2</span> 해당 대출 기간 내 연체 이력이 없는 경우</li>
+                        <li><span class="num">3</span> 대출 당시보다 신용상태가 현저히 개선되었음이 인정되는 경우</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-bullet">
+                    <ul>
+                        <li>르노 캐피탈은 이용자의 모바일 인증 정보를 저장하거나 보관하지 않으며, 이용자의 휴대폰에 저장된 모바일 인증 정보를 이용하여 모바일 인증 서비스를 제공하고 있습니다.
+                        </li>
+                        <li>이용자의 휴대폰에 등록된 모바일 인증 정보는 반드시 이용자 본인의 것이어야 하며, 휴대폰에 등록된 모바일 인증 정보의 관리 및 사용에 대한 책임은 이용자 본인에게
+                            있으므로, 본인의 모바일 인증 정보가 유출되지 않도록 각별히 주의하시기 바랍니다.</li>
+                        <li>만약 저장된 모바일 인증 정보가 타인에게 유출되었다고 판단시, 즉시 휴대폰에 등록된 모바일 인증 정보를 삭제하시고 모바일 인증 서비스를 해지하여 합니다.</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-bullet bold">
+                    <ul>
+                        <li>르노 캐피탈은 이용자의 모바일 인증 정보를 저장하거나 보관하지 않으며, 이용자의 휴대폰에 저장된 모바일 인증 정보를 이용하여 모바일 인증 서비스를 제공하고 있습니다.
+                        </li>
+                        <li>이용자의 휴대폰에 등록된 모바일 인증 정보는 반드시 이용자 본인의 것이어야 하며, 휴대폰에 등록된 모바일 인증 정보의 관리 및 사용에 대한 책임은 이용자 본인에게
+                            있으므로, 본인의 모바일 인증 정보가 유출되지 않도록 각별히 주의하시기 바랍니다.</li>
+                        <li>만약 저장된 모바일 인증 정보가 타인에게 유출되었다고 판단시, 즉시 휴대폰에 등록된 모바일 인증 정보를 삭제하시고 모바일 인증 서비스를 해지하여 합니다.</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list-star">
+                    <ul>
+                        <li>제출하신 서류가 인식이 어려울 경우 상담원이 추가로 요청 드릴 수 있습니다.</li>
+                        <li>등록된 서류는 개인 정보보호를 위해 엄격하게 관리 보관되며, 제출후에는 반환 또는 확인 어려운 점 양해 부탁드립니다.</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box-gray-full">
+                    <div class="list-bullet small">
+                        <ul>
+                            <li>연락처를 남겨주시면 전문상담원이 연락 드리겠습니다.</li>
+                            <li>상담을 통해 추가 한도 가능여부를 확인해 드립니다.</li>
+                            <li>추가 한도 증액을 위해서 서류 제출이 필요할 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="table-wrap">
+                    <table>
+                        <caption>테이블</caption>
+                        <colgroup>
+                            <col style="width:12%">
+                            <col style="width:22%">
+                            <col style="width:20%">
+                            <col style="width:22%">
+                            <col style="width:24%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>회차</th>
+                                <th>원금</th>
+                                <th>이자</th>
+                                <th class="bold">월납입</th>
+                                <th>잔여할부</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>610,134원</td>
+                                <td>35,759원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>21,974,336원</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>611,100원</td>
+                                <td>34,739원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>21,363,266원</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>612,068원</td>
+                                <td>33,825원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>20,751,198원</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>613,037원</td>
+                                <td>32,856원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>20,138,161원</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>614,008원</td>
+                                <td>31,885원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>19,524,153원</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>610,134원</td>
+                                <td>35,759원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>21,974,336원</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>611,100원</td>
+                                <td>34,739원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>21,363,266원</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>612,068원</td>
+                                <td>33,825원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>20,751,198원</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>613,037원</td>
+                                <td>32,856원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>20,138,161원</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>614,008원</td>
+                                <td>31,885원</td>
+                                <td class="bg-gray bold">645,893원</td>
+                                <td>19,524,153원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="complete-box">
+                    <span class="icon">
+                        <img src="../resources/images/common/img_complete_error.png" alt="에러">
+                        <img src="../resources/images/common/img_complete_finish.png" alt="완료 ">
+                        <img src="../resources/images/common/img_complete_1.png" alt="완료">
+                        <img src="../resources/images/common/img_complete_2.png" alt="실패">
+                        <img src="../resources/images/common/img_complete_3.png" alt="확인">
+                        <img src="../resources/images/common/img_complete_4.png" alt="결과없음">
+                        <img src="../resources/images/common/img_complete_loading.png" alt="로딩">
+                        <img src="../resources/images/common/img_complete_rci.png" alt="rci로고">
+                    </span>
+                    <span class="tit"><strong>이용</strong>에 불편을 드려<br>죄송합니다.</span>
+                    <span class="text">일시적인 장애로 이용이 어렵습니다.<br>문제가 계속 발생할 경우, 고객센터로 문의해주십시오.</span>
+                </div>
+            </li>
+            <li>
+                <ul class="survey-list">
+                    <li>
+                        <button type="button" class="icon1-1">생애 첫 구매</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon1-2">기존 차량 교체</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon1-3">추가 구매</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon2-1">미혼</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon2-2">기혼 / 자녀 없음</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon2-3">기혼 / 자녀 있음</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon3-1">SUV</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon3-2">세단</button>
+                    </li>
+                    <li>
+                        <button type="button" class="icon3-3">상용 (LCV)</button>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="type-list">
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_qm_6.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">QM6</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_sm_6.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">SM6</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_sm_3_ze.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">SM3 ZE</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_twizy.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">TWIZY</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_xm_3.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">XM3</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"><img src="../resources/images/common/img_sample_master.png"
+                                    alt="샘플 이미지"></span>
+                            <span class="type">MASTER</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <span class="img"></span>
+                            <span class="type">Capture</span>
+                        </button>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="bd-2radius-gray">
+                    <ul class="type-between bg-gray">
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">모델명</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">XM3</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">세부모델</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">1.6 GTe Plus</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">차량가격</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">21,400,000원</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="type-between">
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">대출신청금액</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">15,000,000원</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">대출기간</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">36개월</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">할부상품</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">잔가보장형상품</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">월납입금</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">500,000원</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">대출금리</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">4.5%</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">연체금리</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">2%</p>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="tit-wrap">
+                                <p class="tit">중도상환수수료</p>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="txt">0.7%</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <h3 class="mb-16 mt-16">위에꺼랑 같은 형식 <br>form-comp-wrap에 .form-disabled 추가되면 버튼(.btn-between)
+                    사용불가(disabled)가 되는 스크립트 처리 필요</h3>
+                <!--form-comp-wrap에 .form-disabled 추가되면 버튼(.btn-between) 사용불가(disabled)가 되는 스크립트 처리 필요 -->
+                <div class="form-comp-wrap form-disabled ">
+                    <ul class="form-info-wrap">
+                        <li>
+                            <div class="btn-wrap">
+                                <!--버튼이 disabled 속성 추가시 스타일 변경됨-->
+                                <button class="btn-between" disabled>
+                                    <span class="tit">제조사</span>
+                                    <span class="txt">현대</span>
+                                </button>
+                                <!--//버튼이 disabled 속성 추가시 스타일 변경됨-->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn-wrap">
+                                <button class="btn-between" disabled>
+                                    <span class="tit">제조사</span>
+                                    <span class="txt">현대</span>
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn-wrap">
+                                <button class="btn-between" disabled>
+                                    <span class="tit">제조사</span>
+                                    <span class="txt">현대</span>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--//form-comp-wrap에 .form-disabled 추가되면 버튼(.btn-between) 사용불가(disabled)가 되는 스크립트 처리 필요 -->
+            </li>
+            <li>
+                <div class="list-number">
+                    <ul>
+                        <li>
+                            <h4 class="list-title">(1) 개인정보 수집 및 이용 목적</h4>
+                            <p class="list-caption">대출 신청, 심사, 실행 중단 시 전화를 통한 추후 상담 및 안내</p>
+                        </li>
+                        <li>
+                            <h4 class="list-title">(2) 수집하는 개인정보 항목</h4>
+                            <p class="list-caption">성명, 생년월일, 전화번호 또는 핸드폰번호</p>
+                        </li>
+                        <li>
+                            <h4 class="list-title">(3) 보유 및 이용기간</h4>
+                            <p class="list-caption">수집·이용 동의 일로부터 개인(신용)정보의 수집·이용 목적을 달성할 때까지</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="certificate-list">
+                    <ul>
+                        <li>
+                            <button>
+                                <span class="icon"><img src="../resources/images/common/icon_docu.png"
+                                        alt="인증서 아이콘"></span>
+                                <span class="tit">장르노</span>
+                                <span class="text">은행개인/만료일</span>
+                                <span class="date">2020-03-06</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span class="icon"><img src="../resources/images/common/icon_docu.png"
+                                        alt="인증서 아이콘"></span>
+                                <span class="tit">장르노</span>
+                                <span class="text">범용개인/만료일</span>
+                                <span class="date">2020-03-06</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <ul class="bank-list">
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank01" checked="">
+                        <label for="bank01">
+                            <span class="icon"><img src="../resources/images/common/bank/img_kdb.png"
+                                    alt="KDB산업"></span>
+                            <span class="tit">KDB산업</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank02">
+                        <label for="bank02">
+                            <span class="icon"><img src="../resources/images/common/bank/img_ibk.png"
+                                    alt="IBK기업"></span>
+                            <span class="tit">IBK기업</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank03">
+                        <label for="bank03">
+                            <span class="icon"><img src="../resources/images/common/bank/img_kbbank.png"
+                                    alt="KB국민"></span>
+                            <span class="tit">KB국민</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank04">
+                        <label for="bank04">
+                            <span class="icon"><img src="../resources/images/common/bank/img_hana.png" alt="외환"></span>
+                            <span class="tit">외환</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank05">
+                        <label for="bank05">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shbank.png"
+                                    alt="수협"></span>
+                            <span class="tit">수협</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank06">
+                        <label for="bank06">
+                            <span class="icon"><img src="../resources/images/common/bank/img_nhbank.png"
+                                    alt="농협"></span>
+                            <span class="tit">농협중앙</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank07">
+                        <label for="bank07">
+                            <span class="icon"><img src="../resources/images/common/bank/img_nhbank.png"
+                                    alt="농협"></span>
+                            <span class="tit">지역농협</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank08">
+                        <label for="bank08">
+                            <span class="icon"><img src="../resources/images/common/bank/img_woori.png" alt="우리"></span>
+                            <span class="tit">우리</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank09">
+                        <label for="bank09">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png"
+                                    alt="(구)조흥"></span>
+                            <span class="tit">(구)조흥</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank10">
+                        <label for="bank10">
+                            <span class="icon"><img src="../resources/images/common/bank/img_scbank.png"
+                                    alt="SC제일"></span>
+                            <span class="tit">SC제일</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank11">
+                        <label for="bank11">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png"
+                                    alt="신한"></span>
+                            <span class="tit">(구)신한</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank12">
+                        <label for="bank12">
+                            <span class="icon"><img src="../resources/images/common/bank/img_citibk.png"
+                                    alt="씨티"></span>
+                            <span class="tit">씨티</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank13">
+                        <label for="bank13">
+                            <span class="icon"><img src="../resources/images/common/bank/img_dgb.png" alt="대구"></span>
+                            <span class="tit">대구</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank14">
+                        <label for="bank14">
+                            <span class="icon"><img src="../resources/images/common/bank/img_bnkbank.png"
+                                    alt="부산"></span>
+                            <span class="tit">부산</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank15">
+                        <label for="bank15">
+                            <span class="icon"><img src="../resources/images/common/bank/img_jbbank.png"
+                                    alt="광주"></span>
+                            <span class="tit">광주</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank16">
+                        <label for="bank16">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png"
+                                    alt="제주"></span>
+                            <span class="tit">제주</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank17">
+                        <label for="bank17">
+                            <span class="icon"><img src="../resources/images/common/bank/img_jbbank.png"
+                                    alt="전북"></span>
+                            <span class="tit">전북</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank18">
+                        <label for="bank18">
+                            <span class="icon"><img src="../resources/images/common/bank/img_bnkbank.png"
+                                    alt="경남"></span>
+                            <span class="tit">경남</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank19">
+                        <label for="bank19">
+                            <span class="icon"><img src="../resources/images/common/bank/img_mgbank.png"
+                                    alt="MG새마을금고"></span>
+                            <span class="tit">MG새마을금고</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank20">
+                        <label for="bank20">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shinhyup.png"
+                                    alt="신협"></span>
+                            <span class="tit">신협</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank21">
+                        <label for="bank21">
+                            <span class="icon"><img src="../resources/images/common/bank/img_sbbank.png"
+                                    alt="저축은행중앙회"></span>
+                            <span class="tit">저축은행중앙회</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank22">
+                        <label for="bank22">
+                            <span class="icon"><img src="../resources/images/common/bank/img_hsbc.png"
+                                    alt="HSBC"></span>
+                            <span class="tit">HSBC</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank23">
+                        <label for="bank23">
+                            <span class="icon"><img src="../resources/images/common/bank/img_deutsch.png"
+                                    alt="도이치"></span>
+                            <span class="tit">도이치</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank24">
+                        <label for="bank24">
+                            <span class="icon"><img src="../resources/images/common/bank/img_jpmogarn.png"
+                                    alt="JP모건체이스"></span>
+                            <span class="tit">JP모건체이스</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank25">
+                        <label for="bank25">
+                            <span class="icon"><img src="../resources/images/common/bank/img_boabank.png"
+                                    alt="BOA"></span>
+                            <span class="tit">BOA</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank26">
+                        <label for="bank26">
+                            <span class="icon"><img src="../resources/images/common/bank/img_chinabk.png"
+                                    alt="중국공상"></span>
+                            <span class="tit">중국공상</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank27">
+                        <label for="bank27">
+                            <span class="icon"><img src="../resources/images/common/bank/img_sjbank.png"
+                                    alt="산립조합중앙회"></span>
+                            <span class="tit">산립조합중앙회</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank28">
+                        <label for="bank28">
+                            <span class="icon"><img src="../resources/images/common/bank/img_postbank.png"
+                                    alt="우체국"></span>
+                            <span class="tit">우체국</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank29">
+                        <label for="bank29">
+                            <span class="icon"><img src="../resources/images/common/bank/img_hana.png"
+                                    alt="KEB하나"></span>
+                            <span class="tit">KEB하나</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank30">
+                        <label for="bank30">
+                            <span class="icon"><img src="../resources/images/common/bank/img_shinhan.png"
+                                    alt="신한"></span>
+                            <span class="tit">신한</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank31">
+                        <label for="bank31">
+                            <span class="icon"><img src="../resources/images/common/bank/img_kbank.png"
+                                    alt="케이뱅크"></span>
+                            <span class="tit">케이뱅크</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank32">
+                        <label for="bank32">
+                            <span class="icon"><img src="../resources/images/common/bank/img_kakaobk.png"
+                                    alt="카카오뱅크"></span>
+                            <span class="tit">카카오뱅크</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="bank-radio" id="bank33">
+                        <label for="bank33">
+                            <span class="icon"><img src="../resources/images/common/bank/img_ktfc.png"
+                                    alt="금융결제원"></span>
+                            <span class="tit">금융결제원</span>
+                        </label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="list-step">
+                    <li>
+                        <span class="icon"><img src="../resources/images/common/icon_step_account.png"
+                                alt="계좌번호 아이콘"></span>
+                        <span class="tit">계좌번호입력</span>
+                    </li>
+                    <li>
+                        <span class="icon"><img src="../resources/images/common/icon_step_won.png" alt="1원 아이콘"></span>
+                        <span class="tit">1원입금 확인</span>
+                    </li>
+                    <li>
+                        <span class="icon"><img src="../resources/images/common/icon_step_phone.png"
+                                alt="인증번호 아이콘"></span>
+                        <span class="tit">인증번호 입력</span>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <!-- 신분증/면허증/외국인등록증 영역 -->
+                <div class="idcard-area">
+                    <img src="../resources/images/common/img_sample_idcard.png" alt="신분증 샘플 이미지">
+                </div>
+                <!-- // 신분증/면허증/외국인등록증 영역 -->
+            </li>
+            <li>
+                <div class="form-wrap password-box error">
+                    <h3 class="title-small">비밀번호 6자리를 입력해 주세요</h3>
+                    <input type="password" id="input-password" maxlength="6">
+                    <label for="input-password" class="password-dot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <p class="alert">비밀번호가 일치하지 않습니다.<br>다시 입력해 주세요.</p>
+                </div>
+            </li>
+            <li>
+                <div class="setting-list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="tit">앱비밀번호 재설정</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="tit">생체인증</span>
+                            <label class="btn-switch">
+                                <input type="checkbox" checked>
+                                <i><span></span></i>
+                            </label>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="tit">알림설정</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="tit">알림설정</span>
+                            <span class="text2">5.6.1</span>
+                        </li>
+                        <li>
+                            <span class="tit">정보성 알림</span>
+                            <span class="text">계약일, 결제일 등 정보성 알림 받기</span>
+                            <label class="btn-switch">
+                                <input type="checkbox">
+                                <i><span></span></i>
+                            </label>
+                        </li>
+                        <li>
+                            <span class="tit">혜택 알림</span>
+                            <span class="text">쿠폰, 이벤트, 금융상품등 다양한 혜택 알림 받기</span>
+                            <label class="btn-switch">
+                                <input type="checkbox">
+                                <i><span></span></i>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="link-status-list">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="txt-wrap">
+                                    <p class="name">
+                                        <span class="">[보험-CPI]</span>
+                                        <span class="">박진우</span>
+                                    </p>
+                                    <p class="date"><span class="">2020.05.04</span><span>~</span><span
+                                            class="">2020.06.03</span></p>
+                                </div>
+                                <!--.state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                                <span class="state ">접수</span>
+                                <!--// .state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="txt-wrap">
+                                    <p class="name">
+                                        <span class="">[보험-CPI]</span>
+                                        <span class="">박진우</span>
+                                    </p>
+                                    <p class="date"><span class="">2020.05.04</span><span>~</span><span
+                                            class="">2020.06.03</span></p>
+                                </div>
+                                <!--.state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                                <span class="state progress">진행중</span>
+                                <!--// .state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="txt-wrap">
+                                    <p class="name">
+                                        <span class="">[보험-CPI]</span>
+                                        <span class="">박진우</span>
+                                    </p>
+                                    <p class="date"><span class="">2020.05.04</span><span>~</span><span
+                                            class="">2020.06.03</span></p>
+                                </div>
+                                <!--.state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                                <span class="state complete">상담완료</span>
+                                <!--// .state에 클래스명 [ progress,complete ] 추가시 색 변경 -->
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="btn-area content">
+                        <button type="button" class="btn-more"><span>더보기</span></button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <ul class="contract-wrap bg-gray">
+                    <li>
+                        <p class="tit">신청 중인 계약</p>
+                        <p class="txt">1</p>
+                    </li>
+                    <li>
+                        <p class="tit">유지 계약</p>
+                        <p class="txt">1</p>
+                    </li>
+                    <li>
+                        <p class="tit">종결 계약</p>
+                        <p class="txt">0</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="rci-list-wrap">
+                    <li class="list-01"><a href="">계약하기</a></li>
+                    <li class="list-02"><a href="">한도 조회내역</a></li>
+                    <li class="list-03"><a href="">회원정보수정</a></li>
+                    <li class="list-04"><a href="">견적 내역조회</a></li>
+                    <li class="list-05"><a href="">내 차 사기</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

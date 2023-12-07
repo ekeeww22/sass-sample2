@@ -1,0 +1,1904 @@
+@charset "utf-8";
+
+/*@import url("lsh.css");*/
+/*@import url("pmy.css");*/
+/*@import url("kjb.css");*/
+/*@import url("psh.css");*/
+
+/* ag */
+.W_OD_AG_0010 .btn-area.content.block button{ line-height:4.8rem; border-color:#000;}
+.W_OD_AG_0010 .txt-icon{margin-top:0.8rem;}
+.W_OD_AG_0010 .type-between{margin-top:1.6rem !important;}
+.W_OD_AG_0010 .type-between li{padding-bottom:0.8rem;}
+.W_OD_AG_0010 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_AG_0010 .type-between li div.tit-wrap .tit span{margin-left:0.5rem;color:#999;font-size:1.2rem;}
+.W_OD_AG_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_AG_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_AG_0010 .complete-box .icon img{width:100%;}
+.W_OD_AG_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_AG_0010 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+
+/* ap */
+.W_OD_AP_0010 .btn-area.content{margin-top:1.6rem;}
+.W_OD_AP_0010 .txt-icon{margin-top:0.8rem;}
+.W_OD_AP_0010 .type-between{margin-top:1.6rem !important;}
+.W_OD_AP_0010 .type-between li{padding-bottom:0.8rem;}
+.W_OD_AP_0010 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_AP_0010 .type-between li div.tit-wrap .tit span{margin-left:0.5rem;color:#999;font-size:1.2rem;}
+.W_OD_AP_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_AP_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_AP_0010 .complete-box .icon img{width:100%;}
+.W_OD_AP_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_AP_0010 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+
+.W_OD_AP_0030 .agree-list{margin-top:2.4rem;}
+.W_OD_AP_0030 .title-small{margin-top:2.4rem;}
+.W_OD_AP_0030 .txt-info{margin-top:1.6rem;}
+
+.W_OD_AP_0040 .agree-list{margin-top:2.4rem;}
+.W_OD_AP_0040 .btn-area{justify-content:center;}
+.W_OD_AP_0040 .btn-area .btn-border{width:15rem;}
+
+/* cc */
+.A_CL_CC_0010 .complete-box{padding:8rem 0;}
+.A_CL_CC_0010 .complete-box .icon img{width:3.2rem;}
+.A_CL_CC_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+.A_CL_CC_0020 .title-big {margin-top: 2.4rem; line-height: 3rem; font-weight: 400; word-break: keep-all;}
+.A_CL_CC_0020 .form-comp-wrap {margin-top: 3.2rem;}
+.A_CL_CC_0020 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input {text-align: left;}
+
+.A_CL_CC_0030 .list-step{margin:2.4rem -3.2rem 0;}
+.A_CL_CC_0030 .list-step li + li:before{top:50%;left:3rem;transform:translateY(-50%);}
+.A_CL_CC_0030 .list-step li + li:after{content:'공인인증서 복사';position:absolute;top:50%;left:-5rem;color:#888b8d;font-size:1.2rem;transform:translateY(-50%);}
+.A_CL_CC_0030 .form-wrap input{font-family:"RenaultSamsungMotors"; font-weight:700;}
+.A_CL_CC_0030 .txt-info{margin-top:0.8rem;}
+.A_CL_CC_0030 .title-small.type2{padding-left:0.8rem;}
+.A_CL_CC_0030 .title-small.type2:before{position:absolute;top:50%;margin-top:-0.8rem;left:0;content:'';display:block;width:0.3rem;height:1.6rem;background-color:#ffb517;}
+.A_CL_CC_0030 .list-num-wrap{margin-top:2.4rem !important;}
+.A_CL_CC_0030 .list-num-wrap ul li{word-break: break-all;}
+
+.A_CL_CC_0021 .form-wrap.password-box .title-small {line-height: 2.6rem;}
+
+/* ce */
+.W_OD_CE_0010 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CE_0010 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CE_0010 .title-small strong{font-weight:700;}
+.W_OD_CE_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CE_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CE_0010 .complete-box .icon img{width:3.2rem;}
+
+.W_OD_CE_0020 .board-wrap .txt-wrap{height:14rem;}
+.W_OD_CE_0020 .section-02 dl.type-between{margin-top:0.8rem;}
+.W_OD_CE_0020 .section-01 .type-between li{padding-bottom:1.2rem;}
+
+.W_OD_CE_0030 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CE_0030 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CE_0030 .title-small strong{font-weight:700;}
+.W_OD_CE_0030 .complete-box.error .icon img{width:3.2rem;}
+
+.W_OD_CE_0040 .board-wrap .txt-wrap{height:14rem;}
+.W_OD_CE_0040 .section-02 dl.type-between{margin-top:0.8rem;}
+.W_OD_CE_0040 .section-01 .type-between li{padding-bottom:1.2rem;}
+
+/* co */
+.W_OD_CO_0010 .form-comp-wrap{padding-top:0.8rem;}
+.W_OD_CO_0010 .title-small{color:#53565a; font-weight:500;}
+.W_OD_CO_0010 .title-small strong{font-weight:700;}
+.W_OD_CO_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CO_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CO_0010 .complete-box .icon img{width:3.2rem;}
+
+.W_OD_CO_0020 section{position:relative; margin-top:2.4rem !important; padding-bottom:1.6rem; border-bottom:1px solid #ddd;}
+.W_OD_CO_0020 section:last-child{border-bottom:0;}
+.W_OD_CO_0020 .title-small{margin-bottom:2.4rem !important;}
+.W_OD_CO_0020 .type-between li{padding-bottom:0.8rem;}
+
+/* cr */
+
+/* WA_CL_CR_0110 */
+.WA_CL_CR_0010 .box-car-info{margin-top:8.8rem;}
+.WA_CL_CR_0010 .title-medium{margin-top:1rem; text-align:center;}
+.WA_CL_CR_0010 .car-info-wrap{padding:2.4rem; padding-top:4.6rem; border-top-left-radius:1.6rem; border-top-right-radius:1.6rem; background-color:#faf9f8;}
+.WA_CL_CR_0010 .txt-icon{margin-top:1.6rem;}
+
+/* WA_CL_CR_0020 */
+.WA_CL_CR_0020 .form-wrap + .form-wrap{margin-top:3.2rem;}
+.WA_CL_CR_0020 .agree-list{margin-top:3.2rem;}
+.WA_CL_CR_0020 .box-gray{margin-top:3.2rem;}
+.WA_CL_CR_0020 .txt-icon{margin-top:0.8rem;}
+.WA_CL_CR_0020 .agree-list .txt-info{margin-top:1.6rem;}
+
+/* WA_CL_CR_0020 (.form-check-repair) */
+.form-check-repair{position:relative;display:inline-block;padding-left:2.8rem;}
+.form-check-repair input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.form-check-repair.no-check .text:before{display:none;}
+.form-check-repair .text{display:block; line-height:2rem;color:#53565a;font-size:1.4rem;font-family:"RenaultSamsungMotors";font-weight:700;}
+.form-check-repair .text:before{content:''; position:absolute; top:0;width:2rem; left:0; width:2rem; height:2rem;border-radius:50%;border:1px solid #ddd;background:url(../images/common/icon_agree_check_1_off.png) no-repeat center center;background-size:1.2rem 0.9rem;box-sizing:border-box;}
+.form-check-repair input:checked + .text:before{border-color:#ffcc33;background:url(../images/common/icon_agree_check_3_on.png) no-repeat center/115%;}
+
+/* .form-check-repair-type2 */
+.form-check-repair-type2{position:relative;display:inline-block;padding-left:2.8rem;}
+.form-check-repair-type2 input{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent;}
+.form-check-repair-type2.no-check .text:before{display:none;}
+.form-check-repair-type2 .text{display:block; line-height:2rem;color:#53565a;font-size:1.4rem;font-family:"RenaultSamsungMotors";font-weight:700;}
+.form-check-repair-type2 .text:before{content:''; position:absolute; top:0; width:2rem; left:0; width:2rem; height:2rem;border-radius:50%;border:1px solid #ddd;box-sizing:border-box;}
+.form-check-repair-type2 .text:after{content:''; position:absolute; top:0.6rem; left:0.5rem; display:block; width:0.9rem; height:0.4rem; border-left:2px solid #ddd; border-bottom:2px solid #ddd; transform:rotate(-45deg);  }
+.form-check-repair-type2 input:checked + .text:before{border-color:#ffcc33; background-color:#ffcc33;}
+.form-check-repair-type2 input:checked + .text:after{content:''; position:absolute; top:0.6rem; left:0.5rem; display:block; width:0.9rem; height:0.4rem; border-left:2px solid #000; border-bottom:2px solid #000; transform:rotate(-45deg);}
+
+
+
+.W_CL_CR_0020 .form-list + .title-small{margin-top:2.4rem;}
+
+/* WA_CL_CR_0025 */
+.WA_CL_CR_0025 .title-sub2 {color: #53565a; margin-top: 1.6rem;}
+.WA_CL_CR_0025 .list-caption {font-size: 1.4rem;line-height: 2.2rem;font-weight: 700;}
+.WA_CL_CR_0025 .list-caption.list1 {font-weight: 400;}
+
+/* WA_CL_CR_0030 */
+.WA_CL_CR_0030.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0030 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+
+/* WA_CL_CR_0040 */
+.WA_CL_CR_0040.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0040 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+
+/* WA_CL_CR_0050 */
+.WA_CL_CR_0050.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+.WA_CL_CR_0050 .box-gray-full{margin-bottom:-1.6rem; padding-bottom:4rem;}
+.WA_CL_CR_0050 .list-bullet ul{margin-top:0.4rem;}
+.WA_CL_CR_0050 .list-bullet ul li{margin-top:0.4rem;}
+
+/* WA_CL_CR_0055 */
+.WA_CL_CR_0055.popup-modal-content.full.btn-area-fixed{padding-bottom:5.6rem;}
+
+/* WA_CL_CR_0057 */
+.WA_CL_CR_0057 .tit-txt-wrap{margin-top:1.6rem;}
+.WA_CL_CR_0057 .tit-txt-wrap h4{color:#53565a;}
+.WA_CL_CR_0057 .tit-txt-wrap p{color:#53565a;}
+
+/* WA_CL_CR_0130 */
+.WA_CL_CR_0130 {position:fixed;top:0;left:50%;transform:translateX(-50%);padding-top:10.2rem;width:100vw;height:100vh;max-width:768px;z-index:5000;background-color:#fff;}
+.WA_CL_CR_0130 .complete-box{padding-bottom:2.8rem;}
+.WA_CL_CR_0130 .complete-box .tit{color:#fff;}
+
+/* WA_CL_CR_0140 */
+.WA_CL_CR_0140 .title-sub{padding-top:1rem;}
+.WA_CL_CR_0140 .limit-info .text-caption{padding-top:0.8rem;}
+.WA_CL_CR_0140 .box-car-info .title-sub2 {position: relative; display: inline-block; color: #000; font-weight: 400; text-align: center; padding-top: 2.4rem; z-index: 1; }
+.WA_CL_CR_0140 .box-car-info .title-sub2::after{position: absolute; bottom: 0; left: 0; content: ''; display: block; width: 100%; height: 0.8rem; background-color: #ffcc33; z-index: -1;}
+.WA_CL_CR_0140 .box-car-info .car-info-wrap.small{padding-top:4.8rem;}
+.WA_CL_CR_0140 .car-info-wrap.small .car-name .state{font-size:1.4rem;}
+.WA_CL_CR_0140 .box-car-info .car-info-list{margin:1.6rem 0; padding:1.6rem 0; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.WA_CL_CR_0140 .txt-info + .txt-info{margin-top:0.4rem;}
+.WA_CL_CR_0140 .limit-info .box-car-info{padding:0 1.6rem;}
+.WA_CL_CR_0140 .car-listbox li {position: relative; text-align: left; margin-top: 1.6rem; padding: 1.6rem 0.8rem 1.6rem 1.6rem; border: 1px solid #eeeeee;}
+.WA_CL_CR_0140 .car-listbox li .car-img {position: absolute; top:5.2rem; right: 0.8rem; width: 16rem; height: 10.4rem;}
+.WA_CL_CR_0140 .car-listbox li .car-img img {width: 100%; height: 100%;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .title-medium {color: #53565a; line-height: 2.6rem;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .title-medium strong {font-size: 1.6rem; margin-right: 0.8rem;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .title-medium span {font-size: 1.4rem; font-weight: 400;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .title-sub {margin-top:1rem; font-family: 'RenaultSamsungMotors'; line-height: 2.6rem; font-weight: 700;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .text {font-size: 1rem; line-height: 2rem; color: #888b8d; font-weight: 400;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info dl .list-caption {color: #bbbcbc; width: 4.9rem;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info dl .text-caption {margin-top:0; color: #888b8d; padding: 0;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .text-caption {margin-top:0.7rem;color: #888b8d; font-size:1.2rem; padding: 0;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info .text {display:block;margin-top:-0.1rem;}
+.WA_CL_CR_0140 .car-listbox li .car-list-info dl dt,
+.WA_CL_CR_0140 .car-listbox li .car-list-info dl dd {display: inline-block;}
+.WA_CL_CR_0140 .txt-icon:before {top: 0;}
+
+.WA_CL_CR_0140 .section-02 .limit-info .box-car-info{margin-top:7.2rem;}
+.WA_CL_CR_0140 .section-02 .limit-info .box-car-info .title-small{padding-top:2.4rem;}
+.WA_CL_CR_0140 .section-02 .limit-info .box-car-info .car-info-list{margin-top:0 !important;}
+.WA_CL_CR_0140 .section-02 .limit-info .box-car-info .car-info-list + .title-small{margin-top:0;border-top:1px solid #eee;}
+.WA_CL_CR_0140 .section-02 .box-car-info .car-info-list {border: 0; padding: 1.2rem 0 2rem; margin: 0;}
+
+
+/* WA_CL_CR_0145 */
+.WA_CL_CR_0145 .title-sub{padding-top:1rem;}
+.WA_CL_CR_0145 .limit-info .text-caption{padding-top:0.8rem;}
+.WA_CL_CR_0145 .box-car-info .title-sub2 {position: relative; display: inline-block; color: #000; font-weight: 400; text-align: center; padding-top: 2.4rem; z-index: 1; }
+.WA_CL_CR_0145 .box-car-info .title-sub2::after{position: absolute; bottom: 0; left: 0; content: ''; display: block; width: 100%; height: 0.8rem; background-color: #ffcc33; z-index: -1;}
+.WA_CL_CR_0145 .box-car-info .car-info-wrap.small{padding-top:4.8rem;}
+.WA_CL_CR_0145 .car-info-wrap.small .car-name .state{font-size:1.4rem;}
+.WA_CL_CR_0145 .box-car-info .car-info-list{margin:1.6rem 0; padding:1.6rem 0; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.WA_CL_CR_0145 .txt-info + .txt-info{margin-top:0.4rem;}
+.WA_CL_CR_0145 .limit-info .box-car-info{padding:0 1.6rem;}
+.WA_CL_CR_0145 .car-listbox li {position: relative; text-align: left; margin-top: 1.6rem; padding: 1.6rem 0.8rem 1.6rem 1.6rem; border: 1px solid #eeeeee;}
+.WA_CL_CR_0145 .car-listbox li .car-img {position: absolute; top:5.2rem; right: 0.8rem; width: 16rem; height: 10.4rem;}
+.WA_CL_CR_0145 .car-listbox li .car-img img {width: 100%; height: 100%;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .title-medium {color: #53565a; line-height: 2.6rem;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .title-medium strong {font-size: 1.6rem; margin-right: 0.8rem;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .title-medium span {font-size: 1.4rem; font-weight: 400;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .title-sub {margin-top:1rem; font-family: 'RenaultSamsungMotors'; line-height: 2.6rem; font-weight: 700;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .text {font-size: 1rem; line-height: 2rem; color: #888b8d; font-weight: 400;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info dl .list-caption {color: #bbbcbc; width: 4.9rem;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info dl .text-caption {margin-top:0; color: #888b8d; padding: 0;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .text-caption {margin-top:0.7rem;color: #888b8d; font-size:1.2rem; padding: 0;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info .text {display:block;margin-top:-0.1rem;}
+.WA_CL_CR_0145 .car-listbox li .car-list-info dl dt,
+.WA_CL_CR_0145 .car-listbox li .car-list-info dl dd {display: inline-block;}
+.WA_CL_CR_0145 .txt-icon:before {top: 0;}
+
+/* WA_CL_CR_0150 */
+.WA_CL_CR_0150 .box-car-info{padding:0 1.6rem;}
+.WA_CL_CR_0150 .box-car-info .car-info-wrap.small {padding-top: 4.8rem;}
+.WA_CL_CR_0150 .limit-info.error {display: block; background-color: #eeeeee; background: #eeeeee url(../images/common/common_icon_impossible.png)no-repeat center 4rem; background-size: 4.8rem;}
+.WA_CL_CR_0150 .title-sub{padding-top:1rem;}
+.WA_CL_CR_0150 .limit-info .text-caption{padding-top:0.8rem;}
+.WA_CL_CR_0150 .box-car-info .title-sub2 {position: relative; display: inline-block; color: #000; font-weight: 400; text-align: center; padding-top: 2.4rem; z-index: 1; }
+.WA_CL_CR_0150 .box-car-info .title-sub2::after{position: absolute; bottom: 0; left: 0; content: ''; display: block; width: 100%; height: 0.8rem; background-color: #ffcc33; z-index: -1;}
+.WA_CL_CR_0150 .box-car-info .car-info-wrap.small{padding-top:4.8rem;}
+.WA_CL_CR_0150 .car-info-wrap.small .car-name .state{font-size:1.4rem;}
+.WA_CL_CR_0150 .box-car-info .car-info-list{margin:1.6rem 0; padding:1.6rem 0; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.WA_CL_CR_0150 .txt-info + .txt-info{margin-top:0.4rem;}
+.WA_CL_CR_0150 .limit-info .box-car-info{padding:0 1.6rem;}
+.WA_CL_CR_0150 .car-listbox li {position: relative; text-align: left; margin-top: 1.6rem; padding: 1.6rem 0.8rem 1.6rem 1.6rem; border: 1px solid #eeeeee;}
+.WA_CL_CR_0150 .car-listbox li .car-img {position: absolute; top:5.2rem; right: 0.8rem; width: 16rem; height: 10.4rem;}
+.WA_CL_CR_0150 .car-listbox li .car-img img {width: 100%; height: 100%;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .title-medium {color: #53565a; line-height: 2.6rem;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .title-medium strong {font-size: 1.6rem; margin-right: 0.8rem;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .title-medium span {font-size: 1.4rem; font-weight: 400;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .title-sub {margin-top:1rem; font-family: 'RenaultSamsungMotors'; line-height: 2.6rem; font-weight: 700;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .text {font-size: 1rem; line-height: 2rem; color: #888b8d; font-weight: 400;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info dl .list-caption {color: #bbbcbc; width: 4.9rem;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info dl .text-caption {margin-top:0; color: #888b8d; padding: 0;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .text-caption {margin-top:0.7rem;color: #888b8d; font-size:1.2rem; padding: 0;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info .text {display:block;margin-top:-0.1rem;}
+.WA_CL_CR_0150 .car-listbox li .car-list-info dl dt,
+.WA_CL_CR_0150 .car-listbox li .car-list-info dl dd {display: inline-block;}
+.WA_CL_CR_0150 .txt-icon:before {top: 0;}
+
+/* WA_CL_CR_0155 */
+.WA_CL_CR_0155 .title-sub{padding-top:1rem;}
+.WA_CL_CR_0155 .limit-info .text-caption{padding-top:0.8rem;}
+.WA_CL_CR_0155 .text-caption{line-height:2.2rem;}
+.WA_CL_CR_0155 .box-car-info .title-sub2 {position: relative; display: inline-block; color: #000; font-weight: 400; text-align: center; padding-top: 2.4rem; z-index: 1; }
+.WA_CL_CR_0155 .box-car-info .title-sub2::after{position: absolute; bottom: 0; left: 0; content: ''; display: block; width: 100%; height: 0.8rem; background-color: #ffcc33; z-index: -1;}
+.WA_CL_CR_0155 .box-car-info .car-info-wrap.small{padding-top:4.8rem;}
+.WA_CL_CR_0155 .car-info-wrap.small .car-name .state{font-size:1.4rem;}
+.WA_CL_CR_0155 .box-car-info .car-info-list{margin:1.6rem 0; padding:1.6rem 0; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+.WA_CL_CR_0155 .txt-info + .txt-info{margin-top:0.4rem;}
+.WA_CL_CR_0155 .limit-info .box-car-info{padding:0 1.6rem;}
+.WA_CL_CR_0155 .car-listbox li {position: relative; text-align: left; margin-top: 1.6rem; padding: 1.6rem 0.8rem 1.6rem 1.6rem; border: 1px solid #eeeeee;}
+.WA_CL_CR_0155 .car-listbox li .car-img {position: absolute; top:5.2rem; right: 0.8rem; width: 16rem; height: 10.4rem;}
+.WA_CL_CR_0155 .car-listbox li .car-img img {width: 100%; height: 100%;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .title-medium {color: #53565a; line-height: 2.6rem;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .title-medium strong {font-size: 1.6rem; margin-right: 0.8rem;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .title-medium span {font-size: 1.4rem; font-weight: 400;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .title-sub {margin-top:1rem; font-family: 'RenaultSamsungMotors'; line-height: 2.6rem; font-weight: 700;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .text {font-size: 1rem; line-height: 2rem; color: #888b8d; font-weight: 400;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info dl .list-caption {color: #bbbcbc; width: 4.9rem;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info dl .text-caption {margin-top:0; color: #888b8d; padding: 0;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .text-caption {margin-top:0.7rem;color: #888b8d; font-size:1.2rem; padding: 0;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info .text {display:block;margin-top:-0.1rem;}
+.WA_CL_CR_0155 .car-listbox li .car-list-info dl dt,
+.WA_CL_CR_0155 .car-listbox li .car-list-info dl dd {display: inline-block;}
+.WA_CL_CR_0155 .txt-icon:before {top: 0;}
+
+
+/* .WA_CL_CR_0170 */
+.WA_CL_CR_0170 .btn-area.content{display:block;margin-top:1.6rem;text-align:center;}
+.WA_CL_CR_0170 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+
+
+/* WA_CL_CR_0180 */
+.WA_CL_CR_0180 .box-car-info{margin-top:8.8rem;}
+.WA_CL_CR_0180 .title-medium{margin-top:1rem; text-align:center;}
+.WA_CL_CR_0180 .car-info-wrap{padding:2.4rem; padding-top:4.6rem; border-top-left-radius:1.6rem; border-top-right-radius:1.6rem; background-color:#faf9f8;}
+.WA_CL_CR_0180 .txt-icon{margin-top:1.6rem;}
+
+/* WA_CL_CR_180 */
+.WA_CL_CR_0140 .section-03 .title-medium {text-align: center;}
+.WA_CL_CR_0140 .section-03 .box-car-info .car-info-list {margin: 0; border: 0; padding: 1.6rem 1.6rem 7rem 1.6rem;}
+
+.WA_CL_CR_0140 .section-04 .limit-info .box-car-info{margin-top:7.2rem;}
+.WA_CL_CR_0140 .section-04 .limit-info .box-car-info .title-small{padding-top:2.4rem;}
+.WA_CL_CR_0140 .section-04 .limit-info .box-car-info .car-info-list{margin-top:0 !important;}
+.WA_CL_CR_0140 .section-04 .limit-info .box-car-info .car-info-list + .title-small{margin-top:0;border-top:1px solid #eee;}
+.WA_CL_CR_0140 .section-04 .box-car-info .car-info-list {border: 0; padding: 0; margin: 0;}
+
+.WA_CL_CR_0140 .section-05 .limit-info .box-car-info{margin-top:7.2rem;}
+.WA_CL_CR_0140 .section-05 .limit-info .box-car-info .title-small{padding-top:2.4rem; margin-bottom: 1.6rem;}
+.WA_CL_CR_0140 .section-05 .limit-info .box-car-info .car-info-list{margin-top:0 !important; border-top: 1px solid #eee; }
+.WA_CL_CR_0140 .section-05 .limit-info .box-car-info .car-info-list + .title-small{margin-top:0;border-top:1px solid #eee;}
+.WA_CL_CR_0140 .section-05 .box-car-info .car-info-list {border: 0; padding: 1.6rem 0 2rem; margin: 0;}
+
+/* WA_CL_CR_0190 */
+.WA_CL_CR_0190 .btn-area {display: block;}
+.WA_CL_CR_0190 .btn-area.content {margin-top: 1.3rem;}
+.WA_CL_CR_0190 .btn-area.content > *+* {margin: 0;}
+.WA_CL_CR_0190 .btn-area.content button:nth-child(2) {margin-top: 1.2rem;}
+.WA_CL_CR_0190 .btn-area.content button span{line-height: 2.6rem;}
+.WA_CL_CR_0190 .txt-info{margin-top:1.6rem;}
+.WA_CL_CR_0190 .txt-info + .txt-info{margin-top:0;}
+
+/* WA_CL_CR_0195 */
+.WA_CL_CR_0195 .complete-box .text em{position:relative;font-weight:400;}
+.WA_CL_CR_0195 .complete-box .text em:before{content:'';display:inline-block;margin:-0.2rem 0.8rem 0 0.5rem;width:1px;height:0.8rem;vertical-align:middle;background-color:#bbbcbc;}
+.WA_CL_CR_0195 .tit-box{position:relative;padding-left:0.8rem;}
+.WA_CL_CR_0195 .tit-box:before{position:absolute;top:50%;margin-top:-0.8rem;left:0;content:'';display:block;width:0.3rem;height:1.6rem;background-color:#ffb517;}
+.WA_CL_CR_0195 .tit-box h5{display:inline-block;font-size:1.6rem;font-weight:700;color:#333;}
+.WA_CL_CR_0195 .tit-box span{display:inline-block;padding-left:0.6rem;font-size:1.4rem;font-weight:400;color:#333;}
+.WA_CL_CR_0195 .type-between{margin-top:1.6rem;padding:1.6rem 0;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.WA_CL_CR_0195 .type-between li{padding-bottom:1.2rem;}
+.WA_CL_CR_0195 .type-between  + .txt-icon{margin-top:0.8rem;}
+
+/* WA_CL_CR_0200 */
+.WA_CL_CR_0200 .section-01{position: relative;}
+.WA_CL_CR_0200 .box-gray-full{margin-top:3.2rem;}
+.WA_CL_CR_0200 .list-bullet.small ul li{font-size:1.4rem;}
+.WA_CL_CR_0200 .form-list{margin-top:3.2rem;}
+.WA_CL_CR_0200 .form-list .form-wrap + .form-wrap{margin-top:3.2rem;}
+.WA_CL_CR_0200 .btn-area.content{display:block;margin-top:4.8rem;text-align:center;}
+.WA_CL_CR_0200 .btn-area.content .btn-text.link{margin-top:2rem;}
+.WA_CL_CR_0200 .link-area{margin-top:1.6rem;text-align: center;}
+.WA_CL_CR_0200 .btn-area .txt-info{margin-top:0.8rem; text-align:left;}
+
+/* WA_CL_CR_0210 */
+.WA_CL_CR_0210 .box-gray-full > *{line-height:2.2rem; font-size:1.4rem; color:#888b8d; }
+.WA_CL_CR_0210 .box-gray-full > p{margin-top:0.8rem;}
+.WA_CL_CR_0210 .comp-wrap{padding:1.6rem 0;}
+.WA_CL_CR_0210 .comp-wrap h4.title-small{line-height:2.6rem; color:#53565a; font-weight:700;}
+.WA_CL_CR_0210 .comp-wrap h5.tit{margin-top:1.6rem; line-height:2.2rem; color:#888b8d; font-weight:700;}
+.WA_CL_CR_0210 .comp-wrap .txt{margin-top:0.8rem; line-height:2.2rem; color:#888b8d;}
+.WA_CL_CR_0210 .comp-wrap .list-bullet{margin-top:0.8rem;}
+.WA_CL_CR_0210 .comp-wrap .list-bullet ul li{line-height:2.2rem;}
+.WA_CL_CR_0210 .comp-wrap .last-txt{margin-top:1.6rem; font-weight:700;}
+
+/* WA_CL_CR_0220 */
+.WA_CL_CR_0220 {position:fixed;top:0;left:50%;transform:translateX(-50%);padding-top:10.2rem;width:100vw;height:100vh;max-width:768px;z-index:5000;background-color:#fff;}
+.WA_CL_CR_0220 .complete-box{padding-bottom:2.8rem;}
+.WA_CL_CR_0220 .complete-box .tit{color:#fff;}
+
+/* WA_CL_CR_0230 */
+.WA_CL_CR_0230 .box-car-info .car-info-wrap.small{padding-top:4.8rem;}
+.WA_CL_CR_0230 .title-sub{padding-top:1rem;}
+.WA_CL_CR_0230 .limit-info .text-caption{padding-top:0.8rem;}
+
+/* WA_CL_CR_0240 */
+.WA_CL_CR_0240 .btn-area.content button {font-size: 1.6rem;}
+
+/* .WA_CL_CR_0250 */
+.WA_CL_CR_0250 .btn-area.content{display:block;margin-top:1.6rem;text-align:center;}
+.WA_CL_CR_0250 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+
+/* WA_CL_CR_0260 */
+.WA_CL_CR_0260 .section-01{position: relative;}
+.WA_CL_CR_0260 .box-gray-full{margin-top:3.2rem;}
+.WA_CL_CR_0260 .section-01{position: relative;}
+.WA_CL_CR_0260 .form-list{margin-top:3.2rem;}
+.WA_CL_CR_0260 .form-list .form-wrap + .form-wrap{margin-top:3.2rem;}
+
+/* WA_CL_CR_0270 */
+.WA_CL_CR_0270 .section-01{position: relative;margin-top:2.4rem;}
+.WA_CL_CR_0270 .section-01 .text-field{margin-top:0.8rem;color:#888b8d;}
+.WA_CL_CR_0270 .section-01 .text-caption{color:#888b8d;}
+.WA_CL_CR_0270 .section-01 .list-number{margin-top:-0.8rem;}
+
+/* .A_CL_CR_0290 */
+.A_CL_CR_0290 .title-big{margin-bottom:3.2rem;}
+.A_CL_CR_0290 .document-list + .txt-icon{margin-top:1.6rem;}
+
+/* .WA_CL_CR_0300 */
+.WA_CL_CR_0300 .title-big{margin-bottom:3.2rem;}
+.WA_CL_CR_0300 .btn-area.content{display:block;margin-top:4.8rem;text-align:center;}
+.WA_CL_CR_0300 .btn-area.content .btn-text.link{margin-top:2rem;}
+
+/* .WA_CL_CR_0330 */
+.WA_CL_CR_0330 .btn-area.content{display:block;margin-top:1.6rem;text-align:center;}
+.WA_CL_CR_0330 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+.WA_CL_CR_0330 .btn-area.content .btn-text.link{margin-top:2rem;}
+
+/* .WA_CL_CR_0340 */
+.WA_CL_CR_0340 .box-gray-full{margin-top:3.2rem;}
+.WA_CL_CR_0340 .txt-icon{margin-top:0.8rem;}
+
+/* A_CL_CR_0340 */
+.A_CL_CR_0340 .title-medium span {display: block;}
+.A_CL_CR_0340 .section-01 {margin-top: 3.2rem;}
+.A_CL_CR_0340 .section-02 {margin-top: 2.4rem;}
+.A_CL_CR_0340 .section-03 .txt-icon {margin-top: 0.8rem; letter-spacing: -0.05rem;}
+.A_CL_CR_0340 .bg-gray-txt {padding: 1.6rem; margin: 0 -1.6rem; background-color: #faf9f8;}
+
+/* .WA_CL_CR_0343 */
+.WA_CL_CR_0343{}
+.WA_CL_CR_0343 .section-01 .txt-info{margin-top:0.8rem;}
+
+/* WA_CL_CR_0390 */
+.WA_CL_CR_0390 .box-car-info .title-sub2 {position: relative; display: inline-block; color: #000; font-weight: 400; text-align: center; padding-top: 2.4rem; z-index: 1; }
+.WA_CL_CR_0390 .box-car-info .title-sub2::after{position: absolute; bottom: 0; left: 0; content: ''; display: block; width: 100%; height: 0.8rem; background-color: #ffcc33; z-index: -1;}
+.WA_CL_CR_0390 .content-body {margin-top: -1.6rem;}
+.WA_CL_CR_0390 .limit-info .box-car-info .title-02 {font-weight: 700;}
+.WA_CL_CR_0390 .limit-info .box-car-info .text-body {font-weight: 400;}
+.WA_CL_CR_0390 .limit-info .box-car-info .txt-info {font-weight: 400;}
+.WA_CL_CR_0390 .limit-info .box-car-info .tit-wrap {font-weight: 400;}
+.WA_CL_CR_0390 .txt-sub {font-family:"RenaultSamsungMotors"; font-weight: 400;}
+.WA_CL_CR_0390 .box-car-info .car-info-list{padding:0 1.6rem;}
+
+/* WA_CL_CR_0391 */
+.WA_CL_CR_0391 .limit-info .box-car-info{margin-top:4rem;}
+.WA_CL_CR_0391 .limit-info .box-car-info .title-small{margin:0 1.6rem;padding:1.6rem 0;border-bottom:1px solid #eee;}
+.WA_CL_CR_0391 .limit-info .box-car-info .car-info-list{margin-top:0 !important;}
+
+.W_OD_CR_0010{}
+.W_OD_CR_0010 .txt-info{margin-top:1.6rem;}
+
+.W_OD_CR_0050 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0050 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0050 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0050 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0050 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0050 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0050 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0050 .complete-box .icon img{width:100%;}
+.W_OD_CR_0050 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0050 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0050 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0070 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0070 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0070 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0070 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0070 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0070 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0070 .complete-box .icon img{width:100%;}
+.W_OD_CR_0070 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0070 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0070 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0070 .section-02 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0075 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0075 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0075 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0075 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0075 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0075 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0075 .complete-box .icon img{width:100%;}
+.W_OD_CR_0075 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0075 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0075 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0100 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0100 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0100 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0100 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0100 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0100 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0100 .complete-box .icon img{width:100%;}
+.W_OD_CR_0100 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0100 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0100 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0100 .section-02 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0110 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0110 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0110 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0110 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0110 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0110 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0110 .complete-box .icon img{width:100%;}
+.W_OD_CR_0110 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0110 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0110 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0110 .section-02 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0120 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0120 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0120 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0120 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0120 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0120 .type-between li div.tit-wrap .tit span{margin-left:0.5rem;color:#999;font-size:1.2rem;}
+.W_OD_CR_0120 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0120 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0120 .complete-box .icon img{width:100%;}
+.W_OD_CR_0120 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0120 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0120 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0120 .section-02 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0130 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0130 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0130 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0130 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0130 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0130 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0130 .complete-box .icon img{width:100%;}
+.W_OD_CR_0130 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0130 .section-02{margin:3.2rem -1.6rem 0;padding:2.4rem 1.6rem 0;border-top:1px solid #eee;}
+.W_OD_CR_0130 .section-02 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0130 .section-02 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0140 .btn-area.content{display:block;margin-top:1.6rem;text-align:center;}
+.W_OD_CR_0140 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+
+.W_OD_CR_0145 .btn-area.content{display:block;margin-top:1.6rem;text-align:center;}
+.W_OD_CR_0145 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+
+.W_OD_CR_0150 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0150 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0150 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0150 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0150 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0150 .type-between li div.tit-wrap .tit span{margin-left:0.5rem;color:#999;font-size:1.2rem;}
+.W_OD_CR_0150 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0150 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0150 .complete-box .icon img{width:100%;}
+.W_OD_CR_0150 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0150 .section-02 .title-small{margin:0 -1.6rem;padding:0 1.6rem 1.6rem 1.6rem;font-size:1.4rem;border-bottom:1px solid #eee;color:#53565a;font-weight:500;}
+.W_OD_CR_0150 .section-02 .title-small span{font-weight:700;}
+.W_OD_CR_0150 .section-02 .link-status-list ul li a .txt-wrap p.info{height:2.2rem;}
+.W_OD_CR_0150 .section-02 .link-status-list ul li a .txt-wrap p.info span{padding:0;width: 100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.W_OD_CR_0180 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0180 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0180 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0180 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+
+
+.W_OD_CR_0190 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0190 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0190 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0190 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0190 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0190 .type-between li div.tit-wrap .tit span{margin-left:0.5rem;color:#999;font-size:1.2rem;}
+.W_OD_CR_0190 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0190 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0190 .complete-box .icon img{width:100%;}
+.W_OD_CR_0190 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0190 .section-02 .title-small{margin:0 -1.6rem;padding:0 1.6rem 1.6rem 1.6rem;font-size:1.4rem;border-bottom:1px solid #eee;color:#53565a;font-weight:500;}
+.W_OD_CR_0190 .section-02 .title-small span{font-weight:700;}
+.W_OD_CR_0190 .section-02 .link-status-list ul li a .txt-wrap p.info{height:2.2rem;}
+.W_OD_CR_0190 .section-02 .link-status-list ul li a .txt-wrap p.info span{padding:0;width: 100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.W_OD_CR_0200 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0200 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0200 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0200 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0200 .complete-box{padding:12rem 0 5rem;}
+.W_OD_CR_0200 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_CR_0200 .complete-box .icon img{width:100%;}
+.W_OD_CR_0200 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.W_OD_CR_0200 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0200 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0210 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0210 .txt-icon{margin-top:0.8rem;}
+.W_OD_CR_0210 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0210 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0210 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0210 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0210 .btn-border.link span{position:relative; display:block; padding:0 2.4rem; width:100%; text-align:left; box-sizing:border-box;}
+.W_OD_CR_0210 .btn-border.link span:after{position:absolute; top:50%; margin-top:-0.8rem; right:1.6rem;}
+
+
+.W_OD_CR_0220 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0220 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0220 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0220 .type-between + .title-small{padding-top:2.4rem;}
+.W_OD_CR_0220 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0230 .btn-area.content{margin-top:1.6rem;}
+.W_OD_CR_0230 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0230 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0230 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0230 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0230 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0240 .type-between{margin-top:1.6rem !important;}
+.W_OD_CR_0240 .type-between li{padding-bottom:0.8rem;}
+.W_OD_CR_0240 .type-between li div.tit-wrap .tit{color:#53565a;}
+.W_OD_CR_0240 .type-between + .title-small{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #eee;}
+.W_OD_CR_0240 .list-bullet.border + .title-small{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid #eee;}
+
+.W_OD_CR_0250{}
+.W_OD_CR_0250 .form-wrap + .form-wrap{margin-top:0rem;}
+.W_OD_CR_0250 .form-wrap .form-box{margin-top:0;}
+.W_OD_CR_0250 .form-wrap .alert{margin-bottom:1.6rem;}
+.W_OD_CR_0250 .txt-info{margin-top:1.6rem;}
+.W_OD_CR_0250 .txt-info + .txt-info{margin-top:0;}
+
+/* cs */
+/* WA_CL_CS_0030 */
+.WA_CL_CS_0030 .section-01 {margin-top:0.8rem;}
+.WA_CL_CS_0030 .section-02 .radio-wrap{margin-top:1.6rem !important;}
+.WA_CL_CS_0030 .section-02 .form-radio + .form-radio{margin-left:1.6rem; }
+.WA_CL_CS_0030 .section-02 .form-comp-wrap {margin-top:1.6rem;}
+.WA_CL_CS_0030 .section-02 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input{}
+.WA_CL_CS_0030 .section-03 .board-wrap .txt-wrap{height:21.6rem;}
+
+/* WA_CL_CS_0050 */
+.WA_CL_CS_0050 .title-small {margin-top: 2rem;}
+.WA_CL_CS_0050 .form-comp-wrap ul.form-info-wrap li .only-select-wrap .form-select select.bold {font-weight: 700; color: #53565a;}
+.WA_CL_CS_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select input:disabled{background-color:#fff !important;}
+.WA_CL_CS_0050 .section-04 .board-wrap .txt-wrap{height:21.6rem;}
+
+/* cu */
+
+.WA_CL_CU_0010 .form-wrap .form-box{margin-top:0;}
+.WA_CL_CU_0010 .complete-box{padding:12rem 0 5rem;}
+.WA_CL_CU_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.WA_CL_CU_0010 .complete-box .icon img{width:100%;}
+.WA_CL_CU_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+.WA_CL_CU_0020 .list-bullet ul li{margin-top:0.4rem;}
+
+/* WA_CL_CU_0070 */
+.WA_CL_CU_0070 .tit-txt-wrap h4{font-size:1.6rem !important; color:#53565a;}
+.WA_CL_CU_0070 .link-status-list{margin-top:1.6rem !important;}
+.WA_CL_CU_0070 .link-status-list ul li:last-child{border-bottom:0;}
+.WA_CL_CU_0070 .link-status-list ul li a{padding-right:7rem;}
+
+/* WA_CL_CU_0080 */
+.WA_CL_CU_0080 .text-field{font-weight:700; color:#53565a;}
+.WA_CL_CU_0080 .list-bullet ul li{font-size:1.4rem;}
+
+/* CL_CU_0090 */
+.WA_CL_CU_0090 .text-field{font-weight:700; color:#53565a;}
+.WA_CL_CU_0090 .list-bullet ul{margin-top:0.8rem;}
+.WA_CL_CU_0090 .list-bullet ul li{font-size:1.4rem;}
+
+/* CL_CU_0100 */
+.WA_CL_CU_0100 .text-field{font-weight:700; color:#53565a;}
+.WA_CL_CU_0100 .list-bullet ul{margin-top:0.8rem;}
+.WA_CL_CU_0100 .list-bullet ul li{font-size:1.4rem;}
+
+/* CL_CU_0110 */
+.WA_CL_CU_0110 .text-field{font-weight:700; color:#53565a;}
+.WA_CL_CU_0110 .list-bullet ul{margin-top:0.8rem;}
+.WA_CL_CU_0110 .list-bullet ul li{font-size:1.4rem;}
+.WA_CL_CU_0110 .list-caption{font-size:1.4rem;}
+.WA_CL_CU_0110 .number-list-wrap ul li{position:relative; padding-left:2rem; color:#888b8d; font-size:1.4rem; }
+.WA_CL_CU_0110 .number-list-wrap ul li:before{display:none; color:#888b8d; }
+.WA_CL_CU_0110 .number-list-wrap ul li .num{position:absolute; top:0.2rem; left:0; display:block; width:1.4rem; height:1.4rem; line-height:1.4rem; text-align:center; border-radius:50%; border:1px solid #ddd; font-size:1.2rem;}
+
+
+/* WA_CL_CU_0120 */
+.WA_CL_CU_0120 .tit-txt-wrap h4{font-size:1.6rem !important; }
+.WA_CL_CU_0120 .link-status-list{margin-top:1.6rem !important;}
+.WA_CL_CU_0120 .link-status-list ul li:last-child{border-bottom:0;}
+.WA_CL_CU_0120 .link-status-list ul li a{padding-right:7rem;}
+.WA_CL_CU_0120 .link-status-list ul li a:after{top:1.6rem; background-position:center;}
+
+/* WA_CL_CU_0130 ~ WA_CL_CU_0250 - .tos-wrap */
+/* WA_CL_CU_0130 */
+.WA_CL_CU_0130 { background-color: #faf9f8; min-height: calc(100vh - 4.8rem);}
+.WA_CL_CU_0130 .section-01 {margin: -1.6rem; padding: 1.6rem; background-color: #fff;}
+.WA_CL_CU_0130 .tos-wrap {background: none;}
+.WA_CL_CU_0130 .section-02 {margin-top: 2.4rem;}
+.WA_CL_CU_0130 .tos-wrap .tit-wrap {padding: 2rem 0 1.6rem 0;}
+
+/* WA_CL_CU_0250 */
+.WA_CL_CU_0250 .tos-wrap .tos-table{margin-top:0rem; width:100%; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table{min-width:auto; width:100%; height:100%;  border-collapse: collapse; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table th,.tos-wrap .tos-table table td{padding:0.5rem 0.2rem; border:1px solid #ddd; font-size:1.2rem; color:#888b8d;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th{font-weight:700;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th:first-child{border-left:0; min-width:6rem; text-align:center;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table th:last-child{border-right:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table td{padding:0.5rem; font-weight:400; }
+.WA_CL_CU_0250 .tos-wrap .tos-table table td:first-child{border-left:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table td:last-child{border-right:0;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table thead th{text-align:center !important;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table tbody tr:first-child > td:first-child{text-align:center;}
+.WA_CL_CU_0250 .tos-wrap .tos-table table tbody tr th{font-weight:400;}
+
+/* ed */
+.W_OD_ED_0010 .form-wrap .form-box{margin-top:0;}
+.W_OD_ED_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_ED_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_ED_0010 .complete-box .icon img{width:100%;}
+.W_OD_ED_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+/* er */
+.WA_CL_ER_0010 .complete-box .tit {margin-top: 3.2rem;}
+
+/* es */
+
+/* WA_CL_ES_0010 */
+.WA_CL_ES_0010 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0010 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0010 .content-body{padding:0;}
+.WA_CL_ES_0010 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0010 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0010 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0010 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0010 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0010 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+
+/* WA_CL_ES_0015 */
+.WA_CL_ES_0015 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0015 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0015 .content-body{padding:0;}
+.WA_CL_ES_0015 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0015 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0015 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0015 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+
+.WA_CL_ES_0015 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0015 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0015 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+
+/* WA_CL_ES_0020 */
+.WA_CL_ES_0020 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0020 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0020 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+
+/* WA_CL_ES_0050 */
+.WA_CL_ES_0050 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0050 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0050 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0050 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0050 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0050 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0060 */
+.WA_CL_ES_0060 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0060 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0060 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0060 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0060 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0060 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+/* WA_CL_ES_0070 */
+.WA_CL_ES_0070 .title-big{margin-top:4.8rem;}
+.WA_CL_ES_0070 .form-select + .form-select {margin:0 0.8rem;}
+.WA_CL_ES_0070 .search-age-wrap{padding-top:7.2rem; font-size:2rem; font-family:"RenaultSamsungMotors"; font-weight:400; color:#888b8d; }
+.WA_CL_ES_0070 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0070 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0070 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+/* WA_CL_ES_0080 */
+.WA_CL_ES_0080 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0080 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0080 .content-body{padding:0;}
+.WA_CL_ES_0080 .swiper-slide{padding:0 1.6rem;}
+.WA_CL_ES_0080 .swiper-pagination{top:3rem; right:1.3rem;}
+.WA_CL_ES_0080 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0080 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0080 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0080 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0080 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+.WA_CL_ES_0080 .btn-area.content.align-right{padding-bottom:2.4rem;}
+.WA_CL_ES_0080 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0080 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0080 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0090 */
+.WA_CL_ES_0090 .section-01{padding-top:1.6rem;}
+.WA_CL_ES_0090 .car-info-wrap .car-name:before{display:none;}
+.WA_CL_ES_0090 .content-body{padding:0;}
+.WA_CL_ES_0090 .swiper-slide{padding:0 1.6rem; padding-top:2.4rem;}
+.WA_CL_ES_0090 .swiper-pagination{top:5.5rem; right:1.3rem;}
+.WA_CL_ES_0090 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.WA_CL_ES_0090 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+.WA_CL_ES_0090 .swiper-slide p.txt-icon + p.txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0090 .swiper-slide .btn-area{margin:2.4rem 0 0 0;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link{border-radius:0.2rem;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link span{display:block; text-align:center; width:100%; height:100%; box-sizing:border-box;}
+.WA_CL_ES_0090 .swiper-slide .btn-area .btn-border.link span:after{display:none;}
+.WA_CL_ES_0090 .btn-area.content.align-right{padding-bottom:2.4rem;}
+.WA_CL_ES_0090 .btn-area.content.align-right button{padding-left:3rem; padding-right:0; line-height:2.6rem;}
+.WA_CL_ES_0090 .btn-area.content.align-right button span{position:relative;}
+.WA_CL_ES_0090 .btn-area.content.align-right button span:before{position:absolute; top:-2px; left:-3rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_reset.png) no-repeat center/contain;}
+
+
+/* WA_CL_ES_0100 */
+.WA_CL_ES_0100 .title-small{margin-top:2.4rem;}
+.WA_CL_ES_0100 .txt-14{font-size:1.4rem; line-height:2.2rem; color:#53565a; }
+.WA_CL_ES_0100 .tit-txt-wrap{padding-top:1.6rem;}
+.WA_CL_ES_0100 .list-bullet{padding-top:0.8rem;}
+.WA_CL_ES_0100 .list-bullet ul li{font-size:1.2rem;}
+.WA_CL_ES_0100 .section-01 .txt-info{margin-top:1.6rem; letter-spacing:-0.3px; background-color:#eee; padding:0.6rem 0.8rem 0.6rem 3.2rem;}
+.WA_CL_ES_0100 .section-01 .txt-icon:before{top:0.6rem;left:0.8rem;}
+
+.WA_CL_ES_0140{min-height:calc(100vh - 4.8rem);background-color:#faf9f8;}
+.WA_CL_ES_0140 .txt-icon{margin-top:1.6rem;}
+.WA_CL_ES_0140 .txt-icon + .txt-icon{margin-top:0.3rem;}
+.WA_CL_ES_0140 .title-small .txt-icon{margin-top:0.4rem;}
+.WA_CL_ES_0140 .form-list .form-check{margin-top:1.6rem;}
+.WA_CL_ES_0140 .form-list .form-wrap .txt-icon{position:absolute;top:0.5rem;right:0;}
+
+.WA_CL_ES_0150{min-height:calc(100vh - 4.8rem);background-color:#faf9f8;}
+.WA_CL_ES_0150 .car-estimate-list + .txt-icon{margin-top:1.6rem;}
+
+.WA_CL_ES_0160 .type-between + .txt-icon{margin-top:1.6rem;}
+.WA_CL_ES_0160 .btn-area.content.block + .txt-icon{margin-top:0.8rem;}
+.WA_CL_ES_0160 .type-between li{padding-bottom:1.2rem;}
+.WA_CL_ES_0160 .type-between li:last-child{padding-bottom:0;}
+.WA_CL_ES_0160 .section-04 .btn-border.link{position:relative;}
+
+
+.WA_CL_ES_0170 .type-between + .txt-icon{margin-top:1.6rem;}
+.WA_CL_ES_0170 .btn-area.content.block + .txt-icon{margin-top:0.8rem;}
+.WA_CL_ES_0170 .type-between li{padding-bottom:1.2rem;}
+.WA_CL_ES_0170 .type-between li:last-child{padding-bottom:0;}
+
+.WA_CL_ES_0175 .type-between + .txt-icon{margin-top:1.6rem;}
+.WA_CL_ES_0175 .btn-area.content.block + .txt-icon{margin-top:0.8rem;}
+.WA_CL_ES_0175 .type-between li{padding-bottom:1.2rem;}
+.WA_CL_ES_0175 .type-between li:last-child{padding-bottom:0;}
+
+.WA_CL_ES_0180 .type-between + .txt-icon{margin-top:1.6rem;}
+.WA_CL_ES_0180 .btn-area.content.block + .txt-icon{margin-top:0.8rem;}
+.WA_CL_ES_0180 .type-between li{padding-bottom:1.2rem;}
+.WA_CL_ES_0180 .type-between li:last-child{padding-bottom:0;}
+
+.WA_CL_ES_0190 .form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between:after{transform:rotate(90deg);}
+
+
+/* WA_CL_ES_0200 */
+.WA_CL_ES_0200 .section-01 ul{position: relative;list-style: none;}
+.WA_CL_ES_0200 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.WA_CL_ES_0200 .section-01 ul>li:last-child{border-bottom:0}
+.WA_CL_ES_0200 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.WA_CL_ES_0200 .section-01 ul>li>a>span:first-child>img{width:3rem;height:3rem;vertical-align: middle;}
+.WA_CL_ES_0200 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+
+/* WA_CL_ES_0201 */
+.WA_CL_ES_0201 .section-01 ul{position: relative;list-style: none;}
+.WA_CL_ES_0201 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.WA_CL_ES_0201 .section-01 ul>li:last-child{border-bottom:0}
+.WA_CL_ES_0201 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.WA_CL_ES_0201 .section-01 ul>li>a>span:first-child>img{width:4rem;height:4rem;vertical-align: middle;}
+.WA_CL_ES_0201 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+
+/* WA_CL_ES_0202 */
+.WA_CL_ES_0202 .section-01 ul{position: relative;list-style: none;}
+.WA_CL_ES_0202 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.WA_CL_ES_0202 .section-01 ul>li:last-child{border-bottom:0}
+.WA_CL_ES_0202 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.WA_CL_ES_0202 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+
+.WA_CL_ES_0230 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.w-50 input{padding-right:2.8rem;font-weight:700;}
+.WA_CL_ES_0230 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.w-50 .unit{position:absolute;top:0;right:1.6rem;font-size:1.4rem;line-height:4.8rem;font-family:"RenaultSamsungMotors";}
+
+.WA_CL_ES_0250 .form-comp-wrap{margin-top:2.4rem;}
+.WA_CL_ES_0250 .txt-icon{margin-top:1.6rem;}
+
+.WA_CL_ES_0290{}
+.WA_CL_ES_0290 .text{margin-top:1.2rem;}
+.WA_CL_ES_0290 .box-gray-full{margin-top:2.4rem;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap{}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul{display:flex; flex-wrap:wrap;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li{position:relative; margin:1.2rem 0; padding-top:0.7rem; padding-left:6.5rem; width:50%; min-height:5.6rem; }
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li:before{position:absolute; top:0; left:0; content:'';display:block;width:5.6rem; height:5.6rem; background:url(../images/common/icon_mobile_check.png) no-repeat center/contain;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li.list-2:before{background:url(../images/common/icon_certification.png) no-repeat center/contain;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li.list-3:before{background:url(../images/common/icon_term.png) no-repeat center/contain;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li.list-4:before{background:url(../images/common/icon_limit.png) no-repeat center/contain;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li.list-5:before{background:url(../images/common/icon_interest_rate.png) no-repeat center/contain;}
+
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li .txt{font-size:1.4rem; line-height:2.2rem; color:#53565a;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li .txt strong{z-index:1; position:relative;}
+.WA_CL_ES_0290 .box-gray-full .lookup-list-wrap ul li .txt strong:before{z-index:-1; position:absolute; bottom:0; right:0; left:0; content:'';display:block; width:100%; height:8px; background-color:rgba(255, 228, 196,0.7)}
+.WA_CL_ES_0290 .txt-info{margin-top:1.6rem;}
+.WA_CL_ES_0290 .txt-info + .txt-info{margin-top:0.4rem;}
+
+
+/* ods */
+
+.W_OD_ES_0110 .txt-info{margin-top:1.6rem;}
+
+.W_OD_ES_0140 .form-wrap + .form-wrap{margin-top:2.4rem;}
+
+.W_OD_ES_0145 .form-wrap + .form-wrap{margin-top:2.4rem;}
+
+.W_OD_ES_0147 .form-wrap + .form-wrap{margin-top:2.4rem;}
+
+.W_OD_ES_0160 .section-01 .title-small{margin-top:2.4rem;}
+.W_OD_ES_0160 .type-between{padding-top:1.6rem;border-top:1px solid #eee;}
+.W_OD_ES_0160 .type-between li{padding-bottom:1.2rem;}
+.W_OD_ES_0160 .txt-icon{margin-top:1.6rem;}
+.W_OD_ES_0160 .btn-border.link span{position:relative; display:block; padding:0 2.4rem; width:100%; text-align:left; box-sizing:border-box;}
+.W_OD_ES_0160 .btn-border.link span:after{position:absolute; top:50%; margin-top:-0.7rem; right:1.6rem;}
+
+
+.W_OD_ES_0190 {position:fixed;top:0;left:50%;transform:translateX(-50%);padding-top:10.2rem;width:100vw;height:100vh;max-width:768px;z-index:5000;background-color:#fff;}
+.W_OD_ES_0190 .complete-box{padding-bottom:2.8rem;}
+.W_OD_ES_0190 .complete-box .tit{color:#fff;}
+
+.W_OD_ES_0200 .txt-icon{margin-top:1.6rem;}
+
+.W_OD_ES_0220 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0220 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+
+.W_OD_ES_0230 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0230 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+
+.W_OD_ES_0240 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0240 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+
+.W_OD_ES_0250 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0250 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+.W_OD_ES_0250 .btn-border.link span{display:block; padding-left:1.6rem; width:100%;height:100%; text-align:left; box-sizing:border-box;}
+.W_OD_ES_0250 .btn-border.link span:after{position: absolute;top: 50%;margin-top: -0.8rem;right:1.6rem;}
+
+.W_OD_ES_0260 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0260 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+.W_OD_ES_0260 .section-01 .type-between + .title-small{padding-top: 2.4rem;}
+
+.W_OD_ES_0270 .estimate-complete-box .type-between{padding-top:0; border-top:0;}
+.W_OD_ES_0270 section + section{margin-top:2.4rem !important; padding-top:2.4rem;  border-top:1px solid #eee;}
+
+
+/* fq */
+.WA_CL_FQ_0010 .section-01 .top-menu{padding:0 1.6rem;margin-top:1.6rem;}
+.WA_CL_FQ_0010 .section-01 .top-menu li a{display:block;}
+.WA_CL_FQ_0010 .section-01 .accordion{margin-top:1.6rem;}
+.WA_CL_FQ_0010 .section-01 .btn-area.content{margin-top:1rem;}
+.WA_CL_FQ_0010 .complete-box{padding:12rem 0 5rem;}
+.WA_CL_FQ_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.WA_CL_FQ_0010 .complete-box .icon img{width:100%;}
+.WA_CL_FQ_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+.WA_CL_FQ_0010 .type-faq .detail-box > table{width:auto !important;}
+
+/* in */
+.A_CL_IN_0031 .title-big{font-size:3rem; line-height:3.8rem; font-family:"RenaultSamsungMotors"; color:#222; }
+.A_CL_IN_0031 .slide-comp .img-wrap{margin:3.2rem 0 0 0;}
+.A_CL_IN_0031 .swiper-pagination{bottom:0rem; left:0; right:0; }
+.A_CL_IN_0031 .swiper-pagination .swiper-pagination-bullet{margin:0 0.3rem; width:0.6rem; height:0.6rem; border-radius:50%; background-color:#ddd; opacity:1;}
+.A_CL_IN_0031 .swiper-pagination .swiper-pagination-bullet-active{width:1.8rem; border-radius:1rem; background-color:#ffcc33; opacity:1;}
+
+.A_CL_IN_0030{}
+.A_CL_IN_0030 .intro-wrap{z-index:2000; position:fixed; top:0; left:0; right:0; width:100%; height:calc(100% - 5.6rem); overflow:auto; }
+.A_CL_IN_0030 .intro-wrap .title-intro{padding:4rem 0 0 0; text-align:center; font-size:4.2rem; font-family:"RenaultSamsungMotors"; font-weight:700; color:#222;}
+.A_CL_IN_0030 .intro-wrap .txt{margin-top:0.4rem; line-height:2.2rem; text-align:center; font-size:2rem; font-weight:300; }
+.A_CL_IN_0030 .intro-wrap .img-wrap{margin-top:1.6rem; height:calc(100% - 14rem);  text-align:center; }
+.A_CL_IN_0030 .intro-wrap .img-wrap img{height:100%;}
+
+.A_CL_IN_0070{}
+.A_CL_IN_0070 .complete-box{padding-bottom:0;}
+.A_CL_IN_0070 .text{padding:1.6rem; border:1px solid #ddd; font-size:1.4rem; font-weight:700; text-align:left; word-break:keep-all;  }
+.A_CL_IN_0070 .txt-info{margin-top:1rem; text-align:left;}
+.A_CL_IN_0070 .bg-gray{margin:0 -1.6rem; margin-top:2.4rem; margin-bottom:-1.6rem; padding:1.6rem;}
+.A_CL_IN_0070 .bg-gray .title-small{text-align:left; font-size:1.4rem; color:#53565a; }
+.A_CL_IN_0070 .bg-gray .text-caption{text-align:left;}
+
+/* lo */
+.A_CL_LO_0010 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem 1.6rem 2.7rem; background-color:#faf9f8;}
+.A_CL_LO_0010 .bg-darkgray h4{position:relative; margin:1.6rem 0 0.8rem 0; color:#53565a;font-size:1.4rem;font-weight:700;}
+.A_CL_LO_0010 .bg-darkgray h4:before{position:absolute; top:50%; margin-top:-0.8rem; left:-1rem;content:'';display:block; width:3px; height:1.6rem; background-color:#ffb517;}
+.A_CL_LO_0010 .bg-darkgray h4:first-child{margin-top:0;}
+.A_CL_LO_0010 .bg-darkgray .list-bullet.small ul li{font-size:1.4rem;}
+.A_CL_LO_0010 .txt-icon{margin-top:0.8rem;}
+.A_CL_LO_0010 .txt-icon +.txt-icon{margin-top:0.4rem;}
+.A_CL_LO_0010 .title-small{margin-top:2.4rem;}
+
+.A_CL_LO_0020 .form-comp-wrap {margin-top: 2.4rem;}
+.A_CL_LO_0020 .form-comp-wrap p.txt-icon.mb-26 {margin-top: 2.6rem;}
+.A_CL_LO_0020 .form-check.bg .text {line-height: 2.2rem;}
+.A_CL_LO_0020 .txt-icon strong {font-weight: 700;}
+.A_CL_LO_0020 .form-comp-wrap ul.form-info-wrap {margin-top: 2.4rem;}
+.A_CL_LO_0020 .form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between {line-height: 2.2rem; color: #53565a;}
+.A_CL_LO_0020 .form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between .tit {letter-spacing: -0.3px;}
+
+.A_CL_LO_0050 .content-body > section{margin-top:2.4rem;}
+.A_CL_LO_0050 .radio-wrap{margin-top:1.6rem !important;}
+.A_CL_LO_0050 .form-radio + .form-radio{margin-left:2rem;}
+.A_CL_LO_0050 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0050 .section-01 .form-comp-wrap{margin-top:-1px;}
+.A_CL_LO_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit{width:auto;min-width:6.2rem;}
+.A_CL_LO_0050 .section-03 .dark-gray{margin-top:1.6rem;font-weight:700;}
+.A_CL_LO_0050 .section-03 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0050 .section-03 .list-bullet{margin-top:0.8rem;}
+.A_CL_LO_0050 .section-03 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select{width:calc(100% - 12rem)}
+.A_CL_LO_0050 .section-03 .txt-info{margin-top:0.8rem;}
+.A_CL_LO_0050 .section-03 .txt-info + .txt-info{margin-top:0;}
+.A_CL_LO_0050 .section-03-2 h4{margin-top:1.6rem;}
+.A_CL_LO_0050 .section-05 input:read-only{background-color:#fff !important;}
+.A_CL_LO_0050 .section-05 input::placeholder{color:#888b8d !important;}
+.A_CL_LO_0050 .section-06 input:read-only{background-color:#fff !important;}
+.A_CL_LO_0050 .section-06 input::placeholder{color:#888b8d !important;}
+
+.A_CL_LO_0051 {position:fixed;top:0;left:50%;transform:translateX(-50%);padding-top:10.2rem;width:100vw;height:100vh;max-width:768px;z-index:5000;}
+.A_CL_LO_0051 .complete-box{padding-bottom:2.8rem;}
+.A_CL_LO_0051 .complete-box .tit{color:#fff;}
+
+.A_CL_LO_0052 .section-02 .agree-list{border-top:1px solid #eee; padding-top:1rem; margin-top:1.6rem;}
+.A_CL_LO_0052 .section-02 .agree-list p.txt{padding:2rem 0; text-align:center; color:#bbbcbc; font-size:1.4rem; }
+
+.A_CL_LO_0053 .section-01 .form-comp-wrap ul.form-info-wrap li .info-wrap > .btn-submit{width:auto;min-width:6.2rem;}
+.A_CL_LO_0053 .section-01 .dark-gray{margin-top:1.6rem;font-weight:700;}
+.A_CL_LO_0053 .section-01 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0053 .section-01 .list-bullet{margin-top:0.8rem;}
+
+.A_CL_LO_0055 .radio-wrap{margin-top:1.6rem;}
+.A_CL_LO_0055 .radio-wrap .form-radio + .form-radio{margin-left:1.6rem;}
+.A_CL_LO_0055 .form-comp-wrap{margin-top:1.6rem;}
+.A_CL_LO_0055 .hr-gray{margin-top:1.6rem !important;}
+.A_CL_LO_0055 .hr-gray.mt-24{margin-top:2.4rem !important;}
+.A_CL_LO_0055 .type-between.radio{margin-top:0.8rem;padding:1.6rem 0;}
+.A_CL_LO_0055 .type-between.radio li{position:relative;display:block;padding-bottom:4rem;}
+.A_CL_LO_0055 .type-between.radio li:after{content:'';clear:both;display:block;}
+.A_CL_LO_0055 .type-between.radio li .radio-wrap{margin:0 0 1.6rem 0;padding-bottom:1.6rem;border-bottom:1px solid #eee;}
+.A_CL_LO_0055 .type-between.radio li .tit-wrap{padding-right:5rem;}
+.A_CL_LO_0055 .type-between.radio li .txt-wrap{position:absolute;top:5.8rem;right:0;}
+.A_CL_LO_0055 .section-01 .lot-address-wrap{}
+.A_CL_LO_0055 .section-01 .street-address-wrap{}
+.A_CL_LO_0055 .section-01 .street-address-wrap .title-small{margin-top:2.4rem;}
+.A_CL_LO_0055 .section-01 .street-address-wrap .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_0055 .section-01 .street-address-wrap .btn-area.content{margin-top:2.4rem;}
+.A_CL_LO_0055 .section-01 .street-address-wrap .btn-area.content .btn-more span{padding-right:2rem; background-size:1.6rem; }
+.A_CL_LO_0055 .section-02 .type-btn{position:relative; }
+.A_CL_LO_0055 .section-02 .type-btn:before{content:'';display:block; width:calc(100% - 3.2rem); height:1px; background:#ddd; position:absolute; top:0; left:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-btn:after{content:'';display:block; width:calc(100% - 3.2rem); height:1px; background:#ddd; position:absolute; bottom:0; left:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-between.type-btn > li > button.btn-between{padding:1.6rem;}
+.A_CL_LO_0055 .section-02 .type-btn .tit-wrap .tit{color:#53565a !important; font-weight:700;}
+.A_CL_LO_0055 .section-02 .btn-wrap{padding:1rem 0; text-align:center; }
+.A_CL_LO_0055 .section-02 .btn-wrap .btn-more{position:relative; display:block; width:100%; padding:1.6rem 0;}
+.A_CL_LO_0055 .section-02 .btn-wrap .btn-more span{padding-right:2rem; font-size:1.4rem; line-height:2.2rem; font-weight:500; background:url(../images/common/btn-arrow-bottom.png) no-repeat right center/1.6rem 1.6rem;}
+.A_CL_LO_0055 .section-03 .fixed-address{font-size:1.4rem; color:#53565a; font-family:"RenaultSamsungMotors"; font-weight:700;}
+.A_CL_LO_0055 .section-04 .txt-wrap .txt{font-size:1.4rem;}
+
+
+.A_CL_LO_0057 .accordion.type-02 .btn .txt-bold {font-weight: 700;}
+
+.A_CL_LO_0060 .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_0060 .list-bullet.small ul li{font-size:1.4rem;}
+
+.A_CL_LO_0070 .section-02 .list-bullet{margin-top:-0.8rem; margin-bottom:2.4rem;}
+.A_CL_LO_0070 .btn-area.content{margin-top:1.6rem;}
+.A_CL_LO_0070 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select{width:calc(100% - 12rem);}
+.A_CL_LO_0070 .idcard-area{margin-top:1.6px; padding-top:8px;}
+.A_CL_LO_0070 .txt-info + .txt-info{margin-top:0.5rem;}
+.A_CL_LO_0070 .bg-gray{background-color:#eee !important;}
+
+.A_CL_LO_0071 .title-small{font-size:2.2rem;font-weight:400;}
+.A_CL_LO_0071 .txt-icon {margin-top:1.6rem !important; margin-bottom:3.2rem; padding: 0.7rem 0 0.8rem 3.2rem; background-color: #eee;}
+.A_CL_LO_0071 .txt-icon:before {top: 0.6rem; left: 0.8rem;}
+.A_CL_LO_0071 .tit-txt-wrap {padding-right: 2.1rem;}
+.A_CL_LO_0071 .tit-txt-wrap h4 {margin-top: 2.4rem; margin-bottom:0.8rem; color:#333; font-size:1.6rem; }
+
+.A_CL_LO_0072 .btn-area.content{margin-top:1.6rem;}
+.A_CL_LO_0072 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select{width:calc(100% - 12rem);}
+
+.A_CL_LO_0074 .title-big{margin-bottom:3.2rem; letter-spacing:-0.4px;}
+.A_CL_LO_0074 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0074 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0074 .section-01 .bg-darkgray .title-small{color:#53565a;}
+.A_CL_LO_0074 .section-02 .txt-icon + .txt-icon{margin-top:0;}
+.A_CL_LO_0074 .section-02 .title-small{margin-top:1.6rem;}
+.A_CL_LO_0074 .section-02 .title-small.dark-gray{font-size:1.4rem;}
+.A_CL_LO_0074 .section-02 .list-bullet ul li{line-height:2.2rem; font-weight:700;}
+.A_CL_LO_0074 .section-02 .list-bullet ul li + li{margin-top:0.8rem;}
+.A_CL_LO_0074 .section-02 .list-bullet ul li p.text{font-weight:400;}
+
+
+.A_CL_LO_0075 .document-list + .txt-icon{margin-top:1.6rem;}
+.A_CL_LO_0075 .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_0075 .txt-icon{margin-top:1.6rem;}
+
+.A_CL_LO_0076 .document-list + .txt-icon{margin-top:1.6rem;}
+.A_CL_LO_0076 .list-bullet{margin-top:1.6rem;}
+
+.A_CL_LO_0077 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0077 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0077 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0077 .radio-wrap .form-radio{margin-left:2.4rem;}
+.A_CL_LO_0077 .radio-wrap .form-radio:first-child{margin-left:0;}
+
+.A_CL_LO_0078 {position:fixed;top:0;left:50%;transform:translateX(-50%);padding-top:10.2rem;width:100vw;height:100vh;max-width:768px;z-index:5000;}
+.A_CL_LO_0078 .complete-box{padding-bottom:2.8rem;}
+.A_CL_LO_0078 .complete-box .tit{color:#fff;}
+
+.A_CL_LO_0079 .complete-box{padding-bottom:2.5rem;}
+.A_CL_LO_0079 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0079 .txt-icon{margin-top:0.8rem;}
+.A_CL_LO_0079 .list-bullet{margin:0 -1.6rem; padding:2.4rem; background-color:#faf9f8;}
+
+.A_CL_LO_0080 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0080 .txt-icon{margin-top:0.8rem;}
+.A_CL_LO_0080 .document-comp li .btn-between > .tit-wrap{width:75%;}
+.A_CL_LO_0080 .document-comp li .btn-between > .txt-wrap{width:25%;}
+
+.A_CL_LO_0081 .title-big{margin:1.6rem 0 3.2rem;}
+.A_CL_LO_0081 .title-small{margin-top:3.2rem;}
+
+.A_CL_LO_0082 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0082 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0083 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0083 .gray{margin-top:1.6rem;}
+.A_CL_LO_0083 .list-bullet{margin-top:0.8rem;}
+.A_CL_LO_0083 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0089 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0089 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0090 .title-big {margin-top: 3.2rem;}
+
+.A_CL_LO_0091 .title-big {margin-top: 1.6rem;}
+
+.A_CL_LO_0092 .title-big {margin-top: 1.6rem;}
+
+.A_CL_LO_0095 .title-sub2 {color: #53565a;}
+.A_CL_LO_0095 .title-sub3 {font-weight: 700;}
+.A_CL_LO_0095 .list-caption {font-size: 1.4rem; line-height: 2.2rem;}
+.A_CL_LO_0095 .list-bullet ul li{margin-top:0;}
+.A_CL_LO_0095 .list-bullet ul li:first-child {margin: 0;}
+.A_CL_LO_0095 .list-bullet ul li:before {width: 0.3rem; height: 0.3rem;}
+.A_CL_LO_0095 .txt-sub {font-size: 1.2rem;}
+.A_CL_LO_0095 .txt-sub02 {font-weight: 500;}
+.A_CL_LO_0095 .list-caption span {position: relative; padding-left: 1rem;}
+.A_CL_LO_0095 .list-caption span::before {position: absolute; left: 0.3rem; top: 0.7rem; content: ''; display: inline-block; width: 0.1rem; height: 0.8rem; background-color: #bbbcbc;}
+
+.A_CL_LO_0098 .title-small {margin-top: 1.6rem; color: #53565a;}
+.A_CL_LO_0098 .list-bullet ul li {font-size: 1.4rem; line-height: 2.2rem;}
+.A_CL_LO_0098 .list-bullet ul li:before {width: 0.3rem; height: 0.3rem;}
+.A_CL_LO_0098 .top-bottom-box {margin: 0; padding:0 0 3.2rem 0; border-top: 0;}
+.A_CL_LO_0098 .form-check {padding-left: 2.8rem;}
+.A_CL_LO_0098 .text-field {line-height: 2.2rem; font-weight: 700; margin-top: 3.2rem;}
+.A_CL_LO_0098 .agree-list.type2 ul li {margin-top: 1.2rem; padding-bottom: 0.8rem;}
+
+/* A_CL_LO_0100,A_CL_LO_0500 */
+.A_CL_LO_0100 .form-check-link-wrap{margin-bottom:-1px;}
+.A_CL_LO_0100 .title-small{margin-top:2.6rem;}
+.A_CL_LO_0100 .checkbox-wrap{margin-top:1rem;}
+.A_CL_LO_0100 .form-radio{display:block; margin-left:2.4rem;}
+.A_CL_LO_0100 .agree-list ul li .sub-text{display:block;width:calc(100% + 1.6rem);}
+.A_CL_LO_0100 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0100 .agree-list{margin-top:2.4rem;}
+.A_CL_LO_0100 .agree-list.css-fix{margin-top:-1px; }
+.A_CL_LO_0100 .agree-list.css-fix ul{background-color:#fff;}
+.A_CL_LO_0100 .txt-info{margin-top:0.8rem;}
+.A_CL_LO_0100 .txt-info + .txt-info{margin-top:0;}
+.A_CL_LO_0100 .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_0100 .list-bullet .tar{margin-top:0.8rem;}
+.A_CL_LO_0100 .btn-area.content{margin-top:1.6rem;}
+.A_CL_LO_0100 .form-comp-wrap ul.form-info-wrap li.vtc-radio{padding:1rem 1.6rem 1rem 0; height:auto;}
+.A_CL_LO_0100 .form-comp-wrap ul.form-info-wrap li.vtc-radio  .info-select-wrap .tit{margin-top:-4rem;}
+.A_CL_LO_0100 .form-comp-wrap ul.form-info-wrap li.vtc-radio  .info-select-wrap .form-radio{padding:0.6rem 0 0.6rem 2.4rem;}
+.A_CL_LO_0100 .checkbox-1-depth > li > .form-radio{margin:0; padding:1rem 0; padding-left:2.4rem;}
+.A_CL_LO_0100 .checkbox-1-depth > li > .checkbox-2-depth li{padding:0.6rem 0;}
+.A_CL_LO_0100 .checkbox-1-depth > li > .checkbox-2-depth li .form-radio .text{color:#999; font-weight:400; font-size:1.4rem;}
+.A_CL_LO_0100 .radio-wrap .form-radio,
+.A_CL_LO_0100 .check-wrap .form-check{display:inline-block; margin:0.5rem 2.4rem 0.4rem 0;}
+.A_CL_LO_0100 .bd-0{border:0 !important; height:auto !important;}
+.A_CL_LO_0100 .bd-0 button{padding:0.4rem 1.6rem 0.4rem 0 !important; }
+.A_CL_LO_0100 .bd-0 button:after{background: url(../images/common/icon_agree_arrow.png) no-repeat center/contain !important;}
+.A_CL_LO_0100 .bd-0 button .tit{line-height: 2rem;color: #53565a;font-size: 1.4rem;font-family: "RenaultSamsungMotors";font-weight: 700;}
+.A_CL_LO_0100 .form-sub-check{padding-left:2.8rem !important;}
+.A_CL_LO_0100 .form-sub-check span{font-size:1.4rem;color:rgb(136,139,141);line-height:2rem;}
+.A_CL_LO_0100 .form-sub-check .radio-wrap,
+.A_CL_LO_0100 .form-sub-check .check-wrap {display:flex;}
+.A_CL_LO_0100 .form-sub-check .radio-wrap .form-radio,
+.A_CL_LO_0100 .form-sub-check .check-wrap .form-check{width:100px;}
+.A_CL_LO_0100 .btn-area{margin-top:1.6rem;}
+.A_CL_LO_0100 .btn-area button{position: relative;width:100%; line-height: 4.8rem;font-size: 1.4rem;font-family: "NotoSansKR";font-weight: 500;color: #000; border: 1px solid #53565a; border-radius:0.2rem;}
+
+
+.A_CL_LO_0116 .text-gray{padding:2.4rem 0 3.2rem;line-height:2.2rem;color:#53565a;}
+
+.A_CL_LO_0120 .certify-link-list{padding-top:0.8rem;}
+.A_CL_LO_0121 .title-big{margin-bottom:3.2rem;}
+
+.A_CL_LO_0140 .title-big{margin-bottom:3.2rem;}
+
+.A_CL_LO_0150 .section-02{margin-top:0;}
+.A_CL_LO_0150 .section-02 .bg-gray{margin:0 -1.6rem;}
+.A_CL_LO_0150 .section-02 .bg-gray .complete-box{padding-top:3.2rem;}
+.A_CL_LO_0150 .section-02 .bg-gray .complete-box .tit{margin-top:0;line-height:2.4rem;font-size:1.6rem;font-weight:700;font-family:"NotoSansKR";}
+.A_CL_LO_0150 .section-02 .bg-gray .complete-box .text{margin-top:0;line-height:2.4rem;color:#53565a;}
+
+.A_CL_LO_0151 .section-01{position: relative;}
+.A_CL_LO_0151 .section-01 .title-medium{margin-top:2.4rem;}
+.A_CL_LO_0151 .box-gray-full{margin-top:3.2rem;}
+.A_CL_LO_0151 .list-bullet.small ul li{font-size:1.4rem;}
+.A_CL_LO_0151 .txt-info{margin-top:0.8rem;}
+.A_CL_LO_0151 .form-list{margin-top:3.2rem;}
+.A_CL_LO_0151 .form-list .form-wrap + .form-wrap{margin-top:3.2rem;}
+.A_CL_LO_0151 .btn-area.content{display:block;margin-top:4.8rem;text-align:center;}
+.A_CL_LO_0151 .btn-area.content .btn-text.link{margin-top:2rem;}
+.A_CL_LO_0151 .link-area{margin-top:1.6rem;text-align: center;}
+
+.A_CL_LO_0152 .btn-area.content .btn-border{width:15.2rem;margin:auto;}
+.A_CL_LO_0152 .complete-box .icon{display:block;height:16rem;}
+
+.A_CL_LO_0153 .box-gray-full > *{line-height:2.2rem; font-size:1.4rem; color:#888b8d; }
+.A_CL_LO_0153 .box-gray-full > p{margin-top:0.8rem;}
+.A_CL_LO_0153 .comp-wrap{padding:1.6rem 0;}
+.A_CL_LO_0153 .comp-wrap h4.title-small{line-height:2.6rem; color:#53565a; font-weight:700;}
+.A_CL_LO_0153 .comp-wrap h5.tit{margin-top:1.6rem; line-height:2.2rem; color:#888b8d; font-weight:700;}
+.A_CL_LO_0153 .comp-wrap .txt{margin-top:0.8rem; line-height:2.2rem; color:#888b8d;}
+.A_CL_LO_0153 .comp-wrap .list-bullet{margin-top:0.8rem;}
+.A_CL_LO_0153 .comp-wrap .list-bullet ul li{line-height:2.2rem;}
+.A_CL_LO_0153 .comp-wrap .last-txt{margin-top:1.6rem; font-weight:700;}
+
+.A_CL_LO_0160 .section-01 .text-01 p{margin:2rem 0;text-align:center;}
+
+.A_CL_LO_0210 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0210 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0210 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0210 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0220 .btn-area.content{display:block;}
+.A_CL_LO_0220 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;}
+.A_CL_LO_0220 .btn-area.content .btn-text{display:block;margin-top:2.4rem;}
+
+/*
+.A_CL_LO_0240 .title-small:first-child{margin-top:1.6rem;}
+.A_CL_LO_0240 .title-small.dark-gray{margin-top:2.4rem !important;}
+.A_CL_LO_0240 .title-gray.small{margin-top:0.8rem !important; font-size:1.2rem;}
+.A_CL_LO_0240 .title-gray.small + .list-bullet{margin-top:0 !important;}
+.A_CL_LO_0240 .list-bullet ul{margin-top:0;}
+.A_CL_LO_0240 ..list-bullet + .title-gray{margin-top:0.8rem;}
+.A_CL_LO_0240 .section-01 .txt-icon{margin-top:1.6rem;}
+.A_CL_LO_0240 .section-01 .txt-icon + .txt-icon{margin-top:0;}
+*/
+
+.A_CL_LO_0240 .txt-icon + .txt-icon{margin-top:0;}
+.A_CL_LO_0240 .title-small{margin-top:1.6rem;}
+.A_CL_LO_0240 .title-small.dark-gray{font-size:1.4rem;}
+.A_CL_LO_0240 .list-bullet ul li{line-height:2.2rem; font-weight:700;}
+.A_CL_LO_0240 .list-bullet ul li + li{margin-top:0.8rem;}
+.A_CL_LO_0240 .list-bullet ul li p.text{font-weight:400;}
+
+.A_CL_LO_0250 .popup-modal-body{height:100% !important; padding-bottom:4rem !important;}
+.A_CL_LO_0250 .text-center{margin-top:3.2rem;color:#53565a;text-align:center; font-size:1.6rem;}
+.A_CL_LO_0250 .title-gray{margin-top:3.2rem; color:#53565a;}
+.A_CL_LO_0250 .list-bullet ul li{margin-top:0.4rem; word-break: break-all;}
+.A_CL_LO_0250 .list-num-wrap ul li{word-break: break-all;}
+
+
+.A_CL_LO_0260 .btn-list{}
+.A_CL_LO_0260 .btn-list li{border-bottom:1px solid #eee;}
+.A_CL_LO_0260 .btn-list li button{display:block;width:100%;line-height:5.6rem;color:#53565a;font-size:1.4rem;font-weight:700;text-align:left;}
+
+.A_CL_LO_0300 .box-border-gray{padding:16px 14px;border:1px solid rgb(221,221,221);}
+
+.A_CL_LO_0330 .btn-area.content {display: block; text-align: center; margin-top: 1.6rem;}
+.A_CL_LO_0330 .btn-area.content button {width: 15.2rem; border-radius: 0.2rem; font-size: 1.6rem; font-weight: 400;}
+.A_CL_LO_0330 .complete-box {padding: 2.5rem 0 0 0;}
+.A_CL_LO_0330 .title-big {margin-top: 1.6rem;}
+
+.A_CL_LO_0500 .form-check-link-wrap{margin-bottom:-1px;}
+.A_CL_LO_0500 .title-small{margin-top:2.6rem;}
+.A_CL_LO_0500 .checkbox-wrap{margin-top:1rem;}
+.A_CL_LO_0500 .form-radio{display:block; margin-left:2.4rem;}
+.A_CL_LO_0500 .agree-list ul li .sub-text{display:block;width:calc(100% + 1.6rem);}
+.A_CL_LO_0500 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0500 .agree-list{margin-top:2.4rem;}
+.A_CL_LO_0500 .agree-list.css-fix{margin-top:-1px; }
+.A_CL_LO_0500 .agree-list.css-fix ul{background-color:#fff;}
+.A_CL_LO_0500 .txt-info{margin-top:0.8rem;}
+.A_CL_LO_0500 .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_0500 .list-bullet .tar{margin-top:0.8rem;}
+.A_CL_LO_0500 .btn-area.content{margin-top:1.6rem;}
+.A_CL_LO_0500 .form-comp-wrap ul.form-info-wrap li.vtc-radio{padding:1rem 1.6rem 1rem 0; height:auto;}
+.A_CL_LO_0500 .form-comp-wrap ul.form-info-wrap li.vtc-radio  .info-select-wrap .tit{margin-top:-4rem;}
+.A_CL_LO_0500 .form-comp-wrap ul.form-info-wrap li.vtc-radio  .info-select-wrap .form-radio{padding:0.6rem 0 0.6rem 2.4rem;}
+.A_CL_LO_0500 .checkbox-1-depth > li > .form-radio{margin:0; padding:1rem 0; padding-left:2.4rem;}
+.A_CL_LO_0500 .checkbox-1-depth > li > .checkbox-2-depth li{padding:0.6rem 0;}
+.A_CL_LO_0500 .checkbox-1-depth > li > .checkbox-2-depth li .form-radio .text{color:#999; font-weight:400; font-size:1.4rem;}
+
+
+.A_CL_LO_0500 .form-sub-check{padding-left:2.8rem !important;}
+.A_CL_LO_0500 .form-sub-check span{font-size:1.4rem;color:rgb(136,139,141);line-height:2rem;}
+.A_CL_LO_0500 .form-sub-check .radio-wrap,
+.A_CL_LO_0500 .form-sub-check .check-wrap {display:flex;}
+.A_CL_LO_0500 .form-sub-check .radio-wrap .form-radio,
+.A_CL_LO_0500 .form-sub-check .check-wrap .form-check{width:100px;margin:0}
+.A_CL_LO_0500 .btn-area{margin-top:1.6rem;}
+.A_CL_LO_0500 .btn-area button{position: relative;width:100%; line-height: 4.8rem;font-size: 1.4rem;font-family: "NotoSansKR";font-weight: 500;color: #000; border: 1px solid #53565a; border-radius:0.2rem;}
+
+.A_CL_LO_0510 .txt-confirm{line-height:2.2rem !important; font-size:1.6rem !important; color:#222 !important; overflow:hidden;}
+
+.A_CL_LO_0520 .txt-confirm{line-height:2.2rem !important; font-size:1.6rem !important; color:#222 !important; overflow:hidden;}
+
+.A_CL_LO_0501 .card-lookup > li .card-tit{border-bottom:1px solid #ddd;}
+.A_CL_LO_0501 .card-lookup > li:first-child{margin-top:3.2rem;}
+.A_CL_LO_0501 .card-lookup > li + li{margin-top:1.6rem;}
+
+.A_CL_LO_0502 .card-lookup > li .card-tit{border-bottom:1px solid #ddd;}
+.A_CL_LO_0502 .card-lookup > li + li{margin-top:2.4rem;}
+
+.A_CL_LO_0610 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0610 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#faf9f8;}
+.A_CL_LO_0610 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0610 .list-bullet ul li{font-size:1.4rem;}
+
+.A_CL_LO_0610 .radio-wrap .form-radio{margin-left:2.4rem;}
+.A_CL_LO_0610 .radio-wrap .form-radio:first-child{margin-left:0;}
+
+.A_CL_LO_0620 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0620 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0620 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0620 .txt-icon{margin-top:0.8rem;}
+.A_CL_LO_0620 .document-comp li .btn-between > span.tit-wrap{width:60%;}
+
+.A_CL_LO_0670 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0670 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0670 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0670 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0700 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0700 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0700 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0700 .document-comp li .btn-between .tit-wrap{width:70%;}
+.A_CL_LO_0700 .document-comp li .btn-between .txt-wrap{width:30%;}
+.A_CL_LO_0700 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_0730 .title-big{margin-bottom:3.2rem;}
+.A_CL_LO_0730 .bg-darkgray{margin:0 -1.6rem;padding:1.6rem 1.6rem;background-color:#eee;}
+.A_CL_LO_0730 .bg-darkgray .list-bullet + .title-small{margin-top:1.6rem;}
+.A_CL_LO_0730 .document-comp li .btn-between .tit-wrap{width:70%;}
+.A_CL_LO_0730 .document-comp li .btn-between .txt-wrap{width:30%;}
+.A_CL_LO_0730 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_1061 .txt-icon{margin-top:0.8rem;}
+
+.A_CL_LO_1200 .list-bullet{margin-top:1.6rem;}
+.A_CL_LO_1200 .list-bullet.small ul li{font-size:1.4rem;}
+
+/* W_OD_LO_0010 */
+.W_OD_LO_0010_A{position: fixed;width: 100%;max-width: 768px;top: 0;z-index: 1001;}
+/* login-wrap */
+.login-dimmed .login-box{width:100%; height:100%; min-height:56rem;margin-top:19.3rem;}
+.login-dimmed .login-wrap{text-align:center; width:100%; }
+.login-dimmed .login-wrap .title-login{color:#222; font-size:3.4rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:700; }
+.login-dimmed .login-wrap .txt-login{color:#bbbcbc; font-size:1.4rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:400;}
+.login-dimmed .login-wrap .subtitle-login{margin-top:0.8rem; color:#888b8d; font-size:2.2rem; line-height:3.3rem; font-family:"RenaultSamsungMotors"; font-weight:400;}
+.login-dimmed .login-wrap .img-wrap{margin:0 auto; margin-top:3.2rem; width:100%;}
+.login-dimmed .login-wrap .img-wrap img{width:100%;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap{margin-top:3.2rem;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap input{text-align:left !important;}
+.login-dimmed .login-wrap .form-comp-wrap .form-info-wrap input::placeholder{font-family:"RenaultSamsungMotors"; font-weight:400;}
+
+.login-dimmed .login-wrap .check-wrap{margin-top:1.6rem; text-align:left;}
+.login-dimmed .login-wrap .check-wrap .text{font-family:"NotoSansKR"; font-weight:400; font-size:1.4rem;}
+.login-dimmed .login-wrap .btn-area{margin-top:4rem;}
+.login-dimmed .login-wrap .btn-area button{border-radius:0.2rem;}
+.login-dimmed .login-wrap .user-information{margin-top:2.4rem;display:flex; justify-content:center; flex-wrap:nowrap;}
+.login-dimmed .login-wrap .user-information li{position:relative;}
+.login-dimmed .login-wrap .user-information li + li:before{position:absolute; top:50%; left:0; margin-top:-0.6rem; content:'';display:block;width:1px; height:1.2rem; background:#ddd; }
+.login-dimmed .login-wrap .user-information li a{display:block; padding:0 0.8rem;  width:100%; height:100%; color:#999; font-size:1.4rem; line-height:1.8rem; font-weight:400;}
+
+.W_OD_LO_0010_A .login-bg{position: absolute;top:0;left:0;width:100%;z-index: -1;}
+.W_OD_LO_0010_A .login-bg > div{width:100%;}
+.W_OD_LO_0010_A .login-bg > div img{width:100%;}
+.W_OD_LO_0010_A .login-bg .bg-round{position:absolute;top:19.3rem;left:1.6rem;width:calc(100% - 3.2rem);height:19.6rem;background-color:#fff;border-top-left-radius:1.6rem;border-top-right-radius:1.6rem;z-index: 2;box-shadow: 0px 0px 24px rgba(0,0,0,0.2);}
+.W_OD_LO_0010_A .login-bg .banner{position: relative;}
+.W_OD_LO_0010_A .login-bg .banner .shadow1{position: absolute;bottom:0;width:100%;}
+.W_OD_LO_0010_A .login-bg .shadow2{position: absolute;top:25.6rem;z-index: 3;}
+.W_OD_LO_0010_A .title-wrap{height:19.6rem;display:flex;align-items: center;}
+.W_OD_LO_0010_A .title-wrap > div{margin:0 auto;}
+.W_OD_LO_0010_A .title-wrap > div > *{text-align: center;}
+.W_OD_LO_0010_A .form-comp-wrap{margin-top:-5rem;}
+.W_OD_LO_0010_A .login-dimmed .login-wrap .img-wrap{display: none;}
+
+.W_OD_LO_0010_B{position: absolute; width: 100%;max-width: 768px;top:-4.8rem;z-index: 1001;}
+.W_OD_LO_0010_B .login-bg{display: none;}
+.W_OD_LO_0010_B .login-dimmed .login-box{margin-top:3rem;}
+.W_OD_LO_0010_B .login-dimmed .login-wrap .img-wrap{width:calc(100% + 3.2rem);margin-left:-1.6rem;}
+
+@media screen and (min-width: 768px){
+    .W_OD_LO_0010_A{position: relative;width: 100%;margin-top:-4.8rem;}
+    .W_OD_LO_0010_A .login-bg .bg-round{top:35.3rem;}
+    .W_OD_LO_0010_A .login-dimmed .login-box{margin-top:35.3rem;}
+
+    .W_OD_LO_0010_B{position: relative;width: 100%;}
+}
+
+/* .W_OD_LO_0015 */
+.W_OD_LO_0015 .section-01 .text{margin:1.6rem 0; text-align:center; font-size:1.6rem; line-height:2.4rem; color:#53565a; }
+
+/* .W_OD_LO_0017 */
+.W_OD_LO_0017 .section-01 .text{margin:1.6rem 0; text-align:center; font-size:1.6rem; line-height:2.4rem; color:#53565a; }
+
+
+/* W_OD_LO_0020 */
+.W_OD_LO_0020 .title-big {margin-top: 2.4rem; font-weight: 400;}
+.W_OD_LO_0020 .mt-32 {margin-top: 3.2rem;}
+.W_OD_LO_0020 .form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select{width:100%;}
+.W_OD_LO_0020 .form-comp-wrap ul.form-info-wrap li input{font-weight: 700; color: #53565a;}
+
+/* W_OD_LO_0030 */
+.W_OD_LO_0030 .title-big {margin-top: 2.4rem; font-weight: 400;}
+.W_OD_LO_0030 .type-between{margin-top:3.2rem;padding-top:1.6rem;border-top:1px solid #eee;}
+.W_OD_LO_0030 .type-between li {padding-bottom:1.2rem;}
+.W_OD_LO_0030 .type-between li div.tit-wrap .tit {color: #53565a;}
+
+/* W_OD_LO_0040 */
+.W_OD_LO_0040 .title-big {line-height: 3rem;}
+.W_OD_LO_0040 .text {font-size: 1.4rem; line-height: 2.2rem; color: #888b8d; font-weight: 400; margin-bottom: 3.2rem;}
+.W_OD_LO_0040 .form-comp-wrap ul.form-info-wrap li .forms-wrap .form-select{width:100%;}
+
+/* ma */
+/* A_CL_MA_0020 */
+.A_CL_MA_0020.popup-modal-content.slide .popup-modal-body{height:100% !important;}
+.A_CL_MA_0020 .section-01 .text-01{padding-bottom:0; text-align:center;}
+.A_CL_MA_0020 .section-01 .text-01>p{word-break: keep-all;color:#53565a;font-size:1.6rem;}
+.A_CL_MA_0020 .section-01 .text-01>p>strong{position:relative;color:#53565a;}
+.A_CL_MA_0020 .section-01 .text-01>p>strong:after{z-index:-1; position: absolute;bottom: 0.4rem;left: 0;content: '';display: block;width: 100%;height: 0.6rem;background-color: #ffcc33;opacity: 30%;}
+.A_CL_MA_0020 .section-01 .text-02{margin-top:1.6rem;}
+.A_CL_MA_0020 .section-01 .form-check-area{margin:3.2rem 0 1.6rem;}
+
+/* .WA_CL_MA_0010 */
+.main-title-font{font-family:"RenaultSamsungMotors"; font-size:1.8rem; font-weight:700;}
+.main-title-font-life{font-family:"RenaultLife"; font-size:1.8rem; font-weight:700;}
+.WA_CL_MA_0010 .content-body{padding:0;}
+.WA_CL_MA_0010 .swiper-container{z-index:unset;}
+.WA_CL_MA_0010 .swiper-container .swiper-wrapper{z-index:unset;}
+
+.WA_CL_MA_0010 .swiper-pagination{position:absolute; top:2.2rem; right:2.4rem; }
+.WA_CL_MA_0010 .swiper-pagination .swiper-pagination-bullet{margin-left:0.8rem; width:0.8rem; height:0.8rem; border-radius:50%; background-color:#fff; opacity:1;}
+.WA_CL_MA_0010 .swiper-pagination .swiper-pagination-bullet-active{background-color:#ffcc33; opacity:1;}
+
+.WA_CL_MA_0010 .main-banner{position:relative; width:100%;}
+.WA_CL_MA_0010 .main-banner .txt-img-wrap{position:absolute; top:2.4rem; left:2.4rem;  height:5rem; }
+.WA_CL_MA_0010 .main-banner .txt-img-wrap img{height:100%;}
+.WA_CL_MA_0010 .main-banner .main-img-wrap{width:100%;}
+.WA_CL_MA_0010 .main-banner .main-img-wrap img{width:100%;}
+.WA_CL_MA_0010 .main-banner .main-btn-wrap{position:absolute; top:10rem; left:2.4rem; min-width:16rem; height:4rem;  }
+.WA_CL_MA_0010 .main-banner .main-btn-wrap button{position:relative; display:block; padding-left:1.6rem; padding-right:3rem; text-align:left; width:100%; height:100%; background-color:#ffcc33; border-radius:0.3rem; font-size:1.4rem; font-weight:500;}
+.WA_CL_MA_0010 .main-banner .main-btn-wrap button:after{position:absolute; top:50%; margin-top:-0.8rem; right:1.6rem; content:'';display:block; width:1.6rem; height:1.6rem; background: url(../images/common/icon_arrow_right_small.png) no-repeat center/contain;}
+
+.WA_CL_MA_0010 .main-comp{position:relative;padding:4rem 0 0rem 0; box-shadow:0rem -3rem 9rem -6rem rgba(0,0,0,0.2) inset;}
+.WA_CL_MA_0010 .main-comp .installment-wrap{position:absolute; top:-4rem; left:0; right:0; display:flex; margin:0 auto; padding:1.2rem 0.8rem; width:100%; max-width:33rem; border-radius:1rem; overflow:hidden; background-color:#fff;box-shadow:0rem 1rem 3rem rgba(0,0,0,0.2);}
+.WA_CL_MA_0010 .main-comp .installment-wrap li{position:relative; width:50%; line-height:4rem;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li + li:after{position:absolute; top:50%; left:0; margin-top:-1.2rem; content:'';display:block; width:1px; height:2.4rem; background-color:#ddd; }
+.WA_CL_MA_0010 .main-comp .installment-wrap li:before{position:absolute; top:50%; margin-top:-1.6rem; left:3rem; content:'';display:block; width:3.2rem; height:3.2rem; background:url(../images/common/main/icon_newcar_installment.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li.list-2:before{background:url(../images/common/main/icon_usedcar_installment.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .main-comp .installment-wrap li a{display:block; padding-left:7rem; width:100%; height:100%; font-size:1.6rem; font-weight:700; color:#000;  }
+.WA_CL_MA_0010 .main-comp .recommand-wrap{position:relative; padding:1.6rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li{ padding:0.6rem 0; background:url(../images/common/main/img_main_benefit.png) no-repeat right center/15rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li.list-2{background:url(../images/common/main/img_main_recommend.png) no-repeat right center/15rem;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li + li{border-top:1px solid #ddd;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a{display:block; padding:1.4rem 0.8rem; width:100%; height:8rem; }
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a .tit{color:#555; font-size:1.8rem; line-height:2.6rem; font-weight:700;}
+.WA_CL_MA_0010 .main-comp .recommand-wrap li a .txt{color:#555; font-size:1.8rem; line-height:2.6rem; }
+
+.WA_CL_MA_0010 .down-app-wrap{padding:1.2rem 1.6rem;  background-color: #bbbcbc; text-align:center;}
+.WA_CL_MA_0010 .down-app-wrap .tit{position:relative; display:inline-block; padding:0.8rem 0; padding-left:2rem;  width:auto; font-size:1.4rem; line-height:1.6rem; color:#222; font-family:"RenaultSamsungMotors";}
+.WA_CL_MA_0010 .down-app-wrap .tit:before{position:absolute; top:50%; margin-top:-2.2rem; left:-2.6rem; content:'';display:block; width:4.4rem; height:4.4rem; background:url(../images/common/app_icon.png) no-repeat center/contain;}
+.WA_CL_MA_0010 .down-app-wrap .tit a{font-size:1.4rem; line-height:1.6rem; color:#222; font-family:"RenaultSamsungMotors"; font-weight:700;}
+
+.WA_CL_MA_0010 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.WA_CL_MA_0010 .main-footer-wrap *{color:#888b8d;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.WA_CL_MA_0010 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.WA_CL_MA_0010 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+.WA_CL_MA_0010.btn-area-fixed .content-body{padding-bottom:5.6rem !important;}
+.WA_CL_MA_0010 .footer-app-bar{display:none; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar{display:block; z-index:200; position:fixed; bottom:0; left:0; right:0; padding:0 1.6rem; max-width:768px; width:100%; height:5.6rem; background-color:#fff;}
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul{display:flex; justify-content:space-around; width:100%; height:100%;}
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li{height:100%;}
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li a{position:relative; display:block; padding:0.8rem 0; padding-top:3.2rem; width:100%; height:100%; font-size:1.2rem; font-weight:500; color:#222; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li a:before{position:absolute; top:0.8rem; left:50%; margin-left:-1.2rem; content:'';display:block;width:2.4rem; height:2.4rem;}
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li a:hover,
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li a:active{color:#bbbcbc;}
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-1 a:before{background:url(../images/common/main/icon_app_bar_1_on.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-2 a:before{background:url(../images/common/main/icon_app_bar_2_on.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-3 a:before{background:url(../images/common/main/icon_app_bar_3_on.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-4 a:before{background:url(../images/common/main/icon_app_bar_4_on.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-1 a:hover:before,
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-1 a:active:before{background:url(../images/common/main/icon_app_bar_1.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-2 a:hover:before,
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-2 a:active:before{background:url(../images/common/main/icon_app_bar_2.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-3 a:hover:before,
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-3 a:active:before{background:url(../images/common/main/icon_app_bar_3.png) no-repeat center/contain; }
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-4 a:hover:before,
+.WA_CL_MA_0010.btn-area-fixed .footer-app-bar ul li.list-4 a:active:before{background:url(../images/common/main/icon_app_bar_4.png) no-repeat center/contain; }
+
+/* A_CL_MA_0021 */
+.A_CL_MA_0021 .text-center{margin-top:3.2rem;color:#53565a;text-align:center;}
+.A_CL_MA_0021 .txt-icon{margin-top:1.6rem;}
+.A_CL_MA_0021 .btn-area.content{margin-top:4rem;}
+.A_CL_MA_0021 .form-check{margin-top:1.6rem;}
+
+/* A_CL_MA_0030 */
+.A_CL_MA_0030 .title-small{padding-top:2.4rem; padding-bottom:5rem; text-align:center;}
+
+/* A_CL_MA_1020 */
+.A_CL_MA_1020 .type-between{margin-top:2rem;}
+.A_CL_MA_1020 .txt-icon{margin-top:2rem;}
+.A_CL_MA_1020 .txt-icon + .txt-icon{margin-top:0.8rem;}
+
+/* A_CL_MA_1025 */
+.A_CL_MA_1025 .txt-info{margin-top:2.4rem; text-align:left;}
+
+/* A_CL_MA_1030 */
+.A_CL_MA_1030 .txt-icon{margin-top:2rem;}
+.A_CL_MA_1030 .txt-icon + .txt-icon{margin-top:0.8rem;}
+
+/* W_OD_MA_0010 */
+.W_OD_MA_0010 .content-body{padding:0; background-color:#ffcc33;}
+.W_OD_MA_0010 .main-comp-wrap{padding-top:4rem; padding-left:2.4rem;}
+.W_OD_MA_0010 .main-comp-wrap img{width:7rem; height:auto;}
+.W_OD_MA_0010 .main-comp-wrap .user-txt{margin-top:1.6rem; line-height:2.4rem; font-family:"RenaultSamsungMotors"; font-size:1.8rem; color:#000; }
+.W_OD_MA_0010 .main-comp-wrap .service-tit{margin-top:6.4rem; line-height:4rem; font-size:3rem; font-family:"RenaultSamsungMotors"; color:#000;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap{margin-top:2.4rem; margin-bottom:4.5rem; width:100%;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li{width:100%; line-height:6.4rem; background:#fff; overflow:hidden; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; }
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li + li{margin-top:1.2rem;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a{position:relative; display:block; width:100%; height:100%; padding-left:5.6rem; font-size:1.6rem; font-weight:700; color:#000;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a:before{position:absolute; top:50%; margin-top:-1.2rem; left:2.4rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/main/icon_limit.png) no-repeat center/contain; }
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-2 a:before{background:url(../images/common/main/icon_education.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-3 a:before{background:url(../images/common/main/icon_sales.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-comp-wrap .shortcut-list-wrap li a:after{position:absolute; top:50%; margin-top:-1.2rem; right:1.6rem; content:'';display:block;width:2.4rem;height:2.4rem; background:url(../images/common/common_icon_arrowright_small.png) no-repeat center/contain;}
+.W_OD_MA_0010 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.W_OD_MA_0010 .main-footer-wrap *{color:#888b8d;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.W_OD_MA_0010 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0010 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+/* W_OD_MA_0020 */
+.W_OD_MA_0020 .content-body{padding:0; background-color:#ffcc33;}
+.W_OD_MA_0020 .main-comp-wrap{padding-top:4rem; padding-left:2.4rem;}
+.W_OD_MA_0020 .main-comp-wrap img{width:7rem; height:auto;}
+.W_OD_MA_0020 .main-comp-wrap .user-txt{margin-top:1.6rem; line-height:2.4rem; font-family:"RenaultSamsungMotors"; font-size:1.8rem; color:#000; }
+.W_OD_MA_0020 .main-comp-wrap .service-tit{margin-top:6.4rem; line-height:4rem; font-size:3rem; font-family:"RenaultSamsungMotors"; color:#000;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap{margin-top:2.4rem; margin-bottom:4.5rem; width:100%;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li{width:100%; line-height:6.4rem; background:#fff; overflow:hidden; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; }
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li + li{margin-top:1.2rem;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a{position:relative; display:block; width:100%; height:100%; padding-left:5.6rem; font-size:1.6rem; font-weight:700; color:#000;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a:before{position:absolute; top:50%; margin-top:-1.2rem; left:2.4rem; content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/main/icon_usedcar_estimate.png) no-repeat center/contain; }
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-2 a:before{background:url(../images/common/main/icon_limit_agree.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li.shortcut-list-3 a:before{background:url(../images/common/main/icon_noticelist.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-comp-wrap .shortcut-list-wrap li a:after{position:absolute; top:50%; margin-top:-1.2rem; right:1.6rem; content:'';display:block;width:2.4rem;height:2.4rem; background:url(../images/common/common_icon_arrowright_small.png) no-repeat center/contain;}
+.W_OD_MA_0020 .main-footer-wrap{padding:1.6rem; background-color:#222; }
+.W_OD_MA_0020 .main-footer-wrap *{color:#888b8d;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap{padding-bottom:1.2rem; border-bottom:1px solid #53565a;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap h2{width:100%; height:auto;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap h2 a{font-size:1.6rem;}
+.W_OD_MA_0020 .main-footer-wrap .logo-comp-wrap .txt{font-size:1.1rem; padding-top:0.8rem;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap{padding:1.2rem 0 0 0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list{display:flex; flex-wrap:wrap;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li{position:relative;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li:first-child a{padding-left:0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-link-list li a{display:block; padding:0 0.6rem; width:100%; height:100%; line-height:2.2rem; font-weight:500;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list{display:flex; flex-wrap:wrap; margin-top:0.8rem;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li{position:relative; padding:0 0.6rem; font-size:1rem; line-height:1.6rem; font-weight:400;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li:first-child{padding-left:0;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .footer-info-list li + li:before{position:absolute; top:50%; margin-top:-3px; left:0; content:'';display:block; width:1px; height:0.8rem; background:#53565a;}
+.W_OD_MA_0020 .main-footer-wrap .footer-link--wrap .copyright{margin-top:0.8rem; font-size:1rem;}
+
+/* mb */
+.A_CL_MB_0010 .gray .tag{display:block;margin-bottom:0.8rem;width:7.2rem;line-height:2.4rem;font-size:1.2rem;font-weight:700;}
+.A_CL_MB_0010 .btn-area.content{margin-top:1.6rem;margin-bottom:2.6rem;padding-top:2.4rem;border-top:1px solid #ddd;}
+.A_CL_MB_0010 .membership-top-box .text + .text{margin-top:1.6rem;}
+
+/* me */
+/* W_OD_ME_0050 */
+.W_OD_ME_0050 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700; margin: 1.6rem 0;}
+.W_OD_ME_0050 .list-number {margin-top: 0.8rem;}
+.W_OD_ME_0050 .top-bottom-box {border-top: 0; padding: 0; margin: 2.4rem 0;} 
+.W_OD_ME_0050 .list-number>ul>li {padding: 0.4rem 0;}
+
+/* W_OD_ME_0060 */
+.W_OD_ME_0060 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700; margin: 1.6rem 0;}
+.W_OD_ME_0060 .list-bullet ul li {word-break: normal;}
+
+/* W_OD_ME_0065 */
+.W_OD_ME_0065 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700; margin: 1.6rem 0;}
+.W_OD_ME_0065 .list-bullet ul li {word-break: normal;}
+
+/* W_OD_ME_0010 */
+.W_OD_ME_0010 .title-big {line-height: 3rem; margin-top: 2.4rem;}
+.W_OD_ME_0010 .form-wrap.error .form-box input::placeholder {color: #53565a; font-weight: 700; font-size: 1.4rem; }
+.W_OD_ME_0010 .mt-32 {margin-top: 3.2rem;}
+.W_OD_ME_0010 .form-wrap + .form-wrap {margin-top: 2.4rem;}
+.W_OD_ME_0010 .txt-icon.txt-info{margin-top:1.6rem;}
+.W_OD_ME_0010 .txt-icon.txt-info + .txt-icon{margin-top:0.8rem;}
+
+/* W_OD_ME_0015 */
+.W_OD_ME_0015 .title-big {line-height: 3rem; margin-top: 2.4rem;}
+.W_OD_ME_0015 .form-wrap.error .form-box input::placeholder {color: #53565a; font-weight: 700; font-size: 1.4rem; }
+.W_OD_ME_0015 .mt-32 {margin-top: 3.2rem;}
+.W_OD_ME_0015 .form-wrap + .form-wrap {margin-top: 2.4rem;}
+.W_OD_ME_0015 .txt-icon.txt-info{margin-top:1.6rem;}
+.W_OD_ME_0015 .txt-icon.txt-info + .txt-icon{margin-top:0.8rem;}
+
+/* W_OD_ME_0020 */
+.W_OD_ME_0020 .complete-box .tit {line-height:2.6rem;font-size:1.8rem;}
+.W_OD_ME_0020 .complete-box .tit strong{display:block;margin-bottom:0.8rem;font-size:2.2rem;}
+.W_OD_ME_0020 .complete-box .text{margin:0 auto;margin-top:1.6rem;width:21rem;}
+
+/* W_OD_ME_0030 */
+.W_OD_ME_0030 .section-02 .accordion-content{margin:0.6rem 0 0 0;}
+.W_OD_ME_0030 .section-02 .accordion-content li{padding:0.3rem 0; line-height:2.2rem;}
+.W_OD_ME_0030 .section-02 .txt-info{margin-top:1.6rem;}
+
+/* W_OD_ME_0040_1 */
+.popup-modal .popup-modal-content.W_OD_ME_0040_1 {background-color: #faf9f8;}
+.W_OD_ME_0040_1 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700;}
+.W_OD_ME_0040_1 .text-field {color: #53565a;}
+.W_OD_ME_0040_1 .top-bottom-box {border-top: 0; padding: 0; margin: 2.4rem 0;}
+.W_OD_ME_0040_1 .bold {font-weight: 700;}
+.W_OD_ME_0040_1 .list-number>ul>li h4 {font-weight: 400;}
+.W_OD_ME_0040_1 .list-number>ul>li {padding: 0;}
+.W_OD_ME_0040_1 .gray-wrap {padding: 2.4rem 1.6rem 2.4rem;}
+.W_OD_ME_0040_1 .text-brand {font-size: 1.6rem;line-height: 2.4rem;color: #333; font-weight: 400;}
+.W_OD_ME_0040_1 .text-brand.txt {color: #888b8d; }
+.W_OD_ME_0040_1 .white-wrap {background-color: #fff; padding: 1.6rem; padding-bottom: 2.4rem;}
+.W_OD_ME_0040_1 .section-01 {margin: -1.6rem;}
+
+/* W_OD_ME_0050_1 */
+.popup-modal .popup-modal-content.W_OD_ME_0050_1 {background-color: #faf9f8;}
+.W_OD_ME_0050_1 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700;}
+.W_OD_ME_0050_1 .text-field {color: #53565a;}
+.W_OD_ME_0050_1 .top-bottom-box {border-top: 0; padding: 0; margin: 2.4rem 0;}
+.W_OD_ME_0050_1 .gray-wrap {padding: 2.4rem 1.6rem 2.4rem;}
+.W_OD_ME_0050_1 .text-brand {font-size: 1.6rem;line-height: 2.4rem;color: #333; font-weight: 400;}
+.W_OD_ME_0050_1 .text-brand.txt {color: #888b8d; }
+.W_OD_ME_0050_1 .white-wrap {background-color: #fff; padding: 1.6rem; padding-bottom: 2.4rem;}
+.W_OD_ME_0050_1 .section-01 {margin: -1.6rem;}
+
+/* W_OD_ME_0060_1 */
+.popup-modal .popup-modal-content.W_OD_ME_0060_1 {background-color: #faf9f8;}
+.W_OD_ME_0060_1 .black {font-size: 1.6rem; line-height: 2.6rem; color: #53565a; font-weight: 700;}
+.W_OD_ME_0060_1 .text-field {color: #53565a;}
+.W_OD_ME_0060_1 .top-bottom-box {border-top: 0; padding: 0; margin: 2.4rem 0;}
+.W_OD_ME_0060_1 .bold {font-weight: 700;}
+.W_OD_ME_0060_1 .list-number>ul>li h4 {font-weight: 400;}
+.W_OD_ME_0060_1 .list-number>ul>li {padding: 0;}
+.W_OD_ME_0060_1 .gray-wrap {padding: 2.4rem 1.6rem 2.4rem;}
+.W_OD_ME_0060_1 .text-brand {font-size: 1.6rem;line-height: 2.4rem;color: #333; font-weight: 400;}
+.W_OD_ME_0060_1 .text-brand.txt {color: #888b8d; }
+.W_OD_ME_0060_1 .white-wrap {background-color: #fff; padding: 1.6rem; padding-bottom: 2.4rem;}
+.W_OD_ME_0060_1 .section-01 {margin: -1.6rem;}
+
+
+/* mo */
+/* WA_CL_MO_0010 */
+.financial-condition-main {position:relative; margin:-1.6rem -1.6rem 0 -1.6rem; padding-top:2.4rem; padding-bottom:10rem; text-align:center; background-color:#ffcc33; font-family:"RenaultSamsungMotors";}
+.financial-condition-main .date{display:inline-block; margin:0 auto; padding:0.6rem 1.6rem; text-align:center; border-bottom-left-radius:1.4rem; border-bottom-right-radius:1.4rem; background:#333; color:#fff; font-size:1.4rem; font-family:"RenaultSamsungMotors"; font-weight:400; }
+.financial-condition-main .tit {margin-top:2rem; line-height:3.8rem; font-size:2.2rem; font-weight:700; color:#222;}
+.financial-condition-main .txt {line-height:2.4rem; font-size:1.6rem; color:#222;}
+.financial-condition-main .img-wrap {position:absolute; bottom:-10rem; left:50%; margin-left:-18rem; width:36rem; height:auto;}
+.financial-condition-main .img-wrap img{width:100%;}
+.financial-condition-sub {margin:0 -1.6rem; padding-top:8rem;}
+.financial-condition-sub .car-condition-list{display:flex; justify-content:space-between; flex-wrap:wrap;}
+.financial-condition-sub .car-condition-list li{padding-top:1.6rem; width:50%; text-align:center;}
+.financial-condition-sub .car-condition-list li .img-wrap{margin-bottom:-1.6rem; width:18rem; height:auto;}
+.financial-condition-sub .car-condition-list li .img-wrap img{width:100%;}
+.financial-condition-sub .car-condition-list li h4{font-size:1.6rem; line-height:2.2rem; color:#222; font-family:"RenaultSamsungMotors"; font-weight:700;}
+.financial-condition-sub .car-condition-list li p{font-size:1.4rem; line-height:1.8rem; color:#999;}
+.financial-condition-sub .car-condition-list li .tag{margin-top:0.4rem;padding:0 1rem;}
+.financial-condition-sub .car-condition-list li .tag.border-gray{border-color:#888b8d;}
+
+.WA_CL_MO_0010 .txt-icon{margin-top:2.4rem;}
+.WA_CL_MO_0010 .section-02 .tos-wrap{padding:1.6rem 1.6rem 4rem 1.6rem;}
+
+/* my */
+/* A_CL_MY_0010 */
+.A_CL_MY_0010 .section-02{margin-top:0;}
+.A_CL_MY_0010 .myrci-box{margin-top:1.2rem;padding-bottom:2.4rem;border-bottom:1px solid #ddd;}
+.A_CL_MY_0010 .myrci-box .text-center{line-height:2.6rem;color:#53565a;font-size:1.6rem;text-align:center;}
+.A_CL_MY_0010 .complete-box {padding: 1.6rem 0 2rem 0;}
+.A_CL_MY_0010 .complete-box .icon a {position:relative; display: block; margin: 0 auto; width: 6.4rem;}
+.A_CL_MY_0010 .complete-box .icon a img {width: 100%;}
+.A_CL_MY_0010 .complete-box.error {padding: 4rem 0;}
+.A_CL_MY_0010 .complete-box.error .icon img {width: 3.2rem;}
+.A_CL_MY_0010 .complete-box.error .text {font-size: 1.4rem; line-height: 2.2rem; margin-top: 0.8rem;}
+.A_CL_MY_0010 .complete-box .tit {margin-top: 1.2rem; line-height: 1.9rem; font-size: 1.8rem; }
+.A_CL_MY_0010 .complete-box .text {margin-top: 0.4rem; font-size: 1.2rem; line-height: 1.8rem; color: #bbbcbc;}
+.A_CL_MY_0010 .title-small {line-height: 2.6rem;}
+.A_CL_MY_0010 .rci-list-wrap{margin-top:1.6rem;}
+
+@media screen and (min-width: 768px) {
+    .A_CL_MY_0010 .section-03 { position: fixed;left: 50%;bottom: 0;max-width:768px;transform:translateX(-50%)}
+}
+
+/* WA_CL_MY_0020 */
+.WA_CL_MY_0020 .box-gray-full{margin-top:-1.6rem;margin-bottom:2.4rem;}
+.WA_CL_MY_0020 .txt-icon{margin-top:1.6rem;}
+.WA_CL_MY_0020 .section-01 .btn-area.content{margin-top:1.6rem;}
+
+/* WA_CL_MY_0021 */
+.WA_CL_MY_0021 .box-gray-full{margin-top:-1.6rem;margin-bottom:2.4rem;}
+
+/* WA_CL_MY_0030 */
+.WA_CL_MY_0030 .txt-icon{margin-top:1.6rem;}
+.WA_CL_MY_0030 .type-between li{padding-bottom:1.2rem;}
+
+/* WA_CL_MY_0031 */
+.WA_CL_MY_0031 .comment-area{margin-top:1.6rem;}
+.WA_CL_MY_0031 .title-small{margin-bottom:1.6rem;}
+.WA_CL_MY_0031 .section-01 .type-between + .title-small {margin-top: 2.4rem;padding-top: 2.4rem;border-top: 1px solid #eee;}
+
+/* A_CL_MY_0040 */
+.A_CL_MY_0040 .comment-area{margin-top:1.6rem;}
+.A_CL_MY_0040 .section-02 .type-between + .title-small {margin-top: 2.4rem;padding-top: 2.4rem;border-top: 1px solid #eee;}
+.A_CL_MY_0040 .type-between li div.txt-wrap .txt span{font-weight: bold;}
+.A_CL_MY_0040 .type-between li div.txt-wrap .txt span + span{margin-left:0.8rem;}
+
+/* A_CL_MY_0050 */
+.A_CL_MY_0050 .card-lookup > li .card-state .txt-wrap .tag{margin-left:0.5rem;}
+.A_CL_MY_0050 .txt-icon{margin-top:1.2rem;}
+
+/* A_CL_MY_0060 */
+.A_CL_MY_0060 ul.card-link.no-image li.card-link-list .card-link-explain .img-txt-wrap .price-wrap span{color: #888b8d;border: 1px solid #888b8d;}
+.A_CL_MY_0060 .txt-info{margin-top:1.6rem;}
+.A_CL_MY_0060 .txt-info + .txt-info{margin-top:0;}
+
+.A_CL_MY_0060 .down-wrap{margin-top:1.6rem; text-align:right;}
+.A_CL_MY_0060 .down-wrap button.btn-down{position:relative; display:inline-block; padding-left:3rem; line-height:2.6rem; font-size:1.4rem; font-weight:500;  }
+.A_CL_MY_0060 .down-wrap button.btn-down:before{position:absolute; top:50%; left:0; margin-top:-1.2rem;  content:'';display:block; width:2.4rem; height:2.4rem; background:url(../images/common/icon_pdf_down.png) no-repeat center/contain; }
+
+/* A_CL_MY_0070 */
+.A_CL_MY_0070 .table-wrap{overflow-x:auto;}
+.A_CL_MY_0070 .table-wrap table{width:100%; max-width:120%;}
+.A_CL_MY_0070 .table-wrap table colgroup col:first-child {width:5rem; }
+.A_CL_MY_0070 .table-wrap table colgroup col:nth-child(2){width:8rem; }
+.A_CL_MY_0070 .table-wrap table colgroup col:nth-child(3){width:8rem; }
+.A_CL_MY_0070 .table-wrap table colgroup col:nth-child(4){width:8rem; }
+.A_CL_MY_0070 .table-wrap table colgroup col:nth-child(5){width:8rem; }
+.A_CL_MY_0070 .table-wrap table colgroup col:nth-child(6){width:8rem; }
+.A_CL_MY_0070 .table-wrap table thead th {border-bottom: 1px solid #faf9f8;}
+
+/* .A_CL_MY_0090 */
+.A_CL_MY_0090 .section-02 .title-small{margin:0 -1.6rem; padding:0 1.6rem 1.6rem 1.6rem; font-size:1.4rem;border-bottom:1px solid #eee; color:#53565a; font-weight:500;}
+.A_CL_MY_0090 .section-02 .title-small span{font-weight:700;}
+
+/* A_CL_MY_0090 */
+.A_CL_MY_0090 .link-status-list{margin-top:0 !important;}
+.A_CL_MY_0090 .link-status-list ul li a .txt-wrap p + p{margin-top:0.2rem;}
+.A_CL_MY_0090 .link-status-list ul li a .txt-wrap p.name span{font-weight:700;}
+
+/* A_CL_MY_0100 */
+.A_CL_MY_0100 .section-01 .type-between {margin-top:1.6rem !important;}
+.A_CL_MY_0100 .section-01 .type-between li{padding-bottom:0.8rem;}
+
+/* A_CL_MY_0100 */
+.A_CL_MY_0100 .board-wrap .tit-wrap strong{color:#222; font-weight:700;}
+
+/* W_OD_MY_0010 */
+.W_OD_MY_0010 section{position:relative; margin-top:2.4rem !important; padding-bottom:1.6rem; border-bottom:1px solid #ddd;}
+.W_OD_MY_0010 section:last-child{border-bottom:0;}
+.W_OD_MY_0010 .title-small{margin-bottom:2.4rem !important;}
+.W_OD_MY_0010 .type-between li{padding-bottom:0.8rem;}
+
+/* W_OD_MY_0015 */
+.W_OD_MY_0015 .section-01 .title-big{margin-top:0.8rem;}
+.W_OD_MY_0015 .section-01 .title-small{margin-top:2.4rem;}
+
+/* W_OD_MY_0020 */
+.W_OD_MY_0020 .section-01 input:disabled{background-color:transparent !important;}
+
+/* W_OD_MY_0025 */
+.W_OD_MY_0025 .form-wrap.error .form-box input::placeholder {color: #53565a; font-weight: 700; font-size: 1.4rem; }
+.W_OD_MY_0025 .mt-32 {margin-top: 3.2rem;}
+.W_OD_MY_0025 .form-wrap + .form-wrap {margin-top: 2.4rem;}
+.W_OD_MY_0025 .txt-icon.txt-info{margin-top:1.6rem;}
+
+
+/* no */
+.W_OD_NO_0010 .form-wrap .form-box{margin-top:0;}
+.W_OD_NO_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_NO_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_NO_0010 .complete-box .icon img{width:100%;}
+.W_OD_NO_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+/* sa */
+.W_OD_SA_0010 .form-wrap .form-box{margin-top:0;}
+.W_OD_SA_0010 .complete-box{padding:12rem 0 5rem;}
+.W_OD_SA_0010 .complete-box .icon{margin:auto;width:3.2rem;height:3.2rem;}
+.W_OD_SA_0010 .complete-box .icon img{width:100%;}
+.W_OD_SA_0010 .complete-box .tit{margin-top:0.8rem;line-height:2.2rem;color:#bbbcbc;font-size:1.4rem;}
+
+/* sl */
+.W_CL_SL_0010 .btn-area.content .btn-text span{font-size:1.4rem;}
+
+.A_CL_SL_0010{}
+.easy-login-img-list{display:flex; justify-content: center; flex-wrap:nowrap; margin-top:4rem;}
+.easy-login-img-list li{padding:0 3.6rem; text-align:center;}
+.easy-login-img-list li .img-wrap{margin:0 auto; width:5.4rem;}
+.easy-login-img-list li .img-wrap img{width:100%;}
+.easy-login-img-list li .txt{margin-top:0.8rem; color:#53565a; font-size:1.4rem;}
+.A_CL_SL_0010 .form-comp-wrap{margin-top:4rem;}
+.A_CL_SL_0010 .agree-list{margin-top:2rem;}
+.A_CL_SL_0010 .txt-info{margin-top:2.4rem;}
+
+.A_CL_SL_0015{}
+.A_CL_SL_0015 .title-small{margin-top:1.6rem; color:#53565a;}
+.A_CL_SL_0015 .list-bullet{margin-top:1.6rem !important;}
+.A_CL_SL_0015 .round-box{margin-top:1.6rem; border:1px solid #ddd; border-radius:0.5rem; padding:1.6rem; }
+.A_CL_SL_0015 .round-box .txt{color:#888b8d; font-weight:700; }
+.A_CL_SL_0015 .round-box .list-bullet{margin-top:0 !important;}
+
+.A_CL_SL_0050{}
+.A_CL_SL_0050 .complete-box .text{margin-top:0.8rem; font-size:1.8rem; color:#222; font-family:"RenaultSamsungMotors";}
+.A_CL_SL_0050 .easy-login-status{}
+.A_CL_SL_0050 .easy-login-status ul{border:1px solid #ddd; border-radius:4px;}
+.A_CL_SL_0050 .easy-login-status ul li{padding:1.4rem 1.6rem; display:flex; justify-content: space-between; align-items: center;}
+.A_CL_SL_0050 .easy-login-status ul li + li{border-top:1px solid #ddd;}
+.A_CL_SL_0050 .easy-login-status ul li .tit{font-size:1.4rem; color:#888b8d; }
+.A_CL_SL_0050 .easy-login-status ul li .txt{font-size:1.4rem; color:#888b8d; font-family:"RenaultSamsungMotors";}
+.A_CL_SL_0050 .easy-login-status ul li .txt.complete{font-size:1.4rem; color:#53565a; font-weight:700; }
+
+.A_CL_SL_0080 .title-small {margin-top: 7.2rem; line-height:3rem; font-size:2.2rem; font-weight: 400; text-align: center; }
+.A_CL_SL_0080 .countdown-wrap {position:relative;text-align: center; width:14.4rem;height:14.4rem; margin: 3.8rem auto 0 !important; padding:4rem 0; border-radius:50%;background-color:#eee;}
+.A_CL_SL_0080 .text-body {font-size: 3.6rem; line-height: 4rem;}
+.A_CL_SL_0080 .text-brand {font-weight: 400; color: #222;}
+
+/* sp */
+.A_CL_SP_0010 {position: fixed;display:flex;top:0;left:0;width:100%;height:100vh;z-index: 1001;align-items: center;background-color: #ffcc33;}
+.A_CL_SP_0010 .content-body{margin:0 auto;text-align: center;}
+.A_CL_SP_0010 h3{font-size: 3.4rem;font-family: 'RenaultLife';font-weight: 700;color:#000;line-height: 3.3rem;}
+.A_CL_SP_0010 p{font-size: 1.4rem;font-family: 'RenaultLife';font-weight: 400;color:#222;line-height: 3.3rem;}
+
+.W_CL_SP_0010 {position: fixed;display:flex;top:0;left:0;width:100%;height:100vh;z-index: 1001;align-items: center;background-color: #ffcc33;}
+.W_CL_SP_0010 .content-body{margin:0 auto;text-align: center;}
+.W_CL_SP_0010 h3{font-size: 3.4rem;font-family: 'RenaultLife';font-weight: 700;color:#000;line-height: 3.3rem;}
+.W_CL_SP_0010 p{font-size: 1.4rem;font-family: 'RenaultLife';font-weight: 400;color:#222;line-height: 3.3rem;}
+
+/* st */
+
+/* te */
+.W_OD_TE_0010 .link-status-list ul li a:after{top:50%;transform:translateY(-50%)}
+.W_OD_TE_0010 .link-status-list ul li a{padding-right:4.4rem;}
+
+/* up */
+.W_OD_UP_0040 .btn-area.content{display:block;margin-top:3.2rem;text-align:center;}
+.W_OD_UP_0040 .btn-area.content .btn-border{display:block;margin:auto;width:15.2rem;font-size:1.6rem;font-weight:400;}
+
+/* us */
+.W_OD_US_0010 .form-comp-wrap ul.form-info-wrap li .btn-wrap .btn-between:after{transform:rotate(90deg);}
+.W_OD_US_0010 .txt-icon{margin-top:0.8rem;}
+.W_OD_US_0010 .form-wrap .form-box select:disabled{background-color:#eee;}
+.W_OD_US_0010 .section-01 .btn-area{}
+.W_OD_US_0010 .section-01 .btn-area button{border:1px solid #ddd; background:url(../images/common/icon_call_nobg.png) no-repeat 1.6rem center/3.2rem; }
+
+.W_OD_US_0040 .btn-area.content{margin-top:0.8rem;}
+
+.W_OD_US_0050 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.w-50 input{padding-right:2.8rem;font-weight:700;}
+.W_OD_US_0050 .form-comp-wrap ul.form-info-wrap li .info-wrap .form-select.w-50 .unit{position:absolute;top:0;right:1.6rem;font-size:1.4rem;line-height:4.8rem;font-family:"RenaultSamsungMotors";}
+
+.W_OD_US_0080 .section-01 .form-wrap{margin-top:2.4rem;}
+.W_OD_US_0080 .txt-icon{margin-top:0.8rem;}
+
+.W_OD_US_0090 .section-01 ul{position: relative;list-style: none;}
+.W_OD_US_0090 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.W_OD_US_0090 .section-01 ul>li:last-child{border-bottom:0}
+.W_OD_US_0090 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.W_OD_US_0090 .section-01 ul>li>a>span:first-child>img{width:3rem;height:3rem;vertical-align: middle;}
+.W_OD_US_0090 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+
+.W_OD_US_0100 .section-01 ul{position: relative;list-style: none;}
+.W_OD_US_0100 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.W_OD_US_0100 .section-01 ul>li:last-child{border-bottom:0}
+.W_OD_US_0100 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.W_OD_US_0100 .section-01 ul>li>a>span:first-child>img{width:4rem;height:4rem;vertical-align: middle;}
+.W_OD_US_0100 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+
+.W_OD_US_0110 .section-01 ul{position: relative;list-style: none;}
+.W_OD_US_0110 .section-01 ul>li{display: block;width:100%;height:6.2rem;border-bottom:0.1rem solid #eee;}
+.W_OD_US_0110 .section-01 ul>li:last-child{border-bottom:0}
+.W_OD_US_0110 .section-01 ul>li>a{display: flex;width:100%;height:100%;align-items:center;}
+.W_OD_US_0110 .section-01 ul>li>a>span:last-child{margin-left:1.6rem;}
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>샘플페이지</title>
+<link href="../resources/css/reset.css" rel="stylesheet" type="text/css">
+<link href="../resources/font/font.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/libs/swiper/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/component.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/template.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/contents.css" rel="stylesheet" type="text/css">
+
+<script src="../resources/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="../resources/libs/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="../resources/libs/swiper/swiper.min.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header">
+			<button type="button" class="btn-history-back">뒤로</button>
+			<h2>본인확인</h2>
+			<!-- 새로고침 -->
+			<!-- <button type="button" class="btn-reload">새로고침</button>  -->
+
+			<!-- 전체메뉴 -->
+			<button type="button" class="btn-allmenu">전체메뉴</button>
+		</div>
+		<!-- // header -->
+
+		<!-- gnb -->
+		<div class="gnb">
+			<!-- gnb-aside -->
+			<div class="gnb-aside">
+				<button type="button" class="btn-close">닫기</button>
+			</div>
+			<!-- // gnb-aside -->
+
+			<!-- gnb-menu -->
+			<div class="gnb-menu">
+				<ul class="d1">
+					<li class="d1-list">
+						<button type="button" class="btn-d1">My RCI</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">My RCI</a></li>
+							<li class="d2-list"><a href="#">견적내역 조회</a></li>
+							<li class="d2-list"><a href="#">한도조회 내역</a></li>
+							<li class="d2-list"><a href="#">계약진행현황</a></li>
+							<li class="d2-list"><a href="#">계약정보조회</a></li>
+							<li class="d2-list"><a href="#">멤버쉽 조회</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">이달의 금융조건</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">이달의 금융조건</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">상품견적</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">추천 견적</a></li>
+							<li class="d2-list"><a href="#">설문 견적</a></li>
+							<li class="d2-list"><a href="#">신차 견적</a></li>
+							<li class="d2-list"><a href="#">중고차 견적</a></li>
+							<li class="d2-list"><a href="#">한도조회</a></li>
+							<li class="d2-list"><a href="#">대출신청</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">고객센터</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">뉴스/공지</a></li>
+							<li class="d2-list"><a href="#">금융소비자보호</a></li>
+							<li class="d2-list"><a href="#">이용약관</a></li>
+							<li class="d2-list"><a href="#">추가 서류 제출</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<a href="#" class="btn-d1">FAQ</a>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">고객상담</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">고객상담</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">서류제출</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">한도 증액 서류</a></li>
+							<li class="d2-list"><a href="#">대출 신청 서류</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">설정</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">설정</a></li>
+							<li class="d2-list"><a href="#">회원정보수정</a></li>
+							<li class="d2-list"><a href="#">간편 비밀번호 재설정</a></li>
+							<li class="d2-list"><a href="#">알림설정</a></li>
+						</ul>
+					</li>
+					<li class="d1-list">
+						<button type="button" class="btn-d1">인증센터</button>
+						<ul class="d2">
+							<li class="d2-list"><a href="#">인증센터</a></li>
+						</ul>
+					</li>
+				</ul>
+				<button type="button" class="btn-logout">로그아웃</button>
+			</div>
+			<!-- // gnb-menu -->
+		</div>
+		<!-- // gnb -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- content -->
+			<div class="content WA_CL_CR_0020 btn-area-fixed">
+				<!-- 2020-07-23 form-list, agree-list 마크업 수정 -->
+				<!-- content-body -->
+				<div class="content-body">
+					<section class="section-01">
+
+						<!--2020-10-14 마크업 삭제
+						<ul class="progress-bar step2">
+							<li class="step-1th on">1단계</li>
+							<li class="step-2th">2단계</li>
+						</ul>
+						-->
+						
+						<!-- form-list -->
+						<div class="form-list">
+
+							<!-- form-wrap -->
+							<div class="form-wrap">
+								<label for="jumin1" class="title-small">[필수] 주민등록번호/외국인등록번호 <span class="require">*</span></label><!--2020-10-08 문구수정-->
+								<div class="form-box jumin">
+									<span class="form-input">
+										<input type="number" id="jumin1" placeholder="앞 6자리">
+									</span>
+									<span class="hyphen">-</span>
+									<span class="form-input">
+										<input type="password" id="jumin2" placeholder="뒤 7자리">
+									</span>
+								</div>
+								<p class="alert">주민등록번호를 입력하세요</p>
+							</div>
+							<!-- // form-wrap -->
+
+							<!-- form-wrap -->
+							<div class="form-wrap">
+								<label for="userNUM" class="title-small">[선택] 영업담당번호</label><!--2020-11-04 문구수정-->
+								<div class="form-box">
+									<span class="form-input">
+										<input type="text" id="userNum" placeholder="문자 2자리+숫자 6자리 입력">
+									</span>
+								</div>
+								<p class="alert">영업담당번호 6자리를 정확하게 입력하세요</p><!--2020-11-04 문구수정-->
+							</div>
+							<p class="txt-icon txt-info">안내 받은 영업담당번호 입력</p><!--2020-11-04 문구수정-->
+							<!-- // form-wrap -->
+							<!-- // 2020-08-04 마크업 추가 -->
+
+							<!-- form-wrap -->
+							<div class="agree-list type2">
+								<h3 class="title-small">개인(신용)정보 동의</h3>
+								<ul>
+									
+									<li>
+										<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+											<input type="checkbox">
+											<span class="text">[필수] 개인(신용)정보 필수 수집 이용 동의</span>
+											<span class="sub-text">고유식별정보 필수 수집 이용 동의</span>
+										</label>
+										<a href="#" class="btn-link">약관보기</a>
+									</li>
+									<li>
+										<label class="form-check-repair-type2"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+											<input type="checkbox">
+											<span class="text">[필수] 개인(신용)정보 필수 조회 동의</span>
+											<span class="sub-text">고유식별정보 필수 조회 동의</span>
+										</label>
+										<a href="#" class="btn-link">약관보기</a>
+									</li>
+									<li>
+										
+										<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+											<input type="checkbox">
+											<span class="text">[필수] 개인(신용)정보 필수 제공 동의</span>
+											<span class="sub-text">고유식별정보 필수 제공 동의</span>
+										</label>
+										<a href="#" class="btn-link">약관보기</a>
+									</li>
+									<li>
+										<label class="form-check-repair"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+											<input type="checkbox">
+											<span class="text">[필수] 전자금융거래 표준약관</span>
+										</label>
+										<a href="#" class="btn-link">약관보기</a>
+									</li>
+									<li>
+										<label class="form-check-repair no-check"><!--체크박스 클래스명 수정 - label태그의 클래스명 [.form-check-repair] 으로 안될 시 [.form-check-repair-type2] 로 변경 -->
+											<input type="checkbox" disabled>
+											<span class="text">고객확인의무 안내</span><!-- 2020-09-03 텍스트 수정 -->
+										</label>
+										<a href="#" class="btn-link">약관보기</a>
+									</li>
+								</ul>
+								<p class="txt-icon txt-info">나이스평가정보에서 인증 받은 휴대폰 번호를 사용하고 있습니다.</p><!--2020-11-04 마크업추가-->
+							</div>
+							<!-- // form-wrap -->
+						</div>
+					</section>
+				</div>
+				<!-- // content-body -->
+				<!-- content-footer -->
+				<div class="content-footer">
+					<div class="btn-area">
+						<button type="button" class="btn-yellow">본인확인</button>
+					</div>
+				</div>
+				<!-- // content-footer -->
+				<!-- // 2020-07-23 form-list, agree-list 마크업 수정 -->
+			</div>
+		</div>
+		<!-- // container -->
+
+		<!-- footer -->
+		<div class="footer"></div>
+		<!-- // footer -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

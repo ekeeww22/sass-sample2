@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+body.hidden{position:fixed;overflow: hidden;width:100%;height:100vh;}
+
+/* layout 공통 */
+html,body{font-family:"NotoSansKR"; font-weight:400; letter-spacing:-0.22px;}
+.wrap{position:relative;margin:0 auto;padding:0;font-size:1.4rem;}
+.content-body{padding:1.6rem;}
+
+/* 섹션 */
+*[class^="section-"] ~ *[class^="section-"]{margin-top:3.2rem;}
+
+/* 공통 */
+.main-title-font{font-family:"RenaultSamsungMotors"; font-size:1.8rem; font-weight:700;}
+
+/* font-family */
+.font-rn-life{font-family:"RenaultLife" !important;}
+.font-gothic{font-family:"NanumGothic" !important;}
+.font-rn-motors{font-family:"RenaultSamsungMotors" !important;}
+
+/* font-size */
+.fs-12{font-size:1.2rem !important;}
+.fs-14{font-size:1.4rem !important;}
+.fs-16{font-size:1.6rem !important;}
+
+/* font-weight */
+.font-300{font-weight:300 !important;}
+.font-400{font-weight:400 !important;}
+.font-500{font-weight:500 !important;}
+.font-700{font-weight:700 !important;}
+
+/* background-color */
+.bg-gray{background-color:#faf9f8 !important;}
+
+/* color */
+.gray{color:#888b8d !important;}
+.dark-gray{color:#53565a !important;}
+
+/* border */
+.bt-0{border-top:0 !important;}
+.bb-0{border-bottom:0 !important;}
+.br-0{border-right:0 !important;}
+.bl-0{border-left:0 !important;}
+
+/* border-radius*/
+.brd-2{border-radius:0.2rem !important;}
+.bdr-4{border-radius:0.4rem !important;}
+
+/* margin */
+.mt-0{margin-top:0rem !important;}
+.mb-0{margin-bottom:0rem !important;}
+.mr-0{margin-right:0rem !important;}
+.ml-0{margin-left:0rem !important;}
+
+.mt-4{margin-top:0.4rem !important;}
+.mb-4{margin-bottom:0.4rem !important;}
+.mr-4{margin-right:0.4rem !important;}
+.ml-4{margin-left:0.4rem !important;}
+
+.mt-8{margin-top:0.8rem !important;}
+.mb-8{margin-bottom:0.8rem !important;}
+.mr-8{margin-right:0.8rem !important;}
+.ml-8{margin-left:0.8rem !important;}
+
+.mt-16{margin-top:1.6rem !important;}
+.mb-16{margin-bottom:1.6rem !important;}
+.mr-16{margin-right:1.6rem !important;}
+.ml-16{margin-left:1.6rem !important;}
+
+.mt-24{margin-top:2.4rem !important;}
+.mb-24{margin-bottom:2.4rem !important;}
+.mr-24{margin-right:2.4rem !important;}
+.ml-24{margin-left:2.4rem !important;}
+
+.mlr-16{margin:0 -1.6rem;}
+
+/* padding */
+.pt-0{padding-top:0rem !important;}
+.pb-0{padding-bottom:0rem !important;}
+.pr-0{padding-right:0rem !important;}
+.pl-0{padding-left:0rem !important;}
+
+.pt-4{padding-top:0.4rem !important;}
+.pb-4{padding-bottom:0.4rem !important;}
+.pr-4{padding-right:0.4rem !important;}
+.pl-4{padding-left:0.4rem !important;}
+
+.pt-8{padding-top:0.8rem !important;}
+.pb-8{padding-bottom:0.8rem !important;}
+.pr-8{padding-right:0.8rem !important;}
+.pl-8{padding-left:0.8rem !important;}
+
+.pt-16{padding-top:1.6rem !important;}
+.pb-16{padding-bottom:1.6rem !important;}
+.pr-16{padding-right:1.6rem !important;}
+.pl-16{padding-left:1.6rem !important;}
+
+.pt-24{padding-top:2.4rem !important;}
+.pb-24{padding-bottom:2.4rem !important;}
+.pr-24{padding-right:2.4rem !important;}
+.pl-24{padding-left:2.4rem !important;}
+
+.plr{padding:0 1.6rem;}
+
+/* line-height */
+.lh-16{line-height:1.6rem !important;}
+.lh-22{line-height:2.2rem !important;}
+.lh-26{line-height:2.6rem !important;}
+
+/* text-align */
+.tal{text-align:left !important;}
+.tac{text-align:center !important;}
+.tar{text-align:right !important;}
+
+/* width percent */
+.w-100{width:100% !important;}
+.w-70{width:70% !important;}
+.w-50{width:50% !important;}
+.w-33{width:calc(100% / 3) !important;}
+.w-30{width:30% !important;}
+.w-25{width:25% !important;}
+.w-auto{width:auto !important;}
+.w117.h36{width:11.7rem;height:3.6rem;}
+
+/* header */
+.header {position:fixed;top:0;left:0;width:100%;height:4.8rem;z-index: 1000;background-color:#fff;}
+.header h2{text-align: center;font-size: 1.8rem;height:4.8rem;line-height: 4.8rem;color:#222;}
+.header h2.type2{padding:0.5rem 5rem 0 5rem; line-height:2rem; }
+.header .btn-reload{position:absolute;top:1.2rem;right:1.6rem;width:2.4rem;height:2.4rem;background-image:url('../images/common/btn_reload.png');background-repeat:no-repeat;background-size:100% 100%;text-indent:-10000px;}
+.header .btn-allmenu{position:absolute;top:1.2rem;left:1.6rem;width:2.4rem;height:2.4rem;background-image:url('../images/common/btn_allmenu.png');background-repeat:no-repeat;background-size:100% 100%;text-indent:-10000px;}
+.header .btn-history-back{position:absolute; top:1.2rem; left:1.6rem; width:2.4rem; height:2.4rem;background:url(../images/common/btn_header_back.png) no-repeat center/contain; overflow:hidden; text-indent:-9999px; font-size:0; }
+
+/* GNB */
+.gnb{position:fixed;display:flex;left:-100%;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);-webkit-transition:left 0.4s cubic-bezier(0.75,0.1,0.25,1) 0.0s;transition:left 0.4s cubic-bezier(0.75,0.1,0.25,1) 0.0s;z-index: 2000;}
+.gnb.on{left:0%;}
+
+.gnb .gnb-dimmed{z-index:100; position:absolute; top:0; right:0; width:6.6rem; height:100%; background:transparent; }
+
+.gnb .gnb-aside{position: absolute;width: calc(100% - 6.6rem);top: 0;left: 0;height: 5.6rem;z-index: 1;}
+
+.gnb .gnb-aside .gnb-btn-home{position:absolute; top:1.2rem; left:1.6rem; width:2.4rem; height:2.4rem; }
+.gnb .gnb-aside .gnb-btn-home a{display:block; width:100%; height:100%; overflow:hidden; text-indent:-9999px; font-size:0; background:url(../images/common/menu_icon_home.png) no-repeat center/contain; }
+
+.gnb .gnb-aside .btn-close{position:absolute;top:1.2rem;right:1.6rem;width:2.4rem;height:2.4rem;text-indent:-10000px;background-image: url('../images/common/btn_allmenu_close.png');background-repeat: no-repeat;background-size:100% 100%;}
+.gnb .gnb-menu-wrap{padding-top:5.6rem;width:calc(100% - 6.6rem);background-color:#fff;}
+.gnb .gnb-menu{position:relative;width:100%;height:100%;overflow-y:auto;overflow-x:hidden;padding-left:1.6rem;background:#fff;text-align: right;}
+.gnb .gnb-menu ul.d1{padding:0 !important;}
+.gnb .gnb-menu .d1 .d1-list{display:block;width:100%;height:auto;}
+.gnb .gnb-menu .d1 .d1-list .btn-d1{position:relative;display:block;width:100%;height:5.6rem;text-align:left;padding-left:1rem;border-bottom:0.1rem solid #eee;font-size:1.6rem;line-height:5.6rem;font-family:'RenaultSamsungMotors';font-weight:400;color:#222;letter-spacing: -0.032rem;}
+.gnb .gnb-menu .d1 .d1-list a.btn-d1{font-weight: 400;}
+.gnb .gnb-menu .d1 .d1-list .btn-d1:before{position:absolute;top:2rem;left:0;content:'';display:block;width:0.2rem;height:1.6rem;background:#ffcc33;pointer-events: none;}
+.gnb .gnb-menu .d1 .d1-list .btn-d1:after{position:absolute;top:1.6rem;right:1.6rem;content:'';display:block;width:2.4rem;height:2.4rem;background-size: 100% 100%;background-repeat: no-repeat;pointer-events: none;}
+.gnb .gnb-menu .d1 .d1-list button.btn-d1:after{background-image:url('../images/common/menu_icon_plus.png');}
+.gnb .gnb-menu .d1 .d1-list a.btn-d1:after{background-image:url('../images/common/menu_icon_right.png');}
+
+.gnb .gnb-menu .d1 .d1-list.on .btn-d1{border-bottom:0.1rem solid #bbbcbc;}
+.gnb .gnb-menu .d1 .d1-list.on .btn-d1:after{background-image:url('../images/common/menu_icon_minus.png');}
+
+.gnb .gnb-menu .d1 .d1-list .d2{display:none;width:100%;background-color:#faf9f8;border-bottom:0.1rem solid #eee;}
+.gnb .gnb-menu .d1 .d1-list.on .d2{display:block;}
+.gnb .gnb-menu .d1 .d1-list .d2 .d2-list{width:100%;height:4rem;text-align: left;}
+.gnb .gnb-menu .d1 .d1-list .d2 .d2-list a{display:block;width:100%;height:100%;padding-left:1.6rem;font-size:1.6rem;line-height:3.8rem;color:#53565a;font-family: 'RenaultSamsungMotors';font-weight: 400;}
+.gnb .gnb-menu .d1 .d1-list .d2 .d2-list a:hover,
+.gnb .gnb-menu .d1 .d1-list .d2 .d2-list a:active{font-weight:700;}
+
+.gnb .gnb-menu .btn-logout{display:inline-block;margin-top:2.4rem;margin-bottom:2.4rem;margin-right:1.6rem;padding-left:2.6rem;width:auto;height:2.4rem;background-image:url('../images/common/icon_logout.png');background-repeat: no-repeat;background-size:2.4rem 2.4rem;font-size:1.2rem;font-family:'NotoSansKR-Regular';color:#888b8d;line-height: 2rem;}
+
+.gnb .down-app-wrap{position:relative; display:flex; margin:0 0 0 -1.6rem; padding:2.4rem 0; padding-left:7.2rem; text-align:left;  height:8rem; background-color:#eee; }
+.gnb .down-app-wrap:before{position:absolute; top:50%; margin-top:-2rem; left:1.6rem; content:'';display:block;width:4.5rem;height:4.5rem;background:url(../images/common/app_icon.png) no-repeat center/contain;}
+.gnb .down-app-wrap .down-text{font-size:1.2rem;color:#53565a; font-family: 'RenaultSamsungMotors'; font-weight:400;}
+.gnb .down-app-wrap .down-text strong{display:block; padding-top:0.4rem; color:#333; font-size:1.6rem;}
+.gnb .down-app-wrap .btn-app{display:inline-block; margin-left:1.6rem; width:3.2rem; height:3.2rem; overflow:hidden; text-indent:-9999px; font-size:0; background:url(../images/common/icon_save.png) no-repeat center/contain; }
+
+@media screen and (min-width:768px) {
+
+.gnb .gnb-menu-wrap{width:50%;}
+.gnb .gnb-aside{width:50%;}
+.gnb .gnb-dimmed{width:50%;}
+}
+
+
+/* container */
+.hidden .container{height:calc(100vh - 5rem)!important;overflow: hidden;}
+.container{margin-top:4.8rem; background-color:#fff;}
+.container .content .content-header{position:relative;}
+.container .content .content-body{position:relative;}
+.container .content .content-footer{position:fixed;display: none;bottom:0;left:0;width:100%;height:5.6rem;z-index: 1000;}
+.container .content.btn-area-fixed .content-body{padding-bottom:7.2rem;}
+.container .content.btn-area-fixed .content-footer{display: block;}
+.container .content.btn-area-fixed .content-footer .btn-area{width:100%;}
+.container .content .content-dimmed{position: absolute;top:0;left:0;width:100%;height:100%;z-index: -1;background-color:rgba(0,0,0,0.4)}
+
+/* footer */
+
+/* floating-menu */
+.floating-menu {display:none; position: fixed;bottom:3.6rem;left:0.8rem;width:4rem;height:4rem;z-index: 1000;}
+.floating-menu.bottom-margin-1 {bottom:9.2rem;}
+.floating-menu .btn-history-back{width:4rem;height:4rem;background-image:url('../images/common/common_icon_floatingback_gy.png');background-repeat:no-repeat;background-size:100% 100%;text-indent:-10000px;}
+
+/* popup-modal */
+.popup-modal{z-index: 2000; position:fixed;visibility: hidden;top:0;bottom:0;left:0;right:0; overflow:hidden;}
+.popup-modal.on{visibility:visible;}
+.popup-modal .dimmed{position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,0.4); overflow:hidden;}
+.popup-modal .popup-modal-content{z-index:3000; position:absolute;background-color:#fff;}
+
+/* popup-modal > full */
+.popup-modal .popup-modal-content.full{width:100%;height:100%;padding:4.8rem 0 1.6rem 0;}
+.popup-modal .popup-modal-content.full.btn-area-fixed{padding-bottom:7.2rem;}
+.popup-modal .popup-modal-content.full .popup-modal-header{position: absolute;top:0;left:0;width:100%;height:4.8rem;background-color:#fff;}
+.popup-modal .popup-modal-content.full .popup-modal-header h3{font-family: 'RenaultSamsungMotors';font-size:1.8rem; height:4.8rem; line-height:4.8rem;text-align: center;color:#222;}
+.popup-modal .popup-modal-content.full .popup-modal-header h3.type2{line-height:2rem; padding:0.5rem 5rem 0 5rem;}
+.popup-modal .popup-modal-content.full .popup-modal-header .btn-popup-modal-close{position:absolute;top:1.2rem;right:1.2rem;width:2.4rem;height:2.4rem;background-image:url('../images/common/btn_close_24.png');background-repeat: no-repeat;background-size: 2.4rem 2.4rem;text-indent: -100000px;}
+.popup-modal .popup-modal-content.full .popup-modal-body{position: relative;padding:0 1.6rem;width:100%;height:100%;overflow-y:auto;overflow-x:hidden;}
+.popup-modal .popup-modal-content.full .popup-modal-footer{position:absolute;display:none;bottom:0;left:0;width:100%;height:5.6rem;}
+.popup-modal .popup-modal-content.full.btn-area-fixed .popup-modal-footer{display:block;}
+.popup-modal .popup-modal-content.full.btn-area-fixed .popup-modal-footer .btn-area{width:100%;}
+
+/* popup-modal > slide */
+.popup-modal .popup-modal-content.slide{width:100%;max-height:80%;padding:5.6rem 0 1.6rem 0;bottom:-100%;overflow: hidden;border-top-left-radius: 1.6rem;border-top-right-radius: 1.6rem;
+    -webkit-transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+       -moz-transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+        -ms-transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+            transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+.popup-modal .popup-modal-content.slide.btn-area-fixed{padding-bottom:7.2rem;}
+.popup-modal .popup-modal-content.slide .popup-modal-header{position: absolute;top:0;left:0;width:100%;height:5.6rem;background-color:#fff;}
+.popup-modal .popup-modal-content.slide .popup-modal-header h3{font-family: 'RenaultSamsungMotors';font-size:1.8rem;line-height:5.6rem;text-align: center;color:#222;}
+.popup-modal .popup-modal-content.slide .popup-modal-header .btn-popup-modal-close{position:absolute;top:1.6rem;right:1.6rem;width:2.4rem;height:2.4rem;background-image:url('../images/common/btn_close_24.png');background-repeat: no-repeat;background-size: 2.4rem 2.4rem;text-indent: -100000px;}
+.popup-modal .popup-modal-content.slide .popup-modal-body{position: relative;padding:0 1.6rem;width:100%; overflow-y:auto;overflow-x:hidden;}
+.popup-modal .popup-modal-content.slide .popup-modal-footer{position:absolute;display:none;bottom:0;left:0;width:100%;height:5.6rem;}
+.popup-modal .popup-modal-content.slide.btn-area-fixed .popup-modal-footer{display:block;}
+.popup-modal .popup-modal-content.slide.btn-area-fixed .popup-modal-footer .btn-area{width:100%;}
+.popup-modal.on .popup-modal-content.slide{bottom:0;}
+
+/* popup-modal > default */
+.popup-modal .popup-modal-content.default{top:50%;left:10%;width:80%;height:auto;max-height:60%;padding:4.8rem 0 1.6rem 0;transform:translateY(-50%)}
+.popup-modal .popup-modal-content.default.btn-area-fixed{padding-bottom:7.2rem;}
+.popup-modal .popup-modal-content.default .popup-modal-header{position: absolute;top:0;left:0;width:100%;height:4.8rem;background-color:#fff;}
+.popup-modal .popup-modal-content.default .popup-modal-header h3{font-family: 'RenaultSamsungMotors';font-size:1.8rem;line-height:4.8rem;text-align: center;color:#222;}
+.popup-modal .popup-modal-content.default .popup-modal-header .btn-popup-modal-close{position:absolute;top:1.2rem;right:1.2rem;width:2.4rem;height:2.4rem;background-image:url('../images/common/btn_close_24.png');background-repeat: no-repeat;background-size: 2.4rem 2.4rem;text-indent: -100000px;}
+.popup-modal .popup-modal-content.default .popup-modal-body{position: relative;padding:0 1.6rem;width:100%;max-height:80%;overflow-y:auto;overflow-x:hidden;}
+.popup-modal .popup-modal-content.default .popup-modal-footer{position:absolute;display:none;bottom:0;left:0;width:100%;height:5.6rem;}
+.popup-modal .popup-modal-content.default.btn-area-fixed .popup-modal-footer{display:block;}
+.popup-modal .popup-modal-content.default.btn-area-fixed .popup-modal-footer .btn-area{width:100%;}
+
+/* popup-modal > confirm */
+.popup-modal .popup-modal-content.confirm{top:50%;left:10%;width:80%;height:auto;max-height:60%;padding:3.2rem 0 1.6rem 0;transform:translateY(-50%)}
+.popup-modal .popup-modal-content.confirm.btn-area-fixed{padding-bottom:7.6rem;}
+.popup-modal .popup-modal-content.confirm .popup-modal-body{position: relative;padding:0 1.6rem;width:100%; height:auto !important; overflow-x:hidden; }
+.popup-modal .popup-modal-content.confirm .popup-modal-body .title-confirm{padding-bottom:1.6rem; font-size:1.6rem; color:#222; font-weight:500; text-align:center;}
+.popup-modal .popup-modal-content.confirm .popup-modal-body .txt-confirm{font-size:1.4rem; line-height:2.2rem; color:#888b8d; text-align:center;}
+
+.popup-modal .popup-modal-content.confirm .popup-modal-footer{position:absolute;display:none;bottom:0;left:0;width:100%;height:5.6rem;}
+.popup-modal .popup-modal-content.confirm.btn-area-fixed .popup-modal-footer{display:block;}
+.popup-modal .popup-modal-content.confirm.btn-area-fixed .popup-modal-footer .btn-area{width:100%;}
+
+/* popup-toast */
+.popup-toast{position:fixed;visibility: hidden;top:0;bottom:0;left:0;right:0;z-index: 2000;}
+.popup-toast.on{visibility:visible;}
+.popup-toast .dimmed{position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,0.4);}
+.popup-toast .popup-toast-content{position:absolute;top:4rem;left:10%;width:80%;}
+.popup-toast .popup-toast-content .popup-toast-body{position: relative;padding:1.6rem;border-radius: 0.3rem;background-color:#ffcc33;text-align: center;}
+
+/* popup-loading */
+.popup-loading{position:fixed;visibility: hidden;top:0;bottom:0;left:0;right:0;z-index: 3000;}
+.popup-loading.on{visibility:visible;}
+.popup-loading .dimmed{position:absolute;width:100%;height:100%;background-color:rgba(0,0,0,0.4);}
+.popup-loading .popup-loading-content{position:absolute;top:50%;transform: translateY(-50%);width:100%;padding:0 1.6rem;}
+.popup-loading .popup-loading-content .popup-loading-body{position: relative;width:100%;}
+.popup-loading .popup-loading-content .popup-loading-body .complete-box .tit{color:#fff;}
+
+/* font */
+.title-guide{font-size: 3rem;font-family: 'RenaultSamsungMotors';font-weight: 400;color:#222;line-height: 3.6rem;}
+.title-01{font-size: 2.4rem;font-family: 'RenaultSamsungMotors';font-weight: 400;color:#222;line-height: 3.2rem;}
+.title-02{font-size: 2.0rem;font-family: 'RenaultSamsungMotors';font-weight: 400;color:#222;line-height: 2.8rem;}
+.title-sub{font-size: 1.8rem;font-family: 'NotoSansKR';font-weight: 400;color:#222;line-height: 2.4rem;}
+.title-sub2{font-size: 1.6rem;font-family: 'NotoSansKR';font-weight: bold;color:#333;line-height: 2.6rem;}
+.text-field{font-size: 1.4rem;font-family: 'NotoSansKR';font-weight: 400;color:#222;line-height: 2.0rem;}
+.text-body{font-size: 1.4rem;font-family: 'RenaultSamsungMotors';font-weight: bold;color:#222;line-height: 2.4rem;}
+.text-caption{font-size: 1.2rem;font-family: 'NotoSansKR';font-weight:500;color:rgba(34,34,34,0.3);line-height: 1.8rem;}
+.list-title{font-size: 1.2rem;font-family: 'NotoSansKR';font-weight:bold;line-height: 2rem;color:#888b8d;}
+.list-caption{font-size: 1.2rem;font-family: 'NotoSansKR';font-weight:400;line-height: 2rem;color:#888b8d;}
+.text-brand{font-size: 1.6rem;font-family: 'RenaultSamsungMotors';font-weight: bold;color:#53565a;line-height: 2.2rem;}
+.caption-brand{font-size: 1.4rem;font-family: 'NotoSansKR';font-weight: 400;color:#53565a;line-height: 1.8rem;}
+
+
+/* box */
+.box-gray{position: relative;padding:1.6rem;width:100%;height:auto;background-color: #faf9f8;}
+.box-gray h3{margin-top:0.4rem;}
+.box-gray p{margin-top:0.8rem;}
+.box-gray-full{position: relative;padding:1.6rem;margin-left:-1.6rem;width:calc(100% + 3.2rem);height:auto;background-color: #faf9f8;}
+
+/* link */
+.link-underline{font-size:1.2rem;line-height: 1.8rem;border-bottom:0.1rem solid #000;color:#000;}
+.link-underline.disabled{opacity: 0.3;}
+
+/* hr */
+hr{border:0;outline: none;margin:1.6rem 0;}
+hr.hr-gray{border-bottom:1px solid #eee;}
+
+/* loading 영역 페이지 */
+.content-loading{z-index:10000; position:fixed; top:0; left:0; right:0; bottom:0; display:flex; align-items:center; width:100%; height:100%; background-color:rgba(0,0,0,0.8);}
+.content-loading .loading-img.mt-10{margin-top:10rem;}
+.content-loading .loading-img.mt-20{margin-top:20rem;}
+.content-loading .loading-img.mt-30{margin-top:30rem;}
+.content-loading .loading-img.mt-40{margin-top:40rem;}
+.content-loading .loading-img.mt-50{margin-top:50rem;}
+
+.content-loading .loading-img.mb-10{margin-bottom:10rem;}
+.content-loading .loading-img.mb-20{margin-bottom:20rem;}
+.content-loading .loading-img.mb-30{margin-bottom:30rem;}
+.content-loading .loading-img.mb-40{margin-bottom:40rem;}
+.content-loading .loading-img.mb-50{margin-bottom:50rem;}
+
+
+
+/* 태블릿 대응 */
+@media screen and (min-width: 768px) {
+    html,body{font-size:12px;}
+    .wrap{min-height:100vh;max-width:768px;border-left:1px solid #eee;border-right:1px solid #eee;}
+    .header{max-width:768px;left:50% !important;border-left:1px solid #eee;border-right:1px solid #eee;transform:translateX(-50%);}
+    .container{margin-top:0;padding-top:4.8rem; }
+    .popup-modal .popup-modal-content{max-width:768px;top:unset; bottom:0 !important; left:50%!important; transform:translateX(-50%)!important;}
+    .floating-menu{left:50%;transform: translateX(-30.4rem);}
+    .container .content .content-footer{max-width:768px;left:50%;transform:translateX(-50%);}
+
+    .W_OD_MA_0010 .main-odd-wrap,
+    .W_OD_MA_0020 .main-odd-wrap{height:100vh;}
+    .W_OD_MA_0010 .main-odd-wrap .main-footer,
+    .W_OD_MA_0020 .main-odd-wrap .main-footer{position:absolute; bottom:0;left:0;right:0;}
+
+ }
+
+ /* 태블릿 가로모드 */
+ @media screen and (min-width: 768px) and (orientation:landscape) {
+    .W_OD_MA_0010 .main-odd-wrap,
+    .W_OD_MA_0020 .main-odd-wrap{height:100%;}
+    .W_OD_MA_0010 .main-odd-wrap .main-footer,
+    .W_OD_MA_0020 .main-odd-wrap .main-footer{position:relative;}
+ }
